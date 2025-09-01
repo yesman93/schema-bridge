@@ -1,0 +1,24 @@
+{
+  "name": "yesman93/schema-bridge",
+  "description": "CSV importer s mapováním sloupců do DB (standalone, PSR-4).",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SchemaBridge\\": "src/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@dump-autoload"
+    ],
+    "post-update-cmd": [
+      "@dump-autoload"
+    ]
+  }
+}
