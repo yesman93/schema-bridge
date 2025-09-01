@@ -1,6 +1,6 @@
 {
   "name": "yesman93/schema-bridge",
-  "description": "CSV importer s mapováním sloupců do DB (standalone, PSR-4).",
+  "description": "CSV data import to database with column mapping function",
   "type": "project",
   "license": "proprietary",
   "require": {
