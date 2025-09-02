@@ -17,14 +17,12 @@ class CSRF {
     /**
      * Instance of the container
      *
-     *
      * @var Container
      */
     private Container $_container;
 
     /**
      * If CSRF protection is enabled
-     *
      *
      * @var bool
      */
@@ -33,14 +31,12 @@ class CSRF {
     /**
      * Current CSRF token
      *
-     *
      * @var string
      */
     private string $_token;
 
     /**
      * Name of the form field, where CSRF token is stored
-     *
      *
      * @var string
      */
@@ -49,14 +45,12 @@ class CSRF {
     /**
      * Session key for CSRF tokens
      *
-     *
      * @var string
      */
     private string $_session_tokens;
 
     /**
      * Session key for CSRF token form field names
-     *
      *
      * @var string
      */
@@ -65,14 +59,12 @@ class CSRF {
     /**
      * Maximum number of CSRF tokens stored in session
      *
-     *
      * @var int
      */
     private int $_max_tokens;
 
     /**
      * Expiration time of CSRF tokens in seconds
-     *
      *
      * @var int
      */
@@ -81,14 +73,12 @@ class CSRF {
     /**
      * Prefix for name of form field, where CSRF token is stored in the form
      *
-     *
      * @var string
      */
     private string $_prefix_field;
 
     /**
      * CSRF manager
-     *
      *
      * @param Container $container
      *
@@ -126,7 +116,6 @@ class CSRF {
     /**
      * Check if CSRF protection is enabled
      *
-     *
      * @return bool
      */
     public function is_enabled(): bool {
@@ -135,7 +124,6 @@ class CSRF {
 
     /**
      * Generate a new CSRF token and field name and store them in the session and properties
-     *
      *
      * @return void
      *
@@ -165,7 +153,6 @@ class CSRF {
     /**
      * Get the current CSRF token
      *
-     *
      * @return string
      */
     public function get_token(): string {
@@ -175,7 +162,6 @@ class CSRF {
     /**
      * Get current name of form field, where CSRF token will be stored
      *
-     *
      * @return string
      */
     public function get_field(): string {
@@ -184,7 +170,6 @@ class CSRF {
 
     /**
      * Validate given CSRF token
-     *
      *
      * @param string $token
      *
@@ -214,7 +199,6 @@ class CSRF {
     /**
      * Get CSRF token from request (_POST or _SERVER)
      *
-     *
      * @return string|null
      *
      * @throws Exception
@@ -239,7 +223,6 @@ class CSRF {
 
     /**
      * Clean expired CSRF tokens from the session (handles also the form input names)
-     *
      *
      * @return void
      */
@@ -270,7 +253,6 @@ class CSRF {
     /**
      * Enforce the maximum number of CSRF tokens in the session (handles also the form input names)
      *
-     *
      * @return void
      */
     private function _enforce_limit(): void {
@@ -296,7 +278,6 @@ class CSRF {
 
     /**
      * Check if the current route is an exception for CSRF protection
-     *
      *
      * @return bool
      *

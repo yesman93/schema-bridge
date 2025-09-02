@@ -11,7 +11,6 @@ class SessionStartMiddleware implements MiddlewareContract {
     /**
      * Handle the session startup
      *
-     *
      * @param Container $container
      * @param callable $next
      *

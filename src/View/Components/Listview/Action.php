@@ -7,14 +7,12 @@ class Action {
     /**
      * Link to the action
      *
-     *
      * @var string
      */
     private string $_link;
 
     /**
      * Key to retrieve parameter from the row
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ class Action {
     /**
      * Label of the action
      *
-     *
      * @var string
      */
     private string $_label;
 
     /**
      * Icon of the action
-     *
      *
      * @var string|null
      */
@@ -39,14 +35,12 @@ class Action {
     /**
      * Whether the action should be opened in a modal
      *
-     *
      * @var bool
      */
     private bool $_is_modal = false;
 
     /**
      * Size of the modal
-     *
      *
      * @var string|null
      */
@@ -55,14 +49,12 @@ class Action {
     /**
      * Wheteher to insert divider before the action
      *
-     *
      * @var bool
      */
     private bool $_divider_before = false;
 
     /**
      * Listview action
-     *
      *
      * @param string        $link           Link to the action
      * @param string        $key            Key to retrieve parameter from the row and append to the link
@@ -96,7 +88,6 @@ class Action {
     /**
      * Get the link
      *
-     *
      * @return string
      */
     public function get_link(): string {
@@ -105,7 +96,6 @@ class Action {
 
     /**
      * Get the key
-     *
      *
      * @return string
      */
@@ -116,7 +106,6 @@ class Action {
     /**
      * Get the label
      *
-     *
      * @return string
      */
     public function get_label(): string {
@@ -125,7 +114,6 @@ class Action {
 
     /**
      * Get the icon
-     *
      *
      * @return string|null
      */
@@ -136,7 +124,6 @@ class Action {
     /**
      * Get if action should be opened in a modal
      *
-     *
      * @return bool
      */
     public function is_modal(): bool {
@@ -145,7 +132,6 @@ class Action {
 
     /**
      * Get the size of the modal
-     *
      *
      * @return string|null
      */
@@ -156,7 +142,6 @@ class Action {
     /**
      * Get if divider should be inserted before the action
      *
-     *
      * @return bool
      */
     public function is_divider_before(): bool {
@@ -165,7 +150,6 @@ class Action {
 
     /**
      * Get the full link with parameter from the given row
-     *
      *
      * @param mixed $row
      *

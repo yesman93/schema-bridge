@@ -12,7 +12,6 @@ trait LogFile {
     /**
      * Archive log file if it exceeds max configured size
      *
-     *
      * @param string $path
      *
      * @return void
@@ -65,7 +64,6 @@ trait LogFile {
     /**
      * Lock a file for concurrent safe access
      *
-     *
      * @param resource $handle
      *
      * @return bool
@@ -76,7 +74,6 @@ trait LogFile {
 
     /**
      * Unlock the file
-     *
      *
      * @param resource $handle
      *
@@ -117,7 +114,6 @@ trait LogFile {
 
     /**
      * Get all log files for a given channel
-     *
      *
      * @param string $channel
      * @param bool $extended

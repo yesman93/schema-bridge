@@ -9,7 +9,6 @@ class Boolean extends Column {
     /**
      * Get HTML code of the column
      *
-     *
      * @param mixed $row
      *
      * @return string

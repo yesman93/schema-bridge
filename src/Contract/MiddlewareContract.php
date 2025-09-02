@@ -9,7 +9,6 @@ interface MiddlewareContract {
     /**
      * Handle a request
      *
-     *
      * @param Container $container
      * @param callable $next
      *

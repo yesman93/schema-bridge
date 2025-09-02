@@ -9,14 +9,12 @@ trait SEO {
     /**
      * SEO title
      *
-     *
      * @var string|null
      */
     protected ?string $title = null;
 
     /**
      * SEO description
-     *
      *
      * @var string|null
      */
@@ -25,14 +23,12 @@ trait SEO {
     /**
      * SEO keywords
      *
-     *
      * @var string|null
      */
     protected ?string $keywords = null;
 
     /**
      * Set SEO title
-     *
      *
      * @param string $title
      *
@@ -44,7 +40,6 @@ trait SEO {
 
     /**
      * Get SEO title
-     *
      *
      * @param bool $include_appname
      *
@@ -63,7 +58,6 @@ trait SEO {
     /**
      * Set SEO description
      *
-     *
      * @param string $description
      *
      * @return void
@@ -75,7 +69,6 @@ trait SEO {
     /**
      * Get SEO description
      *
-     *
      * @return string|null
      */
     public function description(): ?string {
@@ -84,7 +77,6 @@ trait SEO {
 
     /**
      * Set SEO keywords
-     *
      *
      * @param string $keywords
      *
@@ -96,7 +88,6 @@ trait SEO {
 
     /**
      * Get SEO keywords
-     *
      *
      * @return string|null
      */

@@ -10,14 +10,12 @@ class Flash {
     /**
      * Errors
      *
-     *
      * @var array
      */
     private static array $_errors = [];
 
     /**
      * Successes
-     *
      *
      * @var array
      */
@@ -26,7 +24,6 @@ class Flash {
     /**
      * Infos
      *
-     *
      * @var array
      */
     private static array $_infos = [];
@@ -34,14 +31,12 @@ class Flash {
     /**
      * Warnings
      *
-     *
      * @var array
      */
     private static array $_warnings = [];
 
     /**
      * Add error message
-     *
      *
      * @param string $message
      *
@@ -54,7 +49,6 @@ class Flash {
     /**
      * Add success message
      *
-     *
      * @param string $message
      *
      * @return void
@@ -65,7 +59,6 @@ class Flash {
 
     /**
      * Add info message
-     *
      *
      * @param string $message
      *
@@ -78,7 +71,6 @@ class Flash {
     /**
      * Add warning message
      *
-     *
      * @param string $message
      *
      * @return void
@@ -90,7 +82,6 @@ class Flash {
     /**
      * Get error messages
      *
-     *
      * @return array
      */
     public static function get_errors(): array {
@@ -99,7 +90,6 @@ class Flash {
 
     /**
      * Get success messages
-     *
      *
      * @return array
      */
@@ -110,7 +100,6 @@ class Flash {
     /**
      * Get info messages
      *
-     *
      * @return array
      */
     public static function get_infos(): array {
@@ -119,7 +108,6 @@ class Flash {
 
     /**
      * Get warning messages
-     *
      *
      * @return array
      */
@@ -130,7 +118,6 @@ class Flash {
     /**
      * Clear all errors
      *
-     *
      * @return void
      */
     public static function clear_errors() : void {
@@ -139,7 +126,6 @@ class Flash {
 
     /**
      * Clear all successes
-     *
      *
      * @return void
      */
@@ -150,7 +136,6 @@ class Flash {
     /**
      * Clear all infos
      *
-     *
      * @return void
      */
     public static function clear_infos() : void {
@@ -160,7 +145,6 @@ class Flash {
     /**
      * Clear all warnings
      *
-     *
      * @return void
      */
     public static function clear_warnings() : void{
@@ -169,7 +153,6 @@ class Flash {
 
     /**
      * Clear all messages
-     *
      *
      * @return void
      */
@@ -183,7 +166,6 @@ class Flash {
 
     /**
      * Absorbs flash messages from session (e.g. after redirect)
-     *
      *
      * @return void
      *

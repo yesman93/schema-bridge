@@ -7,7 +7,6 @@ class TypeValidator {
     /**
      * Validate given value against given database data type
      *
-     *
      * @param mixed  $value  Value to validate
      * @param string $type Expected type ('int', 'varchar', 'text', 'date', 'datetime')
      *

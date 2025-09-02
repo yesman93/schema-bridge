@@ -9,7 +9,6 @@ class LoggedUser {
     /**
      * Required fields that must be present in the data
      *
-     *
      * @var array
      */
     private array $_required_fields = [];
@@ -17,14 +16,12 @@ class LoggedUser {
     /**
      * Stored data
      *
-     *
      * @var array
      */
     private array $_data = [];
 
     /**
      * DTO for logged user - flexible, required core properties + dynamic other data
-     *
      *
      * @param array $data
      *
@@ -48,7 +45,6 @@ class LoggedUser {
     /**
      * Dynamic getter
      *
-     *
      * @param string $key
      *
      * @return mixed
@@ -60,7 +56,6 @@ class LoggedUser {
     /**
      * Check if property exists
      *
-     *
      * @param string $key
      *
      * @return bool
@@ -71,7 +66,6 @@ class LoggedUser {
 
     /**
      * Get all stored data
-     *
      *
      * @return array
      */

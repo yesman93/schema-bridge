@@ -7,14 +7,12 @@ class MessageBag {
     /**
      * Errors
      *
-     *
      * @var array
      */
     private static array $_errors = [];
 
     /**
      * Successes
-     *
      *
      * @var array
      */
@@ -23,7 +21,6 @@ class MessageBag {
     /**
      * Infos
      *
-     *
      * @var array
      */
     private static array $_infos = [];
@@ -31,14 +28,12 @@ class MessageBag {
     /**
      * Warnings
      *
-     *
      * @var array
      */
     private static array $_warnings = [];
 
     /**
      * Add error message
-     *
      *
      * @param string $message
      * @param string $name
@@ -57,7 +52,6 @@ class MessageBag {
     /**
      * Add success message
      *
-     *
      * @param string $message
      * @param string $name
      *
@@ -74,7 +68,6 @@ class MessageBag {
 
     /**
      * Add info message
-     *
      *
      * @param string $message
      * @param string $name
@@ -93,7 +86,6 @@ class MessageBag {
     /**
      * Add warning message
      *
-     *
      * @param string $message
      * @param string $name
      *
@@ -111,7 +103,6 @@ class MessageBag {
     /**
      * Get error messages
      *
-     *
      * @param string|null $name
      *
      * @return array
@@ -122,7 +113,6 @@ class MessageBag {
 
     /**
      * Get success messages
-     *
      *
      * @param string|null $name
      *
@@ -135,7 +125,6 @@ class MessageBag {
     /**
      * Get info messages
      *
-     *
      * @param string|null $name
      *
      * @return array
@@ -146,7 +135,6 @@ class MessageBag {
 
     /**
      * Get warning messages
-     *
      *
      * @param string|null $name
      *
@@ -159,7 +147,6 @@ class MessageBag {
     /**
      * Clear all errors
      *
-     *
      * @return void
      */
     public static function clear_errors() : void {
@@ -168,7 +155,6 @@ class MessageBag {
 
     /**
      * Clear all successes
-     *
      *
      * @return void
      */
@@ -179,7 +165,6 @@ class MessageBag {
     /**
      * Clear all infos
      *
-     *
      * @return void
      */
     public static function clear_infos() : void {
@@ -189,7 +174,6 @@ class MessageBag {
     /**
      * Clear all warnings
      *
-     *
      * @return void
      */
     public static function clear_warnings() : void{
@@ -198,7 +182,6 @@ class MessageBag {
 
     /**
      * Clear all messages
-     *
      *
      * @return void
      */

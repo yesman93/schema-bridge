@@ -9,7 +9,6 @@ class RequestFactory {
     /**
      * Make a new request
      *
-     *
      * @return Request
      */
     public function make() : Request {

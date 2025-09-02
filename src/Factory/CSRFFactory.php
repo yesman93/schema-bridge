@@ -11,14 +11,12 @@ class CSRFFactory {
     /**
      * Instance of the container
      *
-     *
      * @var Container
      */
     private Container $_container;
 
     /**
      * Factory for creating CSRF instances
-     *
      *
      * @param Container $container
      */
@@ -28,7 +26,6 @@ class CSRFFactory {
 
     /**
      * Create a new CSRF instance
-     *
      *
      * @return CSRF
      *

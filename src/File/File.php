@@ -10,7 +10,6 @@ class File {
     /**
      * Lists all files in the given directory and its subdirectories
      *
-     *
      * @param string $dir_path
      * @param bool $full_paths
      *
@@ -85,7 +84,6 @@ class File {
      * Normalizes a file path by converting backslashes to forward slashes
      * and ensuring Windows drive letters are handled correctly
      *
-     *
      * @param string $path
      *
      * @return string
@@ -107,7 +105,6 @@ class File {
      * Cleans up files in the specified directory based on maximum age in config `app.storage.files_max_age`
      *
      * Deletes files older than the configured maximum age
-     *
      *
      * @param string $path
      *
@@ -151,7 +148,6 @@ class File {
 
     /**
      * Splits a file path into directory and filename
-     *
      *
      * @param string $path
      *

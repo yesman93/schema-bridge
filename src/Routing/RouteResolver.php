@@ -11,14 +11,12 @@ class RouteResolver {
     /**
      * instance of the request object
      *
-     *
      * @var Request
      */
     private Request $_request;
 
     /**
      * array of regex route exceptions
-     *
      *
      * @var array
      */
@@ -27,14 +25,12 @@ class RouteResolver {
     /**
      * array of resolved parameters
      *
-     *
      * @var array
      */
     private array $_params = [];
 
     /**
      * Resolver for routes to controller, action and parameters
-     *
      *
      * @param Request $request
      *
@@ -52,7 +48,6 @@ class RouteResolver {
     /**
      * Load regex exceptions from config
      *
-     *
      * @return void
      */
     private function _load_exceptions(): void {
@@ -64,7 +59,6 @@ class RouteResolver {
 
     /**
      * Resolve the URI to controller, action and parameters
-     *
      *
      * @param string|null $uri
      *
@@ -120,7 +114,6 @@ class RouteResolver {
     /**
      * Sanitize the URI
      *
-     *
      * @param string $uri
      *
      * @return string
@@ -138,7 +131,6 @@ class RouteResolver {
 
     /**
      * Match the URI against regex route exceptions
-     *
      *
      * @param string $uri
      *
@@ -170,7 +162,6 @@ class RouteResolver {
     /**
      * Get the resolved realm name
      *
-     *
      * @return string|null
      */
     public function get_realm(): ?string {
@@ -179,7 +170,6 @@ class RouteResolver {
 
     /**
      * Get the resolved controller name
-     *
      *
      * @return string|null
      */
@@ -190,7 +180,6 @@ class RouteResolver {
     /**
      * Get the resolved action name
      *
-     *
      * @return string|null
      */
     public function get_action(): ?string {
@@ -199,7 +188,6 @@ class RouteResolver {
 
     /**
      * Get the resolved parameters
-     *
      *
      * @return array
      */

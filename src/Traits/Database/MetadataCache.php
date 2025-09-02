@@ -14,14 +14,12 @@ trait MetadataCache {
     /**
      * Storage for all harvested metadata
      *
-     *
      * @var array
      */
     private static array $_tables = [];
 
     /**
      * Retrieves metadata for given table and stores it in the cache
-     *
      *
      * @param string $name
      * @param DatabaseAdapter $adapter
@@ -92,7 +90,6 @@ trait MetadataCache {
 
     /**
      * Get metadata for given model
-     *
      *
      * @param string $name
      * @param DatabaseAdapter $adapter

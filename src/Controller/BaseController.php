@@ -39,14 +39,12 @@ class BaseController {
     /**
      * instance of the MVC model
      *
-     *
      * @var BaseModel|null
      */
     protected ?BaseModel $_model;
 
     /**
      * request object with data
-     *
      *
      * @var Request
      */
@@ -55,14 +53,12 @@ class BaseController {
     /**
      * response object
      *
-     *
      * @var Response
      */
     protected Response $_response;
 
     /**
      * view object
-     *
      *
      * @var View
      */
@@ -71,14 +67,12 @@ class BaseController {
     /**
      * instance of the container
      *
-     *
      * @var Container|null
      */
     private ?Container $_container = null;
 
     /**
      * Current action method
-     *
      *
      * @var string
      */
@@ -87,14 +81,12 @@ class BaseController {
     /**
      * Page title
      *
-     *
      * @var string
      */
     protected string $_title = '';
 
     /**
      * Name of the realm
-     *
      *
      * @var string
      */
@@ -103,14 +95,12 @@ class BaseController {
     /**
      * Name of the controller
      *
-     *
      * @var string
      */
     protected string $_name = '';
 
     /**
      * Name of the controller in plural
-     *
      *
      * @var string
      */
@@ -119,14 +109,12 @@ class BaseController {
     /**
      * Render flag
      *
-     *
      * @var bool
      */
     private bool $_is_render = true;
 
     /**
      * CSRF token
-     *
      *
      * @var string
      */
@@ -135,7 +123,6 @@ class BaseController {
     /**
      * CSRF token form field name
      *
-     *
      * @var string
      */
     protected string $_csrf_field = '';
@@ -143,14 +130,12 @@ class BaseController {
     /**
      * Instance of database logger
      *
-     *
      * @var DatabaseLogger|null
      */
     private ?DatabaseLogger $_logger = null;
 
     /**
      * base controller - parent to all controllers
-     *
      *
      * @param BaseModel|null $model
      * @param Request $request
@@ -173,7 +158,6 @@ class BaseController {
     /**
      * Initialize the view
      *
-     *
      * @return void
      */
     private function _init_view() : void {
@@ -183,7 +167,6 @@ class BaseController {
 
     /**
      * Set input data to model
-     *
      *
      * @return void
      */
@@ -210,7 +193,6 @@ class BaseController {
     /**
      * Set a container instance
      *
-     *
      * @param Container|null $container
      * @param bool $set_container_to_model If `TRUE`, the container will also be set to the model
      *
@@ -226,7 +208,6 @@ class BaseController {
     /**
      * Get the container instance
      *
-     *
      * @return Container|null
      */
     protected function container() : ?Container {
@@ -235,7 +216,6 @@ class BaseController {
 
     /**
      * Process and call the action method
-     *
      *
      * @param string $action
      * @param array $params
@@ -340,7 +320,6 @@ class BaseController {
     /**
      * Set action method
      *
-     *
      * @param string $action
      *
      * @return void
@@ -352,7 +331,6 @@ class BaseController {
 
     /**
      * Check if a form was submitted in current action
-     *
      *
      * @param string|null $name Custom submit name (can be multiple submits in one action)
      *
@@ -368,7 +346,6 @@ class BaseController {
     /**
      * Set page title
      *
-     *
      * @param string $title
      *
      * @return void
@@ -381,7 +358,6 @@ class BaseController {
     /**
      * Set SEO description
      *
-     *
      * @param string $description
      *
      * @return void
@@ -393,7 +369,6 @@ class BaseController {
     /**
      * Set SEO keywords
      *
-     *
      * @param string $keywords
      *
      * @return void
@@ -404,7 +379,6 @@ class BaseController {
 
     /**
      * Set realm name
-     *
      *
      * @param string $realm
      *
@@ -418,7 +392,6 @@ class BaseController {
     /**
      * Set controller name
      *
-     *
      * @param string $singular
      *
      * @return void
@@ -429,7 +402,6 @@ class BaseController {
 
     /**
      * Set controller name in plural
-     *
      *
      * @param string $plural
      *
@@ -492,7 +464,6 @@ class BaseController {
     /**
      * Index method - default action
      *
-     *
      * @return void
      */
     public function index() : void {
@@ -502,7 +473,6 @@ class BaseController {
     /**
      * Assign a value to the view
      *
-     *
      * @return void
      */
     protected function assign(string $key, mixed $value): void {
@@ -511,7 +481,6 @@ class BaseController {
 
     /**
      * Set the master page
-     *
      *
      * @param string $master_page
      *
@@ -524,7 +493,6 @@ class BaseController {
     /**
      * Add a CSS file to the view
      *
-     *
      * @param string $path
      *
      * @return void
@@ -535,7 +503,6 @@ class BaseController {
 
     /**
      * Add a JS file to the view
-     *
      *
      * @param string $path
      *
@@ -548,7 +515,6 @@ class BaseController {
     /**
      * Enable/disable rendering of the view
      *
-     *
      * @param bool $enabled
      *
      * @return void
@@ -560,7 +526,6 @@ class BaseController {
     /**
      * Check if rendering is enabled
      *
-     *
      * @return bool
      */
     public function is_render() : bool {
@@ -569,7 +534,6 @@ class BaseController {
 
     /**
      * Render the view
-     *
      *
      * @return void
      *
@@ -614,7 +578,6 @@ class BaseController {
     /**
      * Actions to be performed before the action method is called
      *
-     *
      * @return void
      *
      * @throws LumioControllerException
@@ -636,7 +599,6 @@ class BaseController {
 
     /**
      * Actions to be performed after the action method is called
-     *
      *
      * @return void
      */
@@ -661,7 +623,6 @@ class BaseController {
     /**
      * Set CSRF token
      *
-     *
      * @return void
      *
      * @throws Exception
@@ -674,7 +635,6 @@ class BaseController {
 
     /**
      * Check if the action exists in controller
-     *
      *
      * @return void
      *
@@ -702,7 +662,6 @@ class BaseController {
     /**
      * Validate request data
      *
-     *
      * @return void
      */
     protected function _validate_request_data(): void {
@@ -715,7 +674,6 @@ class BaseController {
     /**
      * Check if the request is valid
      *
-     *
      * @return bool
      */
     protected function is_valid() : bool {
@@ -724,7 +682,6 @@ class BaseController {
 
     /**
      * Get value from $_GET
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -738,7 +695,6 @@ class BaseController {
     /**
      * Get value from $_POST
      *
-     *
      * @param string|null $key
      * @param mixed $default
      *
@@ -750,7 +706,6 @@ class BaseController {
 
     /**
      * Get value from filter data
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -764,7 +719,6 @@ class BaseController {
     /**
      * Get uploaded file from request
      *
-     *
      * @param string $key
      *
      * @return UploadedFile|array|null
@@ -775,7 +729,6 @@ class BaseController {
 
     /**
      * Get value from JSON data
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -789,7 +742,6 @@ class BaseController {
     /**
      * Get value from XML data
      *
-     *
      * @param string|null $key
      * @param mixed $default
      *
@@ -802,7 +754,6 @@ class BaseController {
     /**
      * Get the response object
      *
-     *
      * @return Response
      */
     protected function response() : Response {
@@ -811,7 +762,6 @@ class BaseController {
 
     /**
      * Replace the controller request object with the given one
-     *
      *
      * @param Request $request
      *
@@ -827,7 +777,6 @@ class BaseController {
     /**
      * Creates a redirect response that is to be returned from inside the controller
      *
-     *
      * @param string $url
      * @param int $status_code
      *
@@ -840,7 +789,6 @@ class BaseController {
     /**
      * Creates a JSON response that is to be returned from inside the controller
      *
-     *
      * @param array $data
      *
      * @return JsonResponse
@@ -851,7 +799,6 @@ class BaseController {
 
     /**
      * Creates an XML response that is to be returned from inside the controller
-     *
      *
      * @param array $data
      *
@@ -866,7 +813,6 @@ class BaseController {
      *
      * This is used for downloading files, such as images, documents, etc.
      *
-     *
      * @param string $file_path
      * @param string|null $file_name
      *
@@ -878,7 +824,6 @@ class BaseController {
 
     /**
      * Set given CSRF protection
-     *
      *
      * @param CSRF $csrf
      *
@@ -894,7 +839,6 @@ class BaseController {
 
     /**
      * Get the breadcrumb builder singleton instance
-     *
      *
      * @param BreadcrumbItem $item
      *
@@ -912,7 +856,6 @@ class BaseController {
      * This happens right when the controller is ready, set up but before any request processing.
      * Actions that would normally be done in the constructor but need container should be done here.
      *
-     *
      * @return void
      */
     public function ignite(): void {
@@ -922,7 +865,6 @@ class BaseController {
 
     /**
      * Set given Open Graph data
-     *
      *
      * @param array $data
      *
@@ -934,7 +876,6 @@ class BaseController {
 
     /**
      * Set given Open Graph property
-     *
      *
      * @param string $key
      * @param string $value
@@ -948,7 +889,6 @@ class BaseController {
     /**
      * Set Open Graph title
      *
-     *
      * @param string $value
      *
      * @return void
@@ -959,7 +899,6 @@ class BaseController {
 
     /**
      * Set Open Graph description
-     *
      *
      * @param string $value
      *
@@ -972,7 +911,6 @@ class BaseController {
     /**
      * Set Open Graph image
      *
-     *
      * @param string $value
      *
      * @return void
@@ -983,7 +921,6 @@ class BaseController {
 
     /**
      * Set Open Graph URL
-     *
      *
      * @param string $value
      *
@@ -996,7 +933,6 @@ class BaseController {
     /**
      * Set Open Graph type
      *
-     *
      * @param string $value
      *
      * @return void
@@ -1007,7 +943,6 @@ class BaseController {
 
     /**
      * Set Open Graph locale
-     *
      *
      * @param string $value
      *
@@ -1020,7 +955,6 @@ class BaseController {
     /**
      * Set Open Graph locale
      *
-     *
      * @param string $value
      *
      * @return void
@@ -1032,7 +966,6 @@ class BaseController {
     /**
      * Set Open Graph updated time
      *
-     *
      * @param string $value
      *
      * @return void
@@ -1043,7 +976,6 @@ class BaseController {
 
     /**
      * Get the database logger instance
-     *
      *
      * @return DatabaseLoggerProxy
      *

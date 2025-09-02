@@ -25,7 +25,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Exception for getting total number of records
      *
-     *
      * @param int $total
      * @param int $per_page
      *
@@ -42,7 +41,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Get total number of records
      *
-     *
      * @return int
      */
     public function get_total(): int {
@@ -51,7 +49,6 @@ class LumioPaginationTotalException extends \Exception {
 
     /**
      * Get number of records per page
-     *
      *
      * @return int
      */

@@ -1,7 +1,6 @@
 /**
  * JS for filters
  *
- *
  */
 
 
@@ -49,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /**
  * Set filters
- *
  *
  * @param {String} name - Filter name
  * @param {Array|Object|String|Number} value - Filter value

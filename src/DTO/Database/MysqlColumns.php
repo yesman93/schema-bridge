@@ -7,14 +7,12 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Columns
      *
-     *
      * @var MysqlColumnDefinition[]
      */
     private array $_columns = [];
 
     /**
      * Adds a column to the collection
-     *
      *
      * @param MysqlColumnDefinition $column
      *
@@ -27,7 +25,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Get all columns
      *
-     *
      * @return MysqlColumnDefinition[]
      */
     public function get_columns(): array {
@@ -37,7 +34,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Get an iterator for the columns
      *
-     *
      * @return \Traversable
      */
     public function getIterator(): \Traversable {
@@ -46,7 +42,6 @@ class MysqlColumns implements \IteratorAggregate {
 
     /**
      * Generates the SQL for the columns
-     *
      *
      * @return string
      */
@@ -72,7 +67,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Check if a column exists in the collection
      *
-     *
      * @param string $name
      *
      * @return bool
@@ -83,7 +77,6 @@ class MysqlColumns implements \IteratorAggregate {
 
     /**
      * Get a column by name
-     *
      *
      * @param string $name
      *
@@ -100,7 +93,6 @@ class MysqlColumns implements \IteratorAggregate {
 
     /**
      * Get the first column name
-     *
      *
      * @return string
      */

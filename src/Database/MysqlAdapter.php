@@ -11,14 +11,12 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * MySQL database connection
      *
-     *
      * @var PDO
      */
     private PDO $_pdo;
 
     /**
      * MySQL database adapter
-     *
      *
      * @param DatabaseCredentials $credentials
      *
@@ -44,7 +42,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Execute a query with optional parameters
      *
-     *
      * @param string $query
      * @param array $params
      *
@@ -59,7 +56,6 @@ class MysqlAdapter extends DatabaseAdapter {
 
     /**
      * Fetch all results
-     *
      *
      * @param string $query
      * @param array $params
@@ -77,7 +73,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Fetch first column
      *
-     *
      * @param string $query
      * @param array $params
      *
@@ -94,7 +89,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Fetch first column
      *
-     *
      * @param string $query
      * @param array $params
      *
@@ -110,7 +104,6 @@ class MysqlAdapter extends DatabaseAdapter {
 
     /**
      * Fetch the first column of first row
-     *
      *
      * @param string $query
      * @param array $params
@@ -130,7 +123,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Get last inserted ID
      *
-     *
      * @return string
      */
     public function last_insert_id() : string {
@@ -142,7 +134,6 @@ class MysqlAdapter extends DatabaseAdapter {
      *
      * Returns an associative array keyed by table name.
      * Each value is an array with a key 'columns' => [ ... column data ... ]
-     *
      *
      * @param bool $extended
      *

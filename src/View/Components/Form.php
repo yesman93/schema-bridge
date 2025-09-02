@@ -19,14 +19,12 @@ class Form extends Component {
     /**
      * Form enctype - application/x-www-form-urlencoded
      *
-     *
      * @var string
      */
     public const ENCTYPE_URLENCODED = 'application/x-www-form-urlencoded';
 
     /**
      * Form enctype - application/form-data
-     *
      *
      * @var string
      */
@@ -36,14 +34,12 @@ class Form extends Component {
     /**
      * Form action
      *
-     *
      * @var string
      */
     protected string $_form_action = '';
 
     /**
      * Form enctype
-     *
      *
      * @var string
      */
@@ -52,14 +48,12 @@ class Form extends Component {
     /**
      * Form wrapper class
      *
-     *
      * @var string
      */
     protected string $_class_wrapper = '';
 
     /**
      * Form card class
-     *
      *
      * @var string
      */
@@ -68,14 +62,12 @@ class Form extends Component {
     /**
      * Form header class
      *
-     *
      * @var string
      */
     protected string $_class_header = '';
 
     /**
      * Form body class
-     *
      *
      * @var string
      */
@@ -84,14 +76,12 @@ class Form extends Component {
     /**
      * Form class
      *
-     *
      * @var string
      */
     protected string $_class = '';
 
     /**
      * Form ID
-     *
      *
      * @var string
      */
@@ -100,7 +90,6 @@ class Form extends Component {
     /**
      * Form prefill data
      *
-     *
      * @var array
      */
     protected array $_data = [];
@@ -108,14 +97,12 @@ class Form extends Component {
     /**
      * Form prefill data ID key
      *
-     *
      * @var string
      */
     protected string $_data_id = '';
 
     /**
      * Stored readable selected/filled input values of the form, available at the end of the render
-     *
      *
      * @var array
      */
@@ -125,14 +112,12 @@ class Form extends Component {
      * Indicates if it is the filter form.
      * If enabled, prefix by config `app.filter.fields_prefix` will be prepended to form field names
      *
-     *
      * @var bool
      */
     private static bool $_is_filter = false;
 
     /**
      * Builds the form components end renders the opening HTML
-     *
      *
      * @param FormSetup|null $form_setup
      *
@@ -228,7 +213,6 @@ class Form extends Component {
     /**
      * Resolve the input prefill value
      *
-     *
      * @param FormInput $input
      *
      * @return mixed
@@ -271,7 +255,6 @@ class Form extends Component {
 
     /**
      * Returns class for select plugin initialization by default select plugin - only if required plugin source JS is loaded
-     *
      *
      * @return string
      */
@@ -342,7 +325,6 @@ class Form extends Component {
 
     /**
      * Render the input HTML
-     *
      *
      * @param string $type
      * @param FormInput $input
@@ -549,7 +531,6 @@ class Form extends Component {
     /**
      * Render the text input
      *
-     *
      * @param FormInput $input
      *
      * @return void
@@ -560,7 +541,6 @@ class Form extends Component {
 
     /**
      * Render the password input
-     *
      *
      * @param FormInput $input
      *
@@ -576,7 +556,6 @@ class Form extends Component {
     /**
      * Render the color input
      *
-     *
      * @param FormInput $input
      *
      * @return void
@@ -587,7 +566,6 @@ class Form extends Component {
 
     /**
      * Render the hidden input
-     *
      *
      * @param FormInput $input
      *
@@ -608,7 +586,6 @@ class Form extends Component {
     /**
      * Render the file input
      *
-     *
      * @param FormInput $input
      *
      * @return void
@@ -627,7 +604,6 @@ class Form extends Component {
 
     /**
      * Render the date input
-     *
      *
      * @param FormInput $input
      *
@@ -692,7 +668,6 @@ class Form extends Component {
     /**
      * Render the submit button and close the form
      *
-     *
      * @param FormInput|null $input
      *
      * @return void
@@ -745,7 +720,6 @@ class Form extends Component {
      * Set if the form is a filter form.
      * If enabled, prefix by config `app.filter.fields_prefix` will be prepended to form field names
      *
-     *
      * @param bool $enable
      *
      * @return void
@@ -756,7 +730,6 @@ class Form extends Component {
 
     /**
      * Start a row
-     *
      *
      * @param string|null $class
      *
@@ -772,7 +745,6 @@ class Form extends Component {
     /**
      * End a row
      *
-     *
      * @return void
      */
     public function end_row(): void {
@@ -782,7 +754,6 @@ class Form extends Component {
     /**
      * Get readable values
      *
-     *
      * @return array
      */
     public function get_readable_values(): array {
@@ -791,7 +762,6 @@ class Form extends Component {
 
     /**
      * Store readable value for the given input
-     *
      *
      * @param FormInput $input
      * @param string $type

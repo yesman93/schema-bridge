@@ -7,14 +7,12 @@ trait Attribute {
     /**
      * Attribute - UNSIGNED
      *
-     *
      * @var string
      */
     public const ATTRIBUTE_UNSIGNED = 'UNSIGNED';
 
     /**
      * Attribute - ZEROFILL
-     *
      *
      * @var string
      */

@@ -151,7 +151,6 @@ class Pagination {
     /**
      * Generate link to given page
      *
-     *
      * @param int $page
      *
      * @return string

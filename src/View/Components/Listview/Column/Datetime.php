@@ -9,7 +9,6 @@ class Datetime extends Column {
     /**
      * Get date and time from the given row
      *
-     *
      * @param mixed $row
      *
      * @return string

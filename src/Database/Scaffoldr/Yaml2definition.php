@@ -15,7 +15,6 @@ class Yaml2definition {
     /**
      * Loads a MySQL table definition from given YAML file
      *
-     *
      * @param string $filepath
      *
      * @return MysqlTableDefinition

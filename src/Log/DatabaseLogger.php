@@ -16,14 +16,12 @@ class DatabaseLogger {
     /**
      * Database adapter - for database interaction
      *
-     *
      * @var DatabaseAdapter
      */
     private DatabaseAdapter $_adapter;
 
     /**
      * Request ID
-     *
      *
      * @var string
      */
@@ -44,7 +42,6 @@ class DatabaseLogger {
     /**
      * Set the current request ID
      *
-     *
      * @param string $request_id
      *
      * @return void
@@ -55,7 +52,6 @@ class DatabaseLogger {
 
     /**
      * Log given message into database
-     *
      *
      * @param string $level
      * @param string $message
@@ -105,7 +101,6 @@ class DatabaseLogger {
     /**
      * Log emergency into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -121,7 +116,6 @@ class DatabaseLogger {
 
     /**
      * Log alert into database
-     *
      *
      * @param string $message
      * @param int|null $model_id
@@ -139,7 +133,6 @@ class DatabaseLogger {
     /**
      * Log critical into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -155,7 +148,6 @@ class DatabaseLogger {
 
     /**
      * Log error into database
-     *
      *
      * @param string $message
      * @param int|null $model_id
@@ -173,7 +165,6 @@ class DatabaseLogger {
     /**
      * Log warning into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -189,7 +180,6 @@ class DatabaseLogger {
 
     /**
      * Log notice into database
-     *
      *
      * @param string $message
      * @param int|null $model_id
@@ -207,7 +197,6 @@ class DatabaseLogger {
     /**
      * Log info into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -223,7 +212,6 @@ class DatabaseLogger {
 
     /**
      * Log debug into database
-     *
      *
      * @param string $message
      * @param int|null $model_id

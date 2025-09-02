@@ -11,14 +11,12 @@ class LogRecord {
     /**
      * datetime
      *
-     *
      * @var string
      */
     private string $_datetime;
 
     /**
      * environment
-     *
      *
      * @var string
      */
@@ -27,14 +25,12 @@ class LogRecord {
     /**
      * level
      *
-     *
      * @var string
      */
     private string $_level;
 
     /**
      * request ID
-     *
      *
      * @var string
      */
@@ -43,7 +39,6 @@ class LogRecord {
     /**
      * message
      *
-     *
      * @var string
      */
     private string $_message;
@@ -51,14 +46,12 @@ class LogRecord {
     /**
      * context
      *
-     *
      * @var array|null
      */
     private ?array $_context;
 
     /**
      * Reader of file logs
-     *
      *
      * @param string $datetime
      * @param string $env
@@ -82,7 +75,6 @@ class LogRecord {
     /**
      * Get datetime
      *
-     *
      * @return string
      */
     public function datetime(): string {
@@ -92,7 +84,6 @@ class LogRecord {
     /**
      * Get environment
      *
-     *
      * @return string
      */
     public function env(): string {
@@ -101,7 +92,6 @@ class LogRecord {
 
     /**
      * Get level
-     *
      *
      * @param bool $readable
      *
@@ -114,7 +104,6 @@ class LogRecord {
     /**
      * Get request ID
      *
-     *
      * @return string
      */
     public function request_id(): string {
@@ -124,7 +113,6 @@ class LogRecord {
     /**
      * Get message
      *
-     *
      * @return string
      */
     public function message(): string {
@@ -133,7 +121,6 @@ class LogRecord {
 
     /**
      * Get context
-     *
      *
      * @return array|null
      */

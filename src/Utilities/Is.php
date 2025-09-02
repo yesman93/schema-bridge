@@ -10,7 +10,6 @@ class Is {
     /**
      * Check if the input is a valid date
      *
-     *
      * @param string $date
      *
      * @return bool
@@ -22,7 +21,6 @@ class Is {
     /**
      * Check if the input is a valid datetime
      *
-     *
      * @param string $val
      *
      * @return bool
@@ -33,7 +31,6 @@ class Is {
 
     /**
      * Check if the input is a valid DB time
-     *
      *
      * @param string $input
      *
@@ -50,7 +47,6 @@ class Is {
     /**
      * Check if the date is empty
      *
-     *
      * @param mixed $input
      *
      * @return bool
@@ -62,7 +58,6 @@ class Is {
     /**
      * Check if the time is empty
      *
-     *
      * @param mixed $input
      *
      * @return bool
@@ -73,7 +68,6 @@ class Is {
 
     /**
      * Check if the datetime is empty
-     *
      *
      * @param mixed $input
      *
@@ -98,7 +92,6 @@ class Is {
     /**
      * Check if the input is an integer
      *
-     *
      * @param mixed $input
      *
      * @return bool
@@ -109,7 +102,6 @@ class Is {
 
     /**
      * Check if the input is a float
-     *
      *
      * @param mixed $input
      *
@@ -124,7 +116,6 @@ class Is {
 
     /**
      * Check if the input is a valid email address
-     *
      *
      * @param string $email
      *
@@ -145,7 +136,6 @@ class Is {
     /**
      * Check if the input is a valid phone number
      *
-     *
      * @param string $phone
      *
      * @return bool
@@ -162,7 +152,6 @@ class Is {
 
     /**
      * Check if the input is a valid postal code
-     *
      *
      * @param string $code
      * @param string|null $country_iso

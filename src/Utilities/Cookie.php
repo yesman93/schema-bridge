@@ -9,14 +9,12 @@ class Cookie {
     /**
      * Cookie expiration - 1 hour
      *
-     *
      * @var int
      */
     public const int EXP_1_HOUR     = -1;
 
     /**
      * Cookie expiration - 1 day
-     *
      *
      * @var int
      */
@@ -25,14 +23,12 @@ class Cookie {
     /**
      * Cookie expiration - 1 week
      *
-     *
      * @var int
      */
     public const int EXP_1_WEEK     = -3;
 
     /**
      * Cookie expiration - 1 month
-     *
      *
      * @var int
      */
@@ -41,7 +37,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 quarter
      *
-     *
      * @var int
      */
     public const int EXP_1_QUARTER  = -5;
@@ -49,14 +44,12 @@ class Cookie {
     /**
      * Cookie expiration - 1 year
      *
-     *
      * @var int
      */
     public const int EXP_1_YEAR     = -6;
 
     /**
      * Set a cookie
-     *
      *
      * @param string $name
      * @param mixed $value
@@ -99,7 +92,6 @@ class Cookie {
     /**
      * Get given cookie value
      *
-     *
      * @param string $name
      *
      * @return mixed
@@ -120,7 +112,6 @@ class Cookie {
     /**
      * Erase given cookie
      *
-     *
      * @param string $name
      * @param string $path
      * @param string $domain
@@ -140,7 +131,6 @@ class Cookie {
     /**
      * Erase all cookies with given prefix
      *
-     *
      * @param string $prefix
      *
      * @return void
@@ -158,7 +148,6 @@ class Cookie {
     /**
      * Get given cookie and forget it
      *
-     *
      * @param string $name
      *
      * @return mixed
@@ -174,7 +163,6 @@ class Cookie {
     /**
      * Check if cookie exists
      *
-     *
      * @param string $key
      *
      * @return bool
@@ -185,7 +173,6 @@ class Cookie {
 
     /**
      * Check if given expiration is predefined
-     *
      *
      * @param int $expiration
      *
@@ -205,7 +192,6 @@ class Cookie {
 
     /**
      * Get expiration time by given predefined expiration
-     *
      *
      * @param int $expiration
      *

@@ -18,14 +18,12 @@ class LogViewer extends Component {
     /**
      * Title of the log view
      *
-     *
      * @var string
      */
     private string $_logview_title = '';
 
     /**
      * Log channels selection
-     *
      *
      * @var array
      */
@@ -34,14 +32,12 @@ class LogViewer extends Component {
     /**
      * Current channel
      *
-     *
      * @var string
      */
     private string $_channel = '';
 
     /**
      * Log records
-     *
      *
      * @var array
      */
@@ -50,7 +46,6 @@ class LogViewer extends Component {
     /**
      * Total of the current dataset
      *
-     *
      * @var int
      */
     private int $_total = 0;
@@ -58,14 +53,12 @@ class LogViewer extends Component {
     /**
      * Current full URI including page number and applied filters
      *
-     *
      * @var string
      */
     private string $_uri = '';
 
     /**
      * Set title
-     *
      *
      * @param string $title
      *
@@ -79,7 +72,6 @@ class LogViewer extends Component {
     /**
      * Set channels
      *
-     *
      * @param array $channels
      *
      * @return self
@@ -91,7 +83,6 @@ class LogViewer extends Component {
 
     /**
      * Set current channel
-     *
      *
      * @param string $channel
      *
@@ -105,7 +96,6 @@ class LogViewer extends Component {
     /**
      * Set log records
      *
-     *
      * @param array $data
      *
      * @return self
@@ -117,7 +107,6 @@ class LogViewer extends Component {
 
     /**
      * Set the URI
-     *
      *
      * @param string|null $uri
      *
@@ -136,7 +125,6 @@ class LogViewer extends Component {
 
     /**
      * Build a new instance of log viewer
-     *
      *
      * @param array|null $data
      *
@@ -157,7 +145,6 @@ class LogViewer extends Component {
 
     /**
      * Get URI with given channel in filters
-     *
      *
      * @param string $channel
      *
@@ -187,7 +174,6 @@ class LogViewer extends Component {
     /**
      * Get URI with given file in filters
      *
-     *
      * @param string $filename
      *
      * @return string
@@ -213,7 +199,6 @@ class LogViewer extends Component {
 
     /**
      * Get URI with given group by request ID in filters
-     *
      *
      * @param bool $group_by_requestid
      *
@@ -241,7 +226,6 @@ class LogViewer extends Component {
     /**
      * Get URI with given request ID in filters
      *
-     *
      * @param string $request_id
      *
      * @return string
@@ -267,7 +251,6 @@ class LogViewer extends Component {
 
     /**
      * Render the log view
-     *
      *
      * @return void
      */
@@ -655,7 +638,6 @@ class LogViewer extends Component {
     /**
      * Apply data control mechanisms - pagination, filters and sorting
      *
-     *
      * @param array $records
      *
      * @return array
@@ -701,7 +683,6 @@ class LogViewer extends Component {
     /**
      * Get pagination HTML
      *
-     *
      * @return string
      */
     private function _get_pagination_html() : string {
@@ -728,7 +709,6 @@ class LogViewer extends Component {
     /**
      * Get icon HTML by given level
      *
-     *
      * @param string $level
      *
      * @return string
@@ -749,7 +729,6 @@ class LogViewer extends Component {
 
     /**
      * Get icon class by given level
-     *
      *
      * @param string $level
      *

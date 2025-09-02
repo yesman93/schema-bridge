@@ -14,14 +14,12 @@ class TableDiffer {
     /**
      * Type of difference - add new column
      *
-     *
      * @var string
      */
     private const string _TYPE_ADD_COLUMN = 'ADD_COLUMN';
 
     /**
      * Type of difference - change existing column
-     *
      *
      * @var string
      */
@@ -30,14 +28,12 @@ class TableDiffer {
     /**
      * Type of difference - add new index
      *
-     *
      * @var string
      */
     private const string _TYPE_ADD_INDEX = 'ADD_INDEX';
 
     /**
      * Type of difference - drop existing index
-     *
      *
      * @var string
      */
@@ -46,14 +42,12 @@ class TableDiffer {
     /**
      * Database table name
      *
-     *
      * @var string
      */
     private string $_table_name;
 
     /**
      * Table structure from the database
-     *
      *
      * @var array
      */
@@ -62,14 +56,12 @@ class TableDiffer {
     /**
      * Schema definition for the table
      *
-     *
      * @var MysqlTableDefinition
      */
     private MysqlTableDefinition $_schema;
 
     /**
      * Existing columns in the table
-     *
      *
      * @var array
      */
@@ -78,14 +70,12 @@ class TableDiffer {
     /**
      * Existing indexes in the table
      *
-     *
      * @var array
      */
     private array $_indexes = [];
 
     /**
      * Differences between the database structure and the schema definition
-     *
      *
      * @var array
      */
@@ -96,7 +86,6 @@ class TableDiffer {
      *
      * This class compares the structure of a MySQL table in the database with a defined schema and identifies differences.
      * It can be used to generate SQL statements for altering the table structure to match the schema definition.
-     *
      *
      * @param string $table_name
      * @param array $db_structure
@@ -118,7 +107,6 @@ class TableDiffer {
      *
      * This method processes the database structure to create a normalized representation of columns and indexes,
      * which can be easily compared with the schema definition.
-     *
      *
      * @return void
      */
@@ -170,7 +158,6 @@ class TableDiffer {
     /**
      * Factory method to create an instance of TableDiffer and determine differences
      *
-     *
      * @param string $table_name
      * @param array $db_structure
      * @param MysqlTableDefinition $schema_definition
@@ -188,7 +175,6 @@ class TableDiffer {
 
     /**
      * Compares columns in the database with those defined in the schema
-     *
      *
      * @return void
      */
@@ -314,7 +300,6 @@ class TableDiffer {
      *
      * This method checks for indexes that need to be added or dropped based on the schema definition
      *
-     *
      * @return void
      */
     private function _compare_indexes(): void {
@@ -349,7 +334,6 @@ class TableDiffer {
      *
      * This method compares the columns in the database with those defined in the schema and identifies any additions or changes needed
      *
-     *
      * @return void
      */
     public function determine_differences(): void {
@@ -362,7 +346,6 @@ class TableDiffer {
     /**
      * Checks if there are any differences between the database structure and the schema definition
      *
-     *
      * @return bool
      */
     public function has_differences(): bool {
@@ -372,7 +355,6 @@ class TableDiffer {
     /**
      * Returns the differences found between the database structure and the schema definition
      *
-     *
      * @return array
      */
     public function get_differences(): array {
@@ -381,7 +363,6 @@ class TableDiffer {
 
     /**
      * Generates the SQL statement to alter the table based on the differences found
-     *
      *
      * @return string
      */

@@ -10,14 +10,12 @@ trait QueryBuilder {
     /**
      * Query type - SELECT
      *
-     *
      * @var string
      */
     private const _QT_SELECT = 'SELECT';
 
     /**
      * Query type - INSERT
-     *
      *
      * @var string
      */
@@ -26,14 +24,12 @@ trait QueryBuilder {
     /**
      * Query type - UPDATE
      *
-     *
      * @var string
      */
     private const _QT_UPDATE = 'UPDATE';
 
     /**
      * Query type - DELETE
-     *
      *
      * @var string
      */
@@ -42,14 +38,12 @@ trait QueryBuilder {
     /**
      * Join type - inner
      *
-     *
      * @var string
      */
     private const _JOIN_INNER = 'INNER';
 
     /**
      * Join type - outer
-     *
      *
      * @var string
      */
@@ -58,14 +52,12 @@ trait QueryBuilder {
     /**
      * Join type - left
      *
-     *
      * @var string
      */
     private const _JOIN_LEFT = 'LEFT';
 
     /**
      * Join type - right
-     *
      *
      * @var string
      */
@@ -74,14 +66,12 @@ trait QueryBuilder {
     /**
      * Join type - full
      *
-     *
      * @var string
      */
     private const _JOIN_FULL = 'FULL';
 
     /**
      * Operator - AND
-     *
      *
      * @var string
      */
@@ -90,14 +80,12 @@ trait QueryBuilder {
     /**
      * Operator - OR
      *
-     *
      * @var string
      */
     private const OR = 'OR';
 
     /**
      * Sort direction - ASC
-     *
      *
      * @var string
      */
@@ -106,14 +94,12 @@ trait QueryBuilder {
     /**
      * Sort direction - DESC
      *
-     *
      * @var string
      */
     public const DESC = 'DESC';
 
     /**
      * Type of WHERE condition - basic
-     *
      *
      * @var string
      */
@@ -122,14 +108,12 @@ trait QueryBuilder {
     /**
      * Type of WHERE condition - group
      *
-     *
      * @var string
      */
     private const _WHERE_GROUP = 'group';
 
     /**
      * Escape character - for MySQL
-     *
      *
      * @var string
      */
@@ -138,14 +122,12 @@ trait QueryBuilder {
     /**
      * Escape character - for PostgreSQL
      *
-     *
      * @var string
      */
     private const ESCAPE_PGSQL = '"';
 
     /**
      * Current query type
-     *
      *
      * @var string
      */
@@ -154,14 +136,12 @@ trait QueryBuilder {
     /**
      * Current table name
      *
-     *
      * @var string
      */
     private string $_table_name = '';
 
     /**
      * Columns to select
-     *
      *
      * @var array
      */
@@ -170,14 +150,12 @@ trait QueryBuilder {
     /**
      * WHERE conditions
      *
-     *
      * @var array
      */
     private array $_where_conditions = [];
 
     /**
      * Parameters for the query
-     *
      *
      * @var array
      */
@@ -186,14 +164,12 @@ trait QueryBuilder {
     /**
      * JOIN clauses
      *
-     *
      * @var array
      */
     private array $_join_clauses = [];
 
     /**
      * ORDER BY clauses
-     *
      *
      * @var array
      */
@@ -202,14 +178,12 @@ trait QueryBuilder {
     /**
      * GROUP BY clauses
      *
-     *
      * @var array
      */
     private array $_group_by = [];
 
     /**
      * LIMIT clause
-     *
      *
      * @var array
      */
@@ -218,14 +192,12 @@ trait QueryBuilder {
     /**
      * Data for INSERT
      *
-     *
      * @var array
      */
     private array $_insert_data = [];
 
     /**
      * Data for UPDATE
-     *
      *
      * @var array
      */
@@ -234,7 +206,6 @@ trait QueryBuilder {
     /**
      * Soft reset flag
      *
-     *
      * @var bool
      */
     private bool $_soft_reset = true;
@@ -242,14 +213,12 @@ trait QueryBuilder {
     /**
      * Driver name
      *
-     *
      * @var string
      */
     private string $_driver = 'mysql';
 
     /**
      * Current escape character
-     *
      *
      * @var string
      */
@@ -259,7 +228,6 @@ trait QueryBuilder {
      * Set driver and define escaping rules
      *
      * @param string $driver
-     *
      *
      * @return BaseModel|QueryBuilder
      */
@@ -281,7 +249,6 @@ trait QueryBuilder {
      *
      * @param string $table
      *
-     *
      * @return BaseModel|QueryBuilder
      */
     public function table(string $table): self {
@@ -295,7 +262,6 @@ trait QueryBuilder {
      * Set columns to select
      *
      * @param string|array ...$columns
-     *
      *
      * @return BaseModel|QueryBuilder
      */
@@ -312,7 +278,6 @@ trait QueryBuilder {
      *
      * @param array $data
      *
-     *
      * @return BaseModel|QueryBuilder
      */
     public function insert(array $data): self {
@@ -325,7 +290,6 @@ trait QueryBuilder {
 
     /**
      * Update to given data
-     *
      *
      * @param array $data
      *
@@ -342,7 +306,6 @@ trait QueryBuilder {
     /**
      * Delete from table
      *
-     *
      * @return BaseModel|QueryBuilder
      */
     public function delete(): self {
@@ -354,7 +317,6 @@ trait QueryBuilder {
 
     /**
      * Set WHERE condition
-     *
      *
      * @param string $column
      * @param string $operator
@@ -382,7 +344,6 @@ trait QueryBuilder {
      * @param callable $callback
      * @param string $connector
      *
-     *
      * @return BaseModel|QueryBuilder
      */
     public function where_group(callable $callback, string $connector = self::AND): self {
@@ -394,14 +355,12 @@ trait QueryBuilder {
             /**
              * WHERE conditions
              *
-             *
              * @var array
              */
             private array $_conditions = [];
 
             /**
              * Constructor
-             *
              *
              * @param string $column
              * @param string $operator
@@ -425,7 +384,6 @@ trait QueryBuilder {
 
             /**
              * Returns conditions
-             *
              *
              * @return array
              */
@@ -455,7 +413,6 @@ trait QueryBuilder {
      * @param string|null $alias
      * @param string $connector
      *
-     *
      * @return BaseModel|QueryBuilder
      */
     private function _join(
@@ -482,7 +439,6 @@ trait QueryBuilder {
     /**
      * Add INNER JOIN clause
      *
-     *
      * @param string $table
      * @param array $conditions
      * @param string|null $alias
@@ -495,7 +451,6 @@ trait QueryBuilder {
 
     /**
      * Add OUTER JOIN clause
-     *
      *
      * @param string $table
      * @param array $conditions
@@ -510,7 +465,6 @@ trait QueryBuilder {
     /**
      * Add LEFT JOIN clause
      *
-     *
      * @param string $table
      * @param array $conditions
      * @param string|null $alias
@@ -523,7 +477,6 @@ trait QueryBuilder {
 
     /**
      * Add RIGHT JOIN clause
-     *
      *
      * @param string $table
      * @param array $conditions
@@ -538,7 +491,6 @@ trait QueryBuilder {
     /**
      * Add FULL JOIN clause
      *
-     *
      * @param string $table
      * @param array $conditions
      * @param string|null $alias
@@ -551,7 +503,6 @@ trait QueryBuilder {
 
     /**
      * Add ORDER BY clause
-     *
      *
      * @param string $column
      * @param string $direction
@@ -573,7 +524,6 @@ trait QueryBuilder {
     /**
      * Add GROUP BY clause
      *
-     *
      * @param string ...$columns
      *
      * @return BaseModel|QueryBuilder
@@ -589,7 +539,6 @@ trait QueryBuilder {
 
     /**
      * Add LIMIT clause
-     *
      *
      * @param int|null $limit
      * @param int|null $offset
@@ -609,7 +558,6 @@ trait QueryBuilder {
     /**
      * Build the query
      *
-     *
      * @return array
      *
      * @throws \Exception
@@ -627,7 +575,6 @@ trait QueryBuilder {
 
     /**
      * Build SELECT query.
-     *
      *
      * @return array
      */
@@ -700,7 +647,6 @@ trait QueryBuilder {
     /**
      * Build INSERT query
      *
-     *
      * @return array
      */
     private function _build_insert(): array {
@@ -731,7 +677,6 @@ trait QueryBuilder {
     /**
      * Build UPDATE query
      *
-     *
      * @return array
      */
     private function _build_update(): array {
@@ -761,7 +706,6 @@ trait QueryBuilder {
     /**
      * Build DELETE query
      *
-     *
      * @return array
      */
     private function _build_delete(): array {
@@ -784,7 +728,6 @@ trait QueryBuilder {
 
     /**
      * Escape names depending on driver
-     *
      *
      * @param string $name
      *
@@ -814,7 +757,6 @@ trait QueryBuilder {
     /**
      * Generate a table alias
      *
-     *
      * @param string $table
      *
      * @return string
@@ -838,7 +780,6 @@ trait QueryBuilder {
 
     /**
      * Build WHERE clause
-     *
      *
      * @param array $conditions
      *
@@ -903,7 +844,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function COUNT() to the select
      *
-     *
      * @param string $column
      * @param string|null $alias
      * @param bool $only
@@ -925,7 +865,6 @@ trait QueryBuilder {
 
     /**
      * Add aggregate function SUM() to the select
-     *
      *
      * @param string $column
      * @param string|null $alias
@@ -949,7 +888,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function AVG() to the select
      *
-     *
      * @param string $column
      * @param string|null $alias
      * @param bool $only
@@ -971,7 +909,6 @@ trait QueryBuilder {
 
     /**
      * Add aggregate function MAX() to the select
-     *
      *
      * @param string $column
      * @param string|null $alias
@@ -995,7 +932,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function MIN() to the select
      *
-     *
      * @param string $column
      * @param string|null $alias
      * @param bool $only
@@ -1017,7 +953,6 @@ trait QueryBuilder {
 
     /**
      * Reset all properties after build
-     *
      *
      * @return void
      */

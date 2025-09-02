@@ -12,14 +12,12 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Index name
      *
-     *
      * @var string
      */
     private string $_name;
 
     /**
      * Index type (e.g., PRIMARY, UNIQUE, INDEX)
-     *
      *
      * @var string
      */
@@ -28,14 +26,12 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Columns included in the index
      *
-     *
      * @var array
      */
     private array $_columns;
 
     /**
      * Constructor for MysqlIndexDefinition
-     *
      *
      * @param string $type
      * @param array $columns
@@ -52,7 +48,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get name of the index
      *
-     *
      * @return string
      */
     public function get_name(): string {
@@ -61,7 +56,6 @@ class MysqlIndexDefinition implements JsonSerializable {
 
     /**
      * Get type of the index
-     *
      *
      * @return string
      */
@@ -72,7 +66,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get columns included in the index
      *
-     *
      * @return array
      */
     public function get_columns(): array {
@@ -81,7 +74,6 @@ class MysqlIndexDefinition implements JsonSerializable {
 
     /**
      * Convert the index definition to SQL query
-     *
      *
      * @return string
      */
@@ -108,7 +100,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get a unique key for comparison purposes
      *
-     *
      * @return string
      */
     public function get_comparison_key(): string {
@@ -126,7 +117,6 @@ class MysqlIndexDefinition implements JsonSerializable {
 
     /**
      * Returns JSON representation of the index definition
-     *
      *
      * @return array
      */

@@ -19,7 +19,6 @@ class ListviewController extends BaseController {
     /**
      * controller for listview
      *
-     *
      * @param BaseModel|null $model
      * @param Request $request
      * @param Response $response
@@ -32,7 +31,6 @@ class ListviewController extends BaseController {
 
     /**
      * Get pagination
-     *
      *
      * @return void
      */

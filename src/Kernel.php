@@ -33,14 +33,12 @@ class Kernel {
     /**
      * container for services
      *
-     *
      * @var Container
      */
     private Container $_container;
 
     /**
      * run of the application
-     *
      *
      * @return \Lumio\Kernel
      */
@@ -55,7 +53,6 @@ class Kernel {
 
     /**
      * run the application
-     *
      *
      * @return void
      *

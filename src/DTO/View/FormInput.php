@@ -9,14 +9,12 @@ class FormInput {
     /**
      * Input name
      *
-     *
      * @var string
      */
     private string $_name = '';
 
     /**
      * Input label
-     *
      *
      * @var string
      */
@@ -25,14 +23,12 @@ class FormInput {
     /**
      * Input ID
      *
-     *
      * @var string
      */
     private string $_id = '';
 
     /**
      * Input source
-     *
      *
      * @var array
      */
@@ -41,14 +37,12 @@ class FormInput {
     /**
      * Input searchable
      *
-     *
      * @var bool
      */
     private bool $_searchable = false;
 
     /**
      * Input default value
-     *
      *
      * @var mixed
      */
@@ -57,14 +51,12 @@ class FormInput {
     /**
      * Force default value
      *
-     *
      * @var bool
      */
     private bool $_force_default = false;
 
     /**
      * Input required
-     *
      *
      * @var bool
      */
@@ -73,14 +65,12 @@ class FormInput {
     /**
      * Input disabled
      *
-     *
      * @var bool
      */
     private bool $_disabled = false;
 
     /**
      * Input readonly
-     *
      *
      * @var bool
      */
@@ -89,14 +79,12 @@ class FormInput {
     /**
      * Input multiple
      *
-     *
      * @var bool
      */
     private bool $_multiple = false;
 
     /**
      * Input placeholder
-     *
      *
      * @var string
      */
@@ -105,14 +93,12 @@ class FormInput {
     /**
      * Input class
      *
-     *
      * @var string
      */
     private string $_class = '';
 
     /**
      * Whether the input is in a row with other inputs
-     *
      *
      * @var bool|null
      */
@@ -121,14 +107,12 @@ class FormInput {
     /**
      * Input col-* class
      *
-     *
      * @var string
      */
     private string $_class_col = '';
 
     /**
      * Input .form-group class
-     *
      *
      * @var string
      */
@@ -137,14 +121,12 @@ class FormInput {
     /**
      * Input label class
      *
-     *
      * @var string
      */
     private string $_class_label = '';
 
     /**
      * Input icon
-     *
      *
      * @var string
      */
@@ -153,14 +135,12 @@ class FormInput {
     /**
      * Input is WYSIWYG text
      *
-     *
      * @var bool
      */
     private bool $_is_wysiwyg = false;
 
     /**
      * Input align (for submit)
-     *
      *
      * @var string|null
      */
@@ -169,14 +149,12 @@ class FormInput {
     /**
      * Input data attributes
      *
-     *
      * @var array|null
      */
     private ?array $_data = [];
 
     /**
      * Input prepend add-on
-     *
      *
      * @var string|null
      */
@@ -185,7 +163,6 @@ class FormInput {
     /**
      * Input append add-on
      *
-     *
      * @var string|null
      */
     private ?string $_addon_append = null;
@@ -193,14 +170,12 @@ class FormInput {
     /**
      * Input group class
      *
-     *
      * @var string|null
      */
     private ?string $_class_input_group = null;
 
     /**
      * DTO for form input definition
-     *
      *
      * @param string $name
      * @param string $label
@@ -289,7 +264,6 @@ class FormInput {
     /**
      * Get input name
      *
-     *
      * @return string
      */
     public function get_name(): string {
@@ -298,7 +272,6 @@ class FormInput {
 
     /**
      * Get input label
-     *
      *
      * @return string
      */
@@ -309,7 +282,6 @@ class FormInput {
     /**
      * Get input ID
      *
-     *
      * @return string
      */
     public function get_id(): string {
@@ -318,7 +290,6 @@ class FormInput {
 
     /**
      * Get input source
-     *
      *
      * @return array
      */
@@ -329,7 +300,6 @@ class FormInput {
     /**
      * Get if input is searchable
      *
-     *
      * @return bool
      */
     public function is_searchable(): bool {
@@ -338,7 +308,6 @@ class FormInput {
 
     /**
      * Get input default value
-     *
      *
      * @return mixed
      */
@@ -349,7 +318,6 @@ class FormInput {
     /**
      * Get if input is forced default value
      *
-     *
      * @return bool
      */
     public function is_force_default(): bool {
@@ -358,7 +326,6 @@ class FormInput {
 
     /**
      * Get if input is required
-     *
      *
      * @return bool
      */
@@ -369,7 +336,6 @@ class FormInput {
     /**
      * Get if input is disabled
      *
-     *
      * @return bool
      */
     public function is_disabled(): bool {
@@ -378,7 +344,6 @@ class FormInput {
 
     /**
      * Get if input is readonly
-     *
      *
      * @return bool
      */
@@ -389,7 +354,6 @@ class FormInput {
     /**
      * Get if input is multiple
      *
-     *
      * @return bool
      */
     public function is_multiple(): bool {
@@ -398,7 +362,6 @@ class FormInput {
 
     /**
      * Get input placeholder
-     *
      *
      * @return string
      */
@@ -409,7 +372,6 @@ class FormInput {
     /**
      * Get input class
      *
-     *
      * @return string
      */
     public function get_class(): string {
@@ -418,7 +380,6 @@ class FormInput {
 
     /**
      * Get if input is in a row with other inputs
-     *
      *
      * @return bool|null
      */
@@ -429,7 +390,6 @@ class FormInput {
     /**
      * Get input col-* class
      *
-     *
      * @return string
      */
     public function get_class_col(): string {
@@ -438,7 +398,6 @@ class FormInput {
 
     /**
      * Get input .form-group class
-     *
      *
      * @return string
      */
@@ -449,7 +408,6 @@ class FormInput {
     /**
      * Get input label class
      *
-     *
      * @return string
      */
     public function get_class_label(): string {
@@ -458,7 +416,6 @@ class FormInput {
 
     /**
      * Get input icon
-     *
      *
      * @return string
      */
@@ -469,7 +426,6 @@ class FormInput {
     /**
      * Get if input is WYSIWYG text
      *
-     *
      * @return bool
      */
     public function is_wysiwyg(): bool {
@@ -478,7 +434,6 @@ class FormInput {
 
     /**
      * Get input align (for submit)
-     *
      *
      * @return string|null
      */
@@ -489,7 +444,6 @@ class FormInput {
     /**
      * Get input data attributes
      *
-     *
      * @return array|null
      */
     public function get_data(): ?array {
@@ -498,7 +452,6 @@ class FormInput {
 
     /**
      * Get input append add-on
-     *
      *
      * @return string|null
      */
@@ -509,7 +462,6 @@ class FormInput {
     /**
      * Get input prepend add-on
      *
-     *
      * @return string|null
      */
     public function get_addon_prepend(): ?string {
@@ -519,7 +471,6 @@ class FormInput {
     /**
      * Get input group class
      *
-     *
      * @return string|null
      */
     public function get_class_input_group(): ?string {
@@ -528,7 +479,6 @@ class FormInput {
 
     /**
      * Set input name
-     *
      *
      * @param string $name
      *
@@ -541,7 +491,6 @@ class FormInput {
     /**
      * Set input label
      *
-     *
      * @param string $label
      *
      * @return void
@@ -552,7 +501,6 @@ class FormInput {
 
     /**
      * Set input ID
-     *
      *
      * @param string $id
      *
@@ -565,7 +513,6 @@ class FormInput {
     /**
      * Set input source
      *
-     *
      * @param array $source
      *
      * @return void
@@ -576,7 +523,6 @@ class FormInput {
 
     /**
      * Set if input is searchable
-     *
      *
      * @param bool $searchable
      *
@@ -589,7 +535,6 @@ class FormInput {
     /**
      * Set input default value
      *
-     *
      * @param mixed $default
      *
      * @return void
@@ -600,7 +545,6 @@ class FormInput {
 
     /**
      * Set if input is forced default value
-     *
      *
      * @param bool $force_default
      *
@@ -613,7 +557,6 @@ class FormInput {
     /**
      * Set if input is required
      *
-     *
      * @param bool $required
      *
      * @return void
@@ -624,7 +567,6 @@ class FormInput {
 
     /**
      * Set if input is disabled
-     *
      *
      * @param bool $disabled
      *
@@ -637,7 +579,6 @@ class FormInput {
     /**
      * Set if input is readonly
      *
-     *
      * @param bool $readonly
      *
      * @return void
@@ -648,7 +589,6 @@ class FormInput {
 
     /**
      * Set input placeholder
-     *
      *
      * @param string $placeholder
      *
@@ -661,7 +601,6 @@ class FormInput {
     /**
      * Set input class
      *
-     *
      * @param string $class
      *
      * @return void
@@ -672,7 +611,6 @@ class FormInput {
 
     /**
      * Set if input is in a row with other inputs
-     *
      *
      * @param bool|null $inline
      *
@@ -685,7 +623,6 @@ class FormInput {
     /**
      * Set input col-* class
      *
-     *
      * @param string $class_col
      *
      * @return void
@@ -696,7 +633,6 @@ class FormInput {
 
     /**
      * Set input .form-group class
-     *
      *
      * @param string $class_group
      *
@@ -709,7 +645,6 @@ class FormInput {
     /**
      * Set input label class
      *
-     *
      * @param string $class_label
      *
      * @return void
@@ -720,7 +655,6 @@ class FormInput {
 
     /**
      * Set input icon
-     *
      *
      * @param string $icon
      *
@@ -733,7 +667,6 @@ class FormInput {
     /**
      * Set if input is WYSIWYG text
      *
-     *
      * @param bool $is_wysiwyg
      *
      * @return void
@@ -744,7 +677,6 @@ class FormInput {
 
     /**
      * Set input align (for submit)
-     *
      *
      * @param string|null $align
      *
@@ -757,7 +689,6 @@ class FormInput {
     /**
      * Set input data attributes
      *
-     *
      * @param array|null $data
      *
      * @return void
@@ -768,7 +699,6 @@ class FormInput {
 
     /**
      * Set input append add-on
-     *
      *
      * @param string|null $addon_append
      *
@@ -781,7 +711,6 @@ class FormInput {
     /**
      * Set input prepend add-on
      *
-     *
      * @param string|null $addon_prepend
      *
      * @return void
@@ -793,7 +722,6 @@ class FormInput {
     /**
      * Set input group class
      *
-     *
      * @param string|null $class_input_group
      *
      * @return void
@@ -804,7 +732,6 @@ class FormInput {
 
     /**
      * Check if source array is valid
-     *
      *
      * @param array $source
      *

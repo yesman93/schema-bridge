@@ -13,7 +13,6 @@ class RedirectResponse {
     /**
      * HTTP status code
      *
-     *
      * @var int
      */
     private int $_status_code;
@@ -21,14 +20,12 @@ class RedirectResponse {
     /**
      * URL
      *
-     *
      * @var string
      */
     private string $_url;
 
     /**
      * Response for redirect
-     *
      *
      * @param string $url
      * @param int $status_code
@@ -43,7 +40,6 @@ class RedirectResponse {
 
     /**
      * Normalizes URL - trimming, adding host if necessary, etc.
-     *
      *
      * @param string $url
      *
@@ -64,7 +60,6 @@ class RedirectResponse {
 
     /**
      * Check if the host is allowed
-     *
      *
      * @return bool
      */
@@ -91,7 +86,6 @@ class RedirectResponse {
     /**
      * Get host from the URL
      *
-     *
      * @return string
      */
     public function get_host(): string {
@@ -100,7 +94,6 @@ class RedirectResponse {
 
     /**
      * Get HTTP status code
-     *
      *
      * @return int
      */
@@ -111,7 +104,6 @@ class RedirectResponse {
     /**
      * Get URL
      *
-     *
      * @return string
      */
     public function get_url(): string {
@@ -120,7 +112,6 @@ class RedirectResponse {
 
     /**
      * Set error message to show after redirect
-     *
      *
      * @param string $message
      *
@@ -134,7 +125,6 @@ class RedirectResponse {
     /**
      * Set success message to show after redirect
      *
-     *
      * @param string $message
      *
      * @return self
@@ -147,7 +137,6 @@ class RedirectResponse {
     /**
      * Set info message to show after redirect
      *
-     *
      * @param string $message
      *
      * @return self
@@ -159,7 +148,6 @@ class RedirectResponse {
 
     /**
      * Set warning message to show after redirect
-     *
      *
      * @param string $message
      *

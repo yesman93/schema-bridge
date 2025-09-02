@@ -9,7 +9,6 @@ trait Pagination {
     /**
      * Switch for pagination
      *
-     *
      * @var bool
      */
     private bool $_is_pagination_enabled = true;
@@ -53,7 +52,6 @@ trait Pagination {
     /**
      * Enable or disable pagination
      *
-     *
      * @param bool $is_enabled
      *
      * @return self
@@ -67,7 +65,6 @@ trait Pagination {
 
     /**
      * Set the current page
-     *
      *
      * @param int|string $page
      *
@@ -83,7 +80,6 @@ trait Pagination {
     /**
      * Set the number of records per page
      *
-     *
      * @param int $records
      *
      * @return self
@@ -97,7 +93,6 @@ trait Pagination {
 
     /**
      * Initialize pagination
-     *
      *
      * @return void
      *
@@ -114,7 +109,6 @@ trait Pagination {
     /**
      * Returns if pagination is enabled
      *
-     *
      * @return bool
      */
     public function is_paginate() : bool {
@@ -123,7 +117,6 @@ trait Pagination {
 
     /**
      * Get total records
-     *
      *
      * @return int
      */
@@ -145,7 +138,6 @@ trait Pagination {
     /**
      * Get records per page
      *
-     *
      * @return int
      */
     public function get_per_page(): int {
@@ -154,7 +146,6 @@ trait Pagination {
 
     /**
      * Generate LIMIT and OFFSET for current pagination settings
-     *
      *
      * @return array
      */
@@ -171,7 +162,6 @@ trait Pagination {
 
     /**
      * Is the total requested?
-     *
      *
      * @return bool
      */

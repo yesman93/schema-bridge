@@ -11,7 +11,6 @@ class FileResponse {
     /**
      * File path
      *
-     *
      * @var string
      */
     private string $_file_path;
@@ -19,14 +18,12 @@ class FileResponse {
     /**
      * File name
      *
-     *
      * @var string
      */
     private string $_file_name;
 
     /**
      * Response for file download
-     *
      *
      * @param string $file_path
      * @param string|null $file_name
@@ -41,7 +38,6 @@ class FileResponse {
     /**
      * Get file path
      *
-     *
      * @return string
      */
     public function get_file_path(): string {
@@ -50,7 +46,6 @@ class FileResponse {
 
     /**
      * Get file name
-     *
      *
      * @return string
      */
@@ -61,7 +56,6 @@ class FileResponse {
     /**
      * Get file mime type
      *
-     *
      * @return string
      */
     public function get_mime_type(): string {
@@ -70,7 +64,6 @@ class FileResponse {
 
     /**
      * Get file size
-     *
      *
      * @return int
      */

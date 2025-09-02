@@ -7,14 +7,12 @@ trait Master {
     /**
      * Master page - public
      *
-     *
      * @var string
      */
     public const string MASTER_PUBLIC = 'public';
 
     /**
      * Master page - private
-     *
      *
      * @var string
      */
@@ -23,7 +21,6 @@ trait Master {
     /**
      * Master page - modal
      *
-     *
      * @var string
      */
     public const string MASTER_MODAL = 'modal';
@@ -31,14 +28,12 @@ trait Master {
     /**
      * Master page - empty
      *
-     *
      * @var string
      */
     public const string MASTER_EMPTY = 'empty';
 
     /**
      * Master page - error
-     *
      *
      * @var string
      */

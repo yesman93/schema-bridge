@@ -18,7 +18,6 @@ class CSRFMiddleware {
     /**
      * Handle CSRF validation
      *
-     *
      * @param Container $container
      * @param callable $next
      *

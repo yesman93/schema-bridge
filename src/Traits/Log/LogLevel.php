@@ -7,14 +7,12 @@ trait LogLevel {
     /**
      * Log level - emergency
      *
-     *
      * @var string
      */
     private const _LEVEL_EMERGENCY = 'emergency';
 
     /**
      * Log level - alert
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ trait LogLevel {
     /**
      * Log level - critical
      *
-     *
      * @var string
      */
     private const _LEVEL_CRITICAL = 'critical';
 
     /**
      * Log level - error
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ trait LogLevel {
     /**
      * Log level - warning
      *
-     *
      * @var string
      */
     private const _LEVEL_WARNING = 'warning';
 
     /**
      * Log level - notice
-     *
      *
      * @var string
      */
@@ -55,7 +49,6 @@ trait LogLevel {
     /**
      * Log level - info
      *
-     *
      * @var string
      */
     private const _LEVEL_INFO = 'info';
@@ -63,14 +56,12 @@ trait LogLevel {
     /**
      * Log level - debug
      *
-     *
      * @var string
      */
     private const _LEVEL_DEBUG = 'debug';
 
     /**
      * Get human-readable description of given log level
-     *
      *
      * @param string $level
      *
@@ -94,7 +85,6 @@ trait LogLevel {
     /**
      * Get all supported log levels
      *
-     *
      * @return array
      */
     protected static function _levels() : array {
@@ -113,7 +103,6 @@ trait LogLevel {
 
     /**
      * Get all supported log levels as options for select input
-     *
      *
      * @param bool $first_empty
      *
@@ -140,7 +129,6 @@ trait LogLevel {
 
     /**
      * Get color class for given log level
-     *
      *
      * @param string $level
      *

@@ -7,7 +7,6 @@ class RequestSanitizer {
     /**
      * Sanitize a string value
      *
-     *
      * @param mixed $value
      *
      * @return string
@@ -24,7 +23,6 @@ class RequestSanitizer {
     /**
      * Sanitize an integer value
      *
-     *
      * @param mixed $value
      *
      * @return int
@@ -35,7 +33,6 @@ class RequestSanitizer {
 
     /**
      * Sanitize an array recursively
-     *
      *
      * @param mixed $value
      *
@@ -52,7 +49,6 @@ class RequestSanitizer {
 
     /**
      * General sanitize function based on type
-     *
      *
      * @param mixed $value
      *
@@ -73,7 +69,6 @@ class RequestSanitizer {
 
     /**
      * Sanitize values in the $_SERVER array
-     *
      *
      * @param array $array
      *

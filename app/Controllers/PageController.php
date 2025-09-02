@@ -13,7 +13,6 @@ class PageController extends BaseController {
     /**
      * Controller for pages
      *
-     *
      * @param BaseModel|null $model
      * @param Request $request
      * @param Response $response

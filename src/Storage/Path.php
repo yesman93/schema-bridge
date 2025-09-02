@@ -12,7 +12,6 @@ class Path {
      *
      * This method returns the private storage path, optionally appending a subpath
      *
-     *
      * @param string $subpath
      *
      * @return string
@@ -29,7 +28,6 @@ class Path {
      *
      * This method returns the public storage path, optionally appending a subpath
      *
-     *
      * @param string $subpath
      *
      * @return string
@@ -44,7 +42,6 @@ class Path {
     /**
      * Get path for uploaded files
      *
-     *
      * @return string
      *
      * @throws Exception
@@ -56,7 +53,6 @@ class Path {
     /**
      * Get path for documents
      *
-     *
      * @return string
      *
      * @throws Exception
@@ -67,7 +63,6 @@ class Path {
 
     /**
      * Get path for public images
-     *
      *
      * @return string
      *

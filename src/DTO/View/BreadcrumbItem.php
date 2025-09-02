@@ -7,7 +7,6 @@ class BreadcrumbItem {
     /**
      * URL of the breadcrumb item
      *
-     *
      * @var string
      */
     private string $_url = '';
@@ -15,14 +14,12 @@ class BreadcrumbItem {
     /**
      * Label of the breadcrumb item
      *
-     *
      * @var string|null
      */
     private ?string $_label = null;
 
     /**
      * Breadcrumb item
-     *
      *
      * @param string $url
      * @param string|null $label
@@ -38,7 +35,6 @@ class BreadcrumbItem {
     /**
      * Get URL of the breadcrumb item
      *
-     *
      * @return string
      */
     public function get_url(): string {
@@ -48,7 +44,6 @@ class BreadcrumbItem {
     /**
      * Get label of the breadcrumb item
      *
-     *
      * @return string
      */
     public function get_label(): string {
@@ -57,7 +52,6 @@ class BreadcrumbItem {
 
     /**
      * Check if given breadcrumb item is the same as this one
-     *
      *
      * @param BreadcrumbItem $item
      *

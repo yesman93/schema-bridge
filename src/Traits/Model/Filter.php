@@ -9,14 +9,12 @@ trait Filter {
     /**
      * Filter data
      *
-     *
      * @var array|null
      */
     private ?array $_filter_data = null;
 
     /**
      * Set given filter. If its a search query, set it to the search query instead of filter data
-     *
      *
      * @param string $name
      * @param mixed $value
@@ -34,7 +32,6 @@ trait Filter {
 
     /**
      * Set given filter data. If ti contains a search query, set it to the search query instead of filter data
-     *
      *
      * @param array $data
      *
@@ -58,7 +55,6 @@ trait Filter {
 
     /**
      * Replace current filter data with given data. If it contains a search query, set it to the search query instead of filter data
-     *
      *
      * @param array $data
      *

@@ -7,14 +7,12 @@ class Pagination {
     /**
      * Current page
      *
-     *
      * @var int
      */
     private int $_page;
 
     /**
      * Records per page
-     *
      *
      * @var int
      */
@@ -23,14 +21,12 @@ class Pagination {
     /**
      * Total number of records
      *
-     *
      * @var int
      */
     private int $_total;
 
     /**
      * DTO for pagination parameters
-     *
      *
      * @param int $page
      * @param int $per_page
@@ -47,7 +43,6 @@ class Pagination {
     /**
      * Get current page
      *
-     *
      * @return int
      */
     public function get_page(): int {
@@ -56,7 +51,6 @@ class Pagination {
 
     /**
      * Get records per page
-     *
      *
      * @return int
      */
@@ -67,7 +61,6 @@ class Pagination {
     /**
      * Get total records
      *
-     *
      * @return int
      */
     public function get_total(): int {
@@ -76,7 +69,6 @@ class Pagination {
 
     /**
      * Get total number of pages
-     *
      *
      * @return int
      */

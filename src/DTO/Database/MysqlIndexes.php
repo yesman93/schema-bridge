@@ -9,14 +9,12 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Indexes
      *
-     *
      * @var MysqlIndexDefinition[]
      */
     private array $_indexes = [];
 
     /**
      * Adds an index to the collection
-     *
      *
      * @param MysqlIndexDefinition $index
      *
@@ -29,7 +27,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Get all indexes
      *
-     *
      * @return MysqlIndexDefinition[]
      */
     public function get_indexes(): array {
@@ -39,7 +36,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Get an iterator for the indexes
      *
-     *
      * @return \Traversable
      */
     public function getIterator(): \Traversable {
@@ -48,7 +44,6 @@ class MysqlIndexes implements \IteratorAggregate {
 
     /**
      * Converts the indexes to SQL query
-     *
      *
      * @return string
      */

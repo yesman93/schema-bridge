@@ -7,14 +7,12 @@ class FormSetup {
     /**
      * Form action
      *
-     *
      * @var string
      */
     private string $_action;
 
     /**
      * Form enctype
-     *
      *
      * @var string|null
      */
@@ -23,14 +21,12 @@ class FormSetup {
     /**
      * Form wrapper class
      *
-     *
      * @var string
      */
     private string $_class_wrapper;
 
     /**
      * Form card class
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ class FormSetup {
     /**
      * Form header class
      *
-     *
      * @var string
      */
     private string $_class_header;
 
     /**
      * Form body class
-     *
      *
      * @var string
      */
@@ -55,14 +49,12 @@ class FormSetup {
     /**
      * Form class
      *
-     *
      * @var string
      */
     private string $_class;
 
     /**
      * Form id
-     *
      *
      * @var string
      */
@@ -71,14 +63,12 @@ class FormSetup {
     /**
      * Form data
      *
-     *
      * @var array
      */
     private array $_data;
 
     /**
      * Form data id
-     *
      *
      * @var string
      */
@@ -87,7 +77,6 @@ class FormSetup {
     /**
      * Form is card
      *
-     *
      * @var bool|null
      */
     private ?bool $is_card;
@@ -95,14 +84,12 @@ class FormSetup {
     /**
      * Form show title
      *
-     *
      * @var bool|null
      */
     private ?bool $show_title;
 
     /**
      * Form setup
-     *
      *
      * @param array $data
      * @param string $data_id
@@ -150,7 +137,6 @@ class FormSetup {
     /**
      * Get action
      *
-     *
      * @return string
      */
     public function get_action(): string {
@@ -159,7 +145,6 @@ class FormSetup {
 
     /**
      * Get enctype
-     *
      *
      * @return string|null
      */
@@ -170,7 +155,6 @@ class FormSetup {
     /**
      * Get wrapper class
      *
-     *
      * @return string
      */
     public function get_class_wrapper(): string {
@@ -179,7 +163,6 @@ class FormSetup {
 
     /**
      * Get card class
-     *
      *
      * @return string
      */
@@ -190,7 +173,6 @@ class FormSetup {
     /**
      * Get header class
      *
-     *
      * @return string
      */
     public function get_class_header(): string {
@@ -199,7 +181,6 @@ class FormSetup {
 
     /**
      * Get body class
-     *
      *
      * @return string
      */
@@ -210,7 +191,6 @@ class FormSetup {
     /**
      * Get form class
      *
-     *
      * @return string
      */
     public function get_class(): string {
@@ -219,7 +199,6 @@ class FormSetup {
 
     /**
      * Get form id
-     *
      *
      * @return string
      */
@@ -230,7 +209,6 @@ class FormSetup {
     /**
      * Get form data
      *
-     *
      * @return array
      */
     public function get_data(): array {
@@ -239,7 +217,6 @@ class FormSetup {
 
     /**
      * Get form data id
-     *
      *
      * @return string
      */
@@ -250,7 +227,6 @@ class FormSetup {
     /**
      * Get whether the form is a card
      *
-     *
      * @return bool|null
      */
     public function is_card(): ?bool {
@@ -259,7 +235,6 @@ class FormSetup {
 
     /**
      * Get whether to show the title
-     *
      *
      * @return bool|null
      */

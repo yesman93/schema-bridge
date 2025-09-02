@@ -7,14 +7,12 @@ class FormReadableValue {
     /**
      * Name of the input
      *
-     *
      * @var string
      */
     private string $_name = '';
 
     /**
      * Readable value of the input
-     *
      *
      * @var mixed
      */
@@ -23,14 +21,12 @@ class FormReadableValue {
     /**
      * Label of the input
      *
-     *
      * @var string
      */
     private string $_label = '';
 
     /**
      * Stored readable selected/filled value of the form input
-     *
      *
      * @param string $name
      * @param mixed $value
@@ -48,7 +44,6 @@ class FormReadableValue {
     /**
      * Get the name of the input
      *
-     *
      * @return string
      */
     public function get_name(): string {
@@ -58,7 +53,6 @@ class FormReadableValue {
     /**
      * Get the value of the input
      *
-     *
      * @return mixed
      */
     public function get_value(): mixed {
@@ -67,7 +61,6 @@ class FormReadableValue {
 
     /**
      * Get the label of the input
-     *
      *
      * @return string
      */

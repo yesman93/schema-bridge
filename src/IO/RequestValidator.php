@@ -16,14 +16,12 @@ class RequestValidator {
     /**
      * Indicator if the request is valid
      *
-     *
      * @var bool
      */
     protected static bool $is_valid = true;
 
     /**
      * Validate given request based on given model
-     *
      *
      * @param Request $request
      * @param BaseModel  $model
@@ -71,7 +69,6 @@ class RequestValidator {
     /**
      * Get if the request is valid
      *
-     *
      * @return bool
      */
     public static function is_valid(): bool {
@@ -80,7 +77,6 @@ class RequestValidator {
 
     /**
      * Validate given value based on given type
-     *
      *
      * @param mixed $value
      * @param string $type
@@ -121,7 +117,6 @@ class RequestValidator {
     /**
      * Get given type specific error message
      *
-     *
      * @param string $type
      * @return string
      */
@@ -161,7 +156,6 @@ class RequestValidator {
 
     /**
      * Validate given value based on given name
-     *
      *
      * @param mixed $value
      * @param string $name

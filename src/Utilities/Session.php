@@ -7,7 +7,6 @@ class Session {
     /**
      * Start a session
      *
-     *
      * @return void
      */
     public static function start(): void {
@@ -19,7 +18,6 @@ class Session {
 
     /**
      * Set a session value
-     *
      *
      * @param string $key
      * @param mixed $value
@@ -33,7 +31,6 @@ class Session {
     /**
      * Get a session value
      *
-     *
      * @param string $key
      *
      * @return mixed
@@ -44,7 +41,6 @@ class Session {
 
     /**
      * Check if given session key exists
-     *
      *
      * @param string $key
      *
@@ -57,7 +53,6 @@ class Session {
     /**
      * Erase a session key
      *
-     *
      * @param string $key
      *
      * @return void
@@ -68,7 +63,6 @@ class Session {
 
     /**
      * Get and erase a session value
-     *
      *
      * @param string $key
      *
@@ -85,7 +79,6 @@ class Session {
     /**
      * Destroy the session
      *
-     *
      * @return void
      */
     public static function destroy(): void {
@@ -94,7 +87,6 @@ class Session {
 
     /**
      * Add a value to array in session
-     *
      *
      * @param string $key
      * @param mixed $value
@@ -124,7 +116,6 @@ class Session {
 
     /**
      * Remove a value from array in session
-     *
      *
      * @param string $key
      * @param mixed $value
@@ -156,7 +147,6 @@ class Session {
     /**
      * Check if value is in session array
      *
-     *
      * @param string $key
      * @param mixed $needle
      *
@@ -171,7 +161,6 @@ class Session {
 
     /**
      * Regenerate session ID and keep session data
-     *
      *
      * @return void
      */

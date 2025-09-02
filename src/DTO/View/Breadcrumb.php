@@ -7,14 +7,12 @@ class Breadcrumb {
     /**
      * Breadcrumb items
      *
-     *
      * @var BreadcrumbItem[]
      */
     protected array $_items = [];
 
     /**
      * Add breadcrumb item
-     *
      *
      * @param BreadcrumbItem $item
      *
@@ -27,7 +25,6 @@ class Breadcrumb {
     /**
      * Clear all breadcrumb items
      *
-     *
      * @return void
      */
     public function clear(): void {
@@ -36,7 +33,6 @@ class Breadcrumb {
 
     /**
      * Get all breadcrumb items
-     *
      *
      * @return array
      */
@@ -47,7 +43,6 @@ class Breadcrumb {
     /**
      * Get the last breadcrumb item
      *
-     *
      * @return BreadcrumbItem|null
      */
     public function last(): ?BreadcrumbItem {
@@ -57,7 +52,6 @@ class Breadcrumb {
     /**
      * Get count of breadcrumb items
      *
-     *
      * @return int
      */
     public function count(): int {
@@ -66,7 +60,6 @@ class Breadcrumb {
 
     /**
      * Check if breadcrumb ends with given item
-     *
      *
      * @param BreadcrumbItem $item
      *

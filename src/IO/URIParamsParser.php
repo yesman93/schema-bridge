@@ -10,14 +10,12 @@ class URIParamsParser {
     /**
      * Prefix for array keys in filter
      *
-     *
      * @var string
      */
     private const string _ARRAY_PREFIX = '~';
 
     /**
      * Separator for key-value pairs in filter
-     *
      *
      * @var string
      */
@@ -26,7 +24,6 @@ class URIParamsParser {
     /**
      * Separator for pairs in filter
      *
-     *
      * @var string
      */
     private const string _SEPARATOR_PAIR = ';';
@@ -34,14 +31,12 @@ class URIParamsParser {
     /**
      * Separator for column-direction pairs in ordering
      *
-     *
      * @var string
      */
     private const string _SEPARATOR_SORTING = '-';
 
     /**
      * Parse segments from URI, recognize page, filters and sorting, and apply it to the request object
-     *
      *
      * @param array $params (by reference)
      * @param Request $request (by reference)
@@ -138,7 +133,6 @@ class URIParamsParser {
     /**
      * Build filter URI string from given filter data
      *
-     *
      * @param array $filter_data
      *
      * @return string
@@ -169,7 +163,6 @@ class URIParamsParser {
     /**
      * Build sorting URI string from given sorting object
      *
-     *
      * @param Sorting|null $sorting
      *
      * @return string
@@ -185,7 +178,6 @@ class URIParamsParser {
 
     /**
      * Build base URI for the given controller, action and optional realm
-     *
      *
      * @param string $controller
      * @param string $action
@@ -210,7 +202,6 @@ class URIParamsParser {
 
     /**
      * Build URI based on the given params
-     *
      *
      * @param string $controller
      * @param string $action
@@ -257,7 +248,6 @@ class URIParamsParser {
     /**
      * Detect if given string is a filter string - contains at least one filter key-value pair
      *
-     *
      * @param string $string
      *
      * @return bool
@@ -277,7 +267,6 @@ class URIParamsParser {
 
     /**
      * Detect if given string is a sorting string - contains at least one column-direction pair
-     *
      *
      * @param string $string
      *
@@ -300,7 +289,6 @@ class URIParamsParser {
     /**
      * Sanitize sorting.
      * Check if the column name is valid and does not contain any potentially dangerous characters and the direction is either ASC or DESC
-     *
      *
      * @param string $column
      * @param string $direction

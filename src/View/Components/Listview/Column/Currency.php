@@ -9,14 +9,12 @@ class Currency extends Column {
     /**
      * Currency symbol
      *
-     *
      * @var string
      */
     protected string $_currency;
 
     /**
      * Currency column
-     *
      *
      * @param string $name
      * @param string $label
@@ -33,7 +31,6 @@ class Currency extends Column {
 
     /**
      * Get HTML of the currency column
-     *
      *
      * @param mixed $row
      *

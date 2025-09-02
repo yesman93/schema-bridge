@@ -7,7 +7,6 @@ class LumioQueryException extends \Exception {
     /**
      * Exception for query errors
      *
-     *
      * @param string $message
      * @param int $code
      * @param Throwable|null $previous

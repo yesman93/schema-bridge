@@ -21,14 +21,12 @@ class View {
     /**
      * Variables accessible in the view
      *
-     *
      * @var array
      */
     protected array $_vars = [];
 
     /**
      * Rendered template content
-     *
      *
      * @var string
      */
@@ -37,14 +35,12 @@ class View {
     /**
      * Master page
      *
-     *
      * @var string
      */
     protected string $_master_page = '';
 
     /**
      * Realm name
-     *
      *
      * @var string
      */
@@ -53,14 +49,12 @@ class View {
     /**
      * Controller name
      *
-     *
      * @var string
      */
     protected string $_controller = '';
 
     /**
      * Action name
-     *
      *
      * @var string
      */
@@ -69,14 +63,12 @@ class View {
     /**
      * Request object
      *
-     *
      * @var Request|null
      */
     protected ?Request $_request = null;
 
     /**
      * Additional params from URI
-     *
      *
      * @var array|null
      */
@@ -85,14 +77,12 @@ class View {
     /**
      * CSS files to include
      *
-     *
      * @var array
      */
     protected array $_css_files = [];
 
     /**
      * JS files to include
-     *
      *
      * @var array
      */
@@ -101,14 +91,12 @@ class View {
     /**
      * Pagination
      *
-     *
      * @var Pagination
      */
     protected Pagination $_pagination;
 
     /**
      * CSRF token
-     *
      *
      * @var string
      */
@@ -117,14 +105,12 @@ class View {
     /**
      * CSRF token form field name
      *
-     *
      * @var string
      */
     protected string $_csrf_field = '';
 
     /**
      * View - rendering engine
-     *
      *
      * @param string|null $controller
      * @param string|null $action
@@ -150,7 +136,6 @@ class View {
     /**
      * Set the title of the view
      *
-     *
      * @param string $title
      *
      * @return void
@@ -162,7 +147,6 @@ class View {
 
     /**
      * Set the pagination
-     *
      *
      * @param Pagination $pagination
      *
@@ -176,7 +160,6 @@ class View {
     /**
      * Assign a value to the view
      *
-     *
      * @param string $key
      * @param mixed $value
      *
@@ -188,7 +171,6 @@ class View {
 
     /**
      * Set the realm
-     *
      *
      * @param string $realm
      *
@@ -202,7 +184,6 @@ class View {
     /**
      * Set the controller
      *
-     *
      * @param string $controller
      *
      * @return void
@@ -213,7 +194,6 @@ class View {
 
     /**
      * Set the action
-     *
      *
      * @param string $action
      *
@@ -226,7 +206,6 @@ class View {
     /**
      * Set URI params
      *
-     *
      * @param array $params
      *
      * @return void
@@ -238,7 +217,6 @@ class View {
 
     /**
      * Set the master page
-     *
      *
      * @param string $master_page
      *
@@ -264,7 +242,6 @@ class View {
     /**
      * Add a CSS file to the view
      *
-     *
      * @param string $path
      *
      * @return void
@@ -284,7 +261,6 @@ class View {
 
     /**
      * Add a JS file to the view
-     *
      *
      * @param string $path
      *
@@ -306,7 +282,6 @@ class View {
     /**
      * Get a variable from the view - enables direct access to view variables property style
      *
-     *
      * @param string $key
      *
      * @return mixed
@@ -317,7 +292,6 @@ class View {
 
     /**
      * Render the view
-     *
      *
      * @return void
      *
@@ -365,7 +339,6 @@ class View {
     /**
      * Get content of the rendered template
      *
-     *
      * @return string
      */
     public function content(): string {
@@ -374,7 +347,6 @@ class View {
 
     /**
      * Minify HTML content
-     *
      *
      * @param string $html
      *
@@ -396,7 +368,6 @@ class View {
     /**
      * Include a partial view
      *
-     *
      * @param string $partial_name
      *
      * @return void
@@ -416,7 +387,6 @@ class View {
 
     /**
      * Load common assets from config
-     *
      *
      * @return void
      *
@@ -457,7 +427,6 @@ class View {
     /**
      * Include CSS files in the view
      *
-     *
      * @return void
      *
      * @throws \Exception
@@ -477,7 +446,6 @@ class View {
     /**
      * Include JS files in the view
      *
-     *
      * @return void
      *
      * @throws \Exception
@@ -496,7 +464,6 @@ class View {
 
     /**
      * Render and run flash messages
-     *
      *
      * @return void
      */
@@ -568,7 +535,6 @@ class View {
     /**
      * Set given CSRF token and form field name
      *
-     *
      * @param string $token
      * @param string $field
      *
@@ -586,7 +552,6 @@ class View {
     /**
      * Set breadcrumbs to view components
      *
-     *
      * @param Breadcrumb $breadcrumb
      *
      * @return void
@@ -597,7 +562,6 @@ class View {
 
     /**
      * Render CSRF token in meta tag
-     *
      *
      * @return void
      */

@@ -10,7 +10,6 @@ class MiddlewareRunner {
     /**
      * Run given middleware stack
      *
-     *
      * @param MiddlewareContract[] $middleware_stack
      * @param Container $container
      * @param callable $final_handler

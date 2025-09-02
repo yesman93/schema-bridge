@@ -7,7 +7,6 @@ class LumioErrorException extends \Exception {
     /**
      * Error message
      *
-     *
      * @var string
      */
     private string $_message;
@@ -15,14 +14,12 @@ class LumioErrorException extends \Exception {
     /**
      * Name that the message is related to
      *
-     *
      * @var string
      */
     private string $_name = '';
 
     /**
      * Exception for error messages
-     *
      *
      * @param string $message
      * @param string|null $name
@@ -40,7 +37,6 @@ class LumioErrorException extends \Exception {
     /**
      * Get error message
      *
-     *
      * @return string
      */
     public function get_message(): string {
@@ -49,7 +45,6 @@ class LumioErrorException extends \Exception {
 
     /**
      * Get name that the message is related to
-     *
      *
      * @return string
      */

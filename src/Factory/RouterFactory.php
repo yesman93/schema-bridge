@@ -12,7 +12,6 @@ class RouterFactory {
     /**
      * Make a new router
      *
-     *
      * @param Container $container
      * @param string|null $uri
      *

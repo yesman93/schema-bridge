@@ -5,14 +5,12 @@
  * Automatically appends modal HTML on first use. Includes support for
  * sizing, keyboard handling, and progress indication during load.
  *
- *
  */
 Object.defineProperty(window, 'Modalio', {
 
     /**
      * Prevents reconfiguration of the 'progressbar' property on window.
      * Ensures the singleton definition cannot be changed or deleted.
-     *
      *
      * @type {Boolean}
      */
@@ -21,7 +19,6 @@ Object.defineProperty(window, 'Modalio', {
     /**
      * Hides the 'progressbar' property from enumeration (e.g. for...in or Object.keys()).
      * Makes it invisible in most reflective operations.
-     *
      *
      * @type {Boolean}
      */
@@ -32,7 +29,6 @@ Object.defineProperty(window, 'Modalio', {
      * First access to window.Modalio initializes the Progressbar instance,
      * subsequent accesses return the cached singleton.
      *
-     *
      * @returns {Modalio} Singleton instance of the modal management.
      */
     get: (function () {
@@ -40,7 +36,6 @@ Object.defineProperty(window, 'Modalio', {
         /**
          * Internal cached instance of the Modalio singleton.
          * Lazily initialized upon first access to `window.Modalio`.
-         *
          *
          * @type {Object|null}
          */
@@ -57,14 +52,12 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Modal container ID selector.
                  *
-                 *
                  * @type {string}
                  */
                 modal_id: 'general_modal',
 
                 /**
                  * Confirmation modal ID.
-                 *
                  *
                  * @type {string}
                  */
@@ -73,14 +66,12 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Alert modal ID.
                  *
-                 *
                  * @type {string}
                  */
                 alert_modal_id: 'alert_modal',
 
                 /**
                  * Opens iframe modal with the given URL.
-                 *
                  *
                  * @param {String} url
                  * @param {String} size_class Bootstrap modal size class (e.g. modal-lg)
@@ -112,7 +103,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Resize iframe modal content based on iframe body height.
                  *
-                 *
                  * @returns {void}
                  */
                 _resize() {
@@ -133,7 +123,6 @@ Object.defineProperty(window, 'Modalio', {
 
                 /**
                  * Opens a confirmation modal.
-                 *
                  *
                  * @param {String} message
                  * @param {Function|null} on_ok
@@ -176,7 +165,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Opens an alert modal.
                  *
-                 *
                  * @param {String} message
                  * @param {Function|null} on_close
                  *
@@ -207,7 +195,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Closes the iframe modal.
                  *
-                 *
                  * @returns {void}
                  */
                 close() {
@@ -223,7 +210,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Closes the confirmation modal.
                  *
-                 *
                  * @returns {void}
                  */
                 close_confirm() {
@@ -233,7 +219,6 @@ Object.defineProperty(window, 'Modalio', {
 
                 /**
                  * Closes the alert modal.
-                 *
                  *
                  * @returns {void}
                  */
@@ -245,7 +230,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Initializes event listeners for modals.
                  * Handles ESC and ENTER keys for confirm/alert modals.
-                 *
                  *
                  * @returns {void}
                  */
@@ -290,7 +274,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Ensures that iframe modal HTML structure is in the DOM.
                  *
-                 *
                  * @returns {void}
                  */
                 _ensure_modal_html() {
@@ -313,7 +296,6 @@ Object.defineProperty(window, 'Modalio', {
 
                 /**
                  * Ensure the confirm modal exists in the DOM.
-                 *
                  *
                  * @private
                  * @returns {void}
@@ -342,7 +324,6 @@ Object.defineProperty(window, 'Modalio', {
 
                 /**
                  * Ensure the alert modal exists in the DOM.
-                 *
                  *
                  * @private
                  * @returns {void}

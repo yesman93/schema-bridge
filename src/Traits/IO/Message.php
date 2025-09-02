@@ -7,14 +7,12 @@ trait Message {
     /**
      * Errors
      *
-     *
      * @var array
      */
     private static array $_errors = [];
 
     /**
      * Successes
-     *
      *
      * @var array
      */
@@ -23,7 +21,6 @@ trait Message {
     /**
      * Infos
      *
-     *
      * @var array
      */
     private static array $_infos = [];
@@ -31,14 +28,12 @@ trait Message {
     /**
      * Warnings
      *
-     *
      * @var array
      */
     private static array $_warnings = [];
 
     /**
      * Add error message
-     *
      *
      * @param string $message
      * @param string $name
@@ -52,7 +47,6 @@ trait Message {
     /**
      * Add success message
      *
-     *
      * @param string $message
      * @param string $name
      *
@@ -64,7 +58,6 @@ trait Message {
 
     /**
      * Add info message
-     *
      *
      * @param string $message
      * @param string $name
@@ -78,7 +71,6 @@ trait Message {
     /**
      * Add warning message
      *
-     *
      * @param string $message
      * @param string $name
      *
@@ -91,7 +83,6 @@ trait Message {
     /**
      * Get error messages
      *
-     *
      * @param string|null $name
      *
      * @return array
@@ -102,7 +93,6 @@ trait Message {
 
     /**
      * Get success messages
-     *
      *
      * @param string|null $name
      *
@@ -115,7 +105,6 @@ trait Message {
     /**
      * Get info messages
      *
-     *
      * @param string|null $name
      *
      * @return array
@@ -126,7 +115,6 @@ trait Message {
 
     /**
      * Get warning messages
-     *
      *
      * @param string|null $name
      *

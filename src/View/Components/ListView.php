@@ -16,14 +16,12 @@ class ListView extends Component {
     /**
      * Columns
      *
-     *
      * @var array
      */
     private array $_columns = [];
 
     /**
      * Buttons
-     *
      *
      * @var array
      */
@@ -32,14 +30,12 @@ class ListView extends Component {
     /**
      * Actions
      *
-     *
      * @var array
      */
     private array $_actions = [];
 
     /**
      * Data for rendering the rows
-     *
      *
      * @var array|null
      */
@@ -48,14 +44,12 @@ class ListView extends Component {
     /**
      * Text to be rendered if there is no data
      *
-     *
      * @var string|null
      */
     private ?string $_empty_text = null;
 
     /**
      * Filter name
-     *
      *
      * @var string|null
      */
@@ -64,14 +58,12 @@ class ListView extends Component {
     /**
      * Filter enabled
      *
-     *
      * @var bool
      */
     private bool $_filter = false;
 
     /**
      * Search enabled
-     *
      *
      * @var bool
      */
@@ -80,14 +72,12 @@ class ListView extends Component {
     /**
      * Pagination enabled
      *
-     *
      * @var bool
      */
     private bool $_paginate = false;
 
     /**
      * Show title
-     *
      *
      * @var bool
      */
@@ -96,14 +86,12 @@ class ListView extends Component {
     /**
      * Title
      *
-     *
      * @var string|null
      */
     private ?string $_listview_title = null;
 
     /**
      * Export to XLS enabled
-     *
      *
      * @var bool
      */
@@ -112,14 +100,12 @@ class ListView extends Component {
     /**
      * Export to CSV enabled
      *
-     *
      * @var bool
      */
     private bool $_export_csv = false;
 
     /**
      * Checkers enabled
-     *
      *
      * @var bool
      */
@@ -128,14 +114,12 @@ class ListView extends Component {
     /**
      * Key for retrieving value from the row for checker value
      *
-     *
      * @var string|null
      */
     private ?string $_checker_key = null;
 
     /**
      * Checkers input name
-     *
      *
      * @var string|null
      */
@@ -144,14 +128,12 @@ class ListView extends Component {
     /**
      * Summary row columns
      *
-     *
      * @var array
      */
     private array $_summary_columns = [];
 
     /**
      * Applied filters (stored readable values from the filter form)
-     *
      *
      * @var array
      */
@@ -160,7 +142,6 @@ class ListView extends Component {
     /**
      * Current full URI including page number and applied filters
      *
-     *
      * @var string
      */
     private string $_uri = '';
@@ -168,14 +149,12 @@ class ListView extends Component {
     /**
      * Show the share button
      *
-     *
      * @var bool
      */
     private bool $_share = true;
 
     /**
      * Create the listview component instance
-     *
      *
      * @param array|null $data
      *
@@ -203,7 +182,6 @@ class ListView extends Component {
     /**
      * Set the URI
      *
-     *
      * @param string|null $uri
      *
      * @return self
@@ -222,7 +200,6 @@ class ListView extends Component {
     /**
      * Set the data for listview
      *
-     *
      * @param array $rows
      *
      * @return self
@@ -234,7 +211,6 @@ class ListView extends Component {
 
     /**
      * Add a column to listview
-     *
      *
      * @param Column $column
      *
@@ -248,7 +224,6 @@ class ListView extends Component {
     /**
      * Add a button to listview
      *
-     *
      * @param Button $button
      *
      * @return self
@@ -260,7 +235,6 @@ class ListView extends Component {
 
     /**
      * Add actions to listview
-     *
      *
      * @param Action ...$actions
      *
@@ -274,7 +248,6 @@ class ListView extends Component {
     /**
      * Set the title of listview
      *
-     *
      * @param string $title
      *
      * @return self
@@ -286,7 +259,6 @@ class ListView extends Component {
 
     /**
      * Set whether to show the title
-     *
      *
      * @param bool $show
      *
@@ -300,7 +272,6 @@ class ListView extends Component {
     /**
      * Set whether to enable filter
      *
-     *
      * @param bool $enable
      *
      * @return self
@@ -312,7 +283,6 @@ class ListView extends Component {
 
     /**
      * Set custom filter name
-     *
      *
      * @param string $name
      *
@@ -326,7 +296,6 @@ class ListView extends Component {
     /**
      * Set whether to enable search
      *
-     *
      * @param bool $enable
      *
      * @return self
@@ -338,7 +307,6 @@ class ListView extends Component {
 
     /**
      * Set whether to enable pagination
-     *
      *
      * @param bool $enable
      *
@@ -352,7 +320,6 @@ class ListView extends Component {
     /**
      * Set text to be displayed when there is no data
      *
-     *
      * @param string $text
      *
      * @return self
@@ -365,7 +332,6 @@ class ListView extends Component {
     /**
      * Set whether to enable export to XLS
      *
-     *
      * @param bool $enable
      *
      * @return self
@@ -377,7 +343,6 @@ class ListView extends Component {
 
     /**
      * Set whether to enable export to CSV
-     *
      *
      * @param bool $enable
      *
@@ -392,7 +357,6 @@ class ListView extends Component {
      * Set whether to enable checkers.
      * If enabled, specify key for value from the row and name of the input.
      * If the name is not given, the key will be used as input name
-     *
      *
      * @param bool $enable
      * @param string|null $key
@@ -411,7 +375,6 @@ class ListView extends Component {
      * Set whether to enable summary row.
      * If enabled, specify columns for which the summary will be calculated
      *
-     *
      * @param string ...$columns
      *
      * @return self
@@ -424,7 +387,6 @@ class ListView extends Component {
     /**
      * Set whether to show the share button
      *
-     *
      * @param bool $enable
      *
      * @return self
@@ -436,7 +398,6 @@ class ListView extends Component {
 
     /**
      * Get link for sorting based on the given sorting object
-     *
      *
      * @param Sorting $sorting
      *
@@ -456,7 +417,6 @@ class ListView extends Component {
 
     /**
      * Render the listview
-     *
      *
      * @return void
      */
@@ -836,7 +796,6 @@ class ListView extends Component {
     /**
      * Get the HTML for actions of the given row
      *
-     *
      * @param mixed $row
      *
      * @return string
@@ -902,7 +861,6 @@ class ListView extends Component {
 
     /**
      * Get HTML of the filter
-     *
      *
      * @return string
      */

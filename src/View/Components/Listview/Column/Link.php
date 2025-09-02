@@ -10,14 +10,12 @@ class Link extends Column {
     /**
      * Key for retrieval of the label
      *
-     *
      * @var string|null
      */
     private ?string $_name_label = null;
 
     /**
      * Link column
-     *
      *
      * @param string $name
      * @param string|null $name_label
@@ -33,7 +31,6 @@ class Link extends Column {
 
     /**
      * Get HTML code of the link
-     *
      *
      * @param mixed $row
      *

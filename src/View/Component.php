@@ -13,14 +13,12 @@ abstract class Component {
     /**
      * Current realm
      *
-     *
      * @var string|null
      */
     protected static ?string $_realm = null;
 
     /**
      * Current controller
-     *
      *
      * @var string|null
      */
@@ -29,14 +27,12 @@ abstract class Component {
     /**
      * Current action
      *
-     *
      * @var string|null
      */
     protected static ?string $_action = null;
 
     /**
      * Current request object
-     *
      *
      * @var Request|null
      */
@@ -45,14 +41,12 @@ abstract class Component {
     /**
      * Current title
      *
-     *
      * @var string|null
      */
     protected static ?string $_title = null;
 
     /**
      * Current pagination object
-     *
      *
      * @var Pagination|null
      */
@@ -61,14 +55,12 @@ abstract class Component {
     /**
      * Current URI parameters
      *
-     *
      * @var array|null
      */
     protected static ?array $_params = null;
 
     /**
      * Current master page
-     *
      *
      * @var string|null
      */
@@ -77,14 +69,12 @@ abstract class Component {
     /**
      * Current CSRF token
      *
-     *
      * @var string
      */
     protected static string $_csrf_token = '';
 
     /**
      * Current CSRF token form field name
-     *
      *
      * @var string
      */
@@ -93,14 +83,12 @@ abstract class Component {
     /**
      * DTO for breadcrumb items
      *
-     *
      * @var BreadcrumbDTO|null
      */
     protected static ?BreadcrumbDTO $_breadcrumb = null;
 
     /**
      * Set realm
-     *
      *
      * @param string $_realm
      *
@@ -149,7 +137,6 @@ abstract class Component {
     /**
      * Set title
      *
-     *
      * @param string $title
      *
      * @return void
@@ -160,7 +147,6 @@ abstract class Component {
 
     /**
      * Set pagination
-     *
      *
      * @param Pagination $pagination
      *
@@ -173,7 +159,6 @@ abstract class Component {
     /**
      * Set URI parameters
      *
-     *
      * @param array $params
      *
      * @return void
@@ -184,7 +169,6 @@ abstract class Component {
 
     /**
      * Set master page
-     *
      *
      * @param string $master
      *
@@ -197,7 +181,6 @@ abstract class Component {
     /**
      * Get realm
      *
-     *
      * @return string|null
      */
     public static function get_realm(): ?string {
@@ -206,7 +189,6 @@ abstract class Component {
 
     /**
      * Get controller
-     *
      *
      * @return string|null
      */
@@ -217,7 +199,6 @@ abstract class Component {
     /**
      * Get action
      *
-     *
      * @return string|null
      */
     public static function get_action(): ?string {
@@ -226,7 +207,6 @@ abstract class Component {
 
     /**
      * Get request
-     *
      *
      * @return Request|null
      */
@@ -237,7 +217,6 @@ abstract class Component {
     /**
      * Get title
      *
-     *
      * @return string|null
      */
     public static function get_title(): ?string {
@@ -246,7 +225,6 @@ abstract class Component {
 
     /**
      * Get pagination
-     *
      *
      * @return Pagination|null
      */
@@ -257,7 +235,6 @@ abstract class Component {
     /**
      * Get URI parameters
      *
-     *
      * @return array|null
      */
     public static function get_params(): ?array {
@@ -266,7 +243,6 @@ abstract class Component {
 
     /**
      * Get master page
-     *
      *
      * @return string|null
      */
@@ -277,7 +253,6 @@ abstract class Component {
     /**
      * Get current action URI
      *
-     *
      * @return string
      */
     protected static function _get_action_uri() : string {
@@ -287,7 +262,6 @@ abstract class Component {
     /**
      * Get base URI for the current action
      *
-     *
      * @return string
      */
     protected static function _get_base_uri() : string {
@@ -296,7 +270,6 @@ abstract class Component {
 
     /**
      * Generate HTML attributes from the given associative array
-     *
      *
      * @param array $attributes
      *
@@ -318,7 +291,6 @@ abstract class Component {
     /**
      * Generate HTML attribute if the given value is not empty
      *
-     *
      * @param string $name
      * @param mixed $value
      *
@@ -335,7 +307,6 @@ abstract class Component {
 
     /**
      * Check if the given string contains an icon class
-     *
      *
      * @param string $string
      *
@@ -361,7 +332,6 @@ abstract class Component {
     /**
      * Get the prefix for filter fields
      *
-     *
      * @return string
      */
     protected static function _filter_prefix() : string {
@@ -377,7 +347,6 @@ abstract class Component {
 
     /**
      * Get the search query from request
-     *
      *
      * @return string
      */
@@ -427,7 +396,6 @@ abstract class Component {
     /**
      * Set CSRF token
      *
-     *
      * @param string $token
      *
      * @return void
@@ -439,7 +407,6 @@ abstract class Component {
     /**
      * Get CSRF token form field
      *
-     *
      * @param string $field
      *
      * @return void
@@ -450,7 +417,6 @@ abstract class Component {
 
     /**
      * Set given breadcrumb
-     *
      *
      * @param BreadcrumbDTO $breadcrumb
      *

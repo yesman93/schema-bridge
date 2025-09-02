@@ -14,7 +14,6 @@ class History {
     /**
      * Push an entry into the history stack
      *
-     *
      * @param string $controller
      * @param string $action
      * @param string $title
@@ -80,7 +79,6 @@ class History {
     /**
      * Check the stack size and remove oldest entries if necessary
      *
-     *
      * @param array $stack
      *
      * @return array
@@ -109,7 +107,6 @@ class History {
     /**
      * Return full history stack
      *
-     *
      * @return array
      */
     public static function all(): array {
@@ -134,7 +131,6 @@ class History {
 
     /**
      * Return previous location - last entry in the history stack
-     *
      *
      * @return array|null
      */

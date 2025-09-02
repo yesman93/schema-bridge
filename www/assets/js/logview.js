@@ -1,7 +1,6 @@
 /**
  * JS for log view
  *
- *
  */
 
 
@@ -61,7 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /**
  * Harvest checked log levels
- *
  *
  * @returns {Array}
  */

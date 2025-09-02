@@ -11,14 +11,12 @@ class XmlResponse {
     /**
      * Data to be rendered as XML
      *
-     *
      * @var array
      */
     private array $_data = [];
 
     /**
      * XML string rendered from data
-     *
      *
      * @var string
      */
@@ -27,14 +25,12 @@ class XmlResponse {
     /**
      * Length of the XML string (size in bytes)
      *
-     *
      * @var int
      */
     private int $_length = 0;
 
     /**
      * Constructor for XML response
-     *
      *
      * @param array $data
      *
@@ -50,7 +46,6 @@ class XmlResponse {
     /**
      * Get XML-safe key
      *
-     *
      * @param string|int $key
      *
      * @return string
@@ -61,7 +56,6 @@ class XmlResponse {
 
     /**
      * Convert array to XML string
-     *
      *
      * @return void
      */
@@ -76,7 +70,6 @@ class XmlResponse {
 
     /**
      * Recursive array to XML conversion
-     *
      *
      * @param array $data
      * @param \SimpleXMLElement $xml
@@ -101,7 +94,6 @@ class XmlResponse {
     /**
      * Get original array data
      *
-     *
      * @return array
      */
     public function get_data(): array {
@@ -111,7 +103,6 @@ class XmlResponse {
     /**
      * Get rendered XML string
      *
-     *
      * @return string
      */
     public function __toString(): string {
@@ -120,7 +111,6 @@ class XmlResponse {
 
     /**
      * Get length of XML data
-     *
      *
      * @return int
      */

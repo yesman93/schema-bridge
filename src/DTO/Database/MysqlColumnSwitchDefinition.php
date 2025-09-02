@@ -7,7 +7,6 @@ class MysqlColumnSwitchDefinition extends MysqlColumnDefinition {
     /**
      * MySQL column switch definition
      *
-     *
      * @param string $name
      *
      * @return MysqlColumnSwitchDefinition

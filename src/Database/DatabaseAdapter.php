@@ -7,7 +7,6 @@ abstract class DatabaseAdapter {
     /**
      * Execute a query with optional parameters
      *
-     *
      * @param string $query
      * @param array $params
      *
@@ -17,7 +16,6 @@ abstract class DatabaseAdapter {
 
     /**
      * Fetch all results
-     *
      *
      * @param string $query
      * @param array $params
@@ -29,7 +27,6 @@ abstract class DatabaseAdapter {
     /**
      * Fetch first column
      *
-     *
      * @param string $query
      * @param array $params
      *
@@ -39,7 +36,6 @@ abstract class DatabaseAdapter {
 
     /**
      * Fetch first row
-     *
      *
      * @param string $query
      * @param array $params
@@ -51,7 +47,6 @@ abstract class DatabaseAdapter {
     /**
      * Fetch single cell
      *
-     *
      * @param string $query
      * @param array $params
      *
@@ -62,7 +57,6 @@ abstract class DatabaseAdapter {
     /**
      * Get last inserted ID
      *
-     *
      * @return string
      */
     abstract public function last_insert_id(): string;
@@ -72,7 +66,6 @@ abstract class DatabaseAdapter {
      *
      * Returns an associative array keyed by table name.
      * Each value is an array with a key 'columns' => [ ... column data ... ]
-     *
      *
      * @param bool $extended
      *

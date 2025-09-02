@@ -7,7 +7,6 @@ class LumioViewException extends \Exception {
     /**
      * Exception for view errors
      *
-     *
      * @param string $message
      * @param int $code
      * @param Throwable|null $previous

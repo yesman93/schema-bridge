@@ -7,14 +7,12 @@ trait Engine {
     /**
      * Engine - InnoDB
      *
-     *
      * @var string
      */
     public const ENGINE_INNODB = 'InnoDB';
 
     /**
      * Engine - MyISAM
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ trait Engine {
     /**
      * Engine - CSV
      *
-     *
      * @var string
      */
     public const ENGINE_CSV = 'CSV';
 
     /**
      * Engine - ARIA
-     *
      *
      * @var string
      */

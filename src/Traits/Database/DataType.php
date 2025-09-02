@@ -7,14 +7,12 @@ trait DataType {
     /**
      * Data type - tinyint
      *
-     *
      * @var string
      */
     public const TYPE_TINYINT = 'TINYINT';
 
     /**
      * Data type - smallint
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ trait DataType {
     /**
      * Data type - mediumint
      *
-     *
      * @var string
      */
     public const TYPE_MEDIUMINT = 'MEDIUMINT';
 
     /**
      * Data type - integer
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ trait DataType {
     /**
      * Data type - bigint
      *
-     *
      * @var string
      */
     public const TYPE_BIGINT = 'BIGINT';
 
     /**
      * Data type - decimal
-     *
      *
      * @var string
      */
@@ -55,14 +49,12 @@ trait DataType {
     /**
      * Data type - float
      *
-     *
      * @var string
      */
     public const TYPE_FLOAT = 'FLOAT';
 
     /**
      * Data type - double
-     *
      *
      * @var string
      */
@@ -71,14 +63,12 @@ trait DataType {
     /**
      * Data type - char
      *
-     *
      * @var string
      */
     public const TYPE_CHAR = 'CHAR';
 
     /**
      * Data type - varchar
-     *
      *
      * @var string
      */
@@ -87,14 +77,12 @@ trait DataType {
     /**
      * Data type - tinytext
      *
-     *
      * @var string
      */
     public const TYPE_TINYTEXT = 'TINYTEXT';
 
     /**
      * Data type - text
-     *
      *
      * @var string
      */
@@ -103,14 +91,12 @@ trait DataType {
     /**
      * Data type - mediumtext
      *
-     *
      * @var string
      */
     public const TYPE_MEDIUMTEXT = 'MEDIUMTEXT';
 
     /**
      * Data type - longtext
-     *
      *
      * @var string
      */
@@ -119,14 +105,12 @@ trait DataType {
     /**
      * Data type - date
      *
-     *
      * @var string
      */
     public const TYPE_DATE = 'DATE';
 
     /**
      * Data type - time
-     *
      *
      * @var string
      */
@@ -135,7 +119,6 @@ trait DataType {
     /**
      * Data type - datetime
      *
-     *
      * @var string
      */
     public const TYPE_DATETIME = 'DATETIME';
@@ -143,14 +126,12 @@ trait DataType {
     /**
      * Data type - timestamp
      *
-     *
      * @var string
      */
     public const TYPE_TIMESTAMP = 'TIMESTAMP';
 
     /**
      * Data type - year
-     *
      *
      * @var string
      */

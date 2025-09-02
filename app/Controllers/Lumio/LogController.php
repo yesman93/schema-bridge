@@ -18,7 +18,6 @@ class LogController extends BaseController {
     /**
      * controller for filters
      *
-     *
      * @param BaseModel|null $model
      * @param Request $request
      * @param Response $response

@@ -14,14 +14,12 @@ class Response {
     /**
      * HTTP status code
      *
-     *
      * @var int
      */
     private int $_status_code = self::HTTP_200;
 
     /**
      * HTTP body
-     *
      *
      * @var string
      */
@@ -30,14 +28,12 @@ class Response {
     /**
      * HTTP headers
      *
-     *
      * @var array
      */
     private array $_headers = [];
 
     /**
      * set HTTP status code
-     *
      *
      * @param int $status_code
      *
@@ -51,7 +47,6 @@ class Response {
     /**
      * set HTTP body
      *
-     *
      * @param string $body
      *
      * @return \Lumio\IO\Response
@@ -63,7 +58,6 @@ class Response {
 
     /**
      * set HTTP header
-     *
      *
      * @param string|array $header The header to set - it accepts ready string like `"Location: /path"` or array - associative like this: `['location' => '/path']`, or non-associative like this: `['location', '/path']`. If the right format is not met, the header will not be set
      *
@@ -103,7 +97,6 @@ class Response {
     /**
      * Check if the response has given header
      *
-     *
      * @param string $name
      *
      * @return bool
@@ -123,7 +116,6 @@ class Response {
 
     /**
      * Check if the response has given header with given value
-     *
      *
      * @param string $name
      * @param string $value
@@ -147,7 +139,6 @@ class Response {
     /**
      * Check if the response has given header containing given value (case-insensitive)
      *
-     *
      * @param string $name
      * @param string $value
      *
@@ -170,7 +161,6 @@ class Response {
     /**
      * Check if the response is a download response
      *
-     *
      * @return bool
      */
     public function is_download(): bool {
@@ -181,7 +171,6 @@ class Response {
 
     /**
      * clear the response - resets status code, body and headers
-     *
      *
      * @return \Lumio\IO\Response
      */
@@ -194,7 +183,6 @@ class Response {
 
     /**
      * send the response
-     *
      *
      * @return void
      *
@@ -220,7 +208,6 @@ class Response {
     /**
      * Send response headers only
      *
-     *
      * @return void
      */
     public function send_headers(): void {
@@ -240,7 +227,6 @@ class Response {
     /**
      * send JSON response
      *
-     *
      * @param array $data
      *
      * @return void
@@ -257,7 +243,6 @@ class Response {
     /**
      * Show failure page
      *
-     *
      * @param \Throwable $e
      *
      * @return void
@@ -271,7 +256,6 @@ class Response {
 
     /**
      * Redirect to the given destination
-     *
      *
      * @param string $destination
      * @param int $status_code

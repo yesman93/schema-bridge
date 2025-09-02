@@ -9,7 +9,6 @@ class URLSigner {
     /**
      * Entry point to build signed URL
      *
-     *
      * @param string $url
      *
      * @return SignedURLBuilder
@@ -20,7 +19,6 @@ class URLSigner {
 
     /**
      * Validate given signed URL
-     *
      *
      * @param string $signed_url
      *
@@ -66,7 +64,6 @@ class URLSigner {
 
     /**
      * Decode given base62 encoded string - timestamp de-obfuscation
-     *
      *
      * @param string $encoded
      *

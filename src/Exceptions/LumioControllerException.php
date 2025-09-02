@@ -7,7 +7,6 @@ class LumioControllerException extends \Exception {
     /**
      * Exception for controller errors
      *
-     *
      * @param string $message
      * @param int $code
      * @param Throwable|null $previous

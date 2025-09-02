@@ -12,14 +12,12 @@ trait OpenGraph {
     /**
      * Open Graph property - title
      *
-     *
      * @var string
      */
     public const string OG_TITLE = 'og:title';
 
     /**
      * Open Graph property - description
-     *
      *
      * @var string
      */
@@ -28,14 +26,12 @@ trait OpenGraph {
     /**
      * Open Graph property - image
      *
-     *
      * @var string
      */
     public const string OG_IMAGE = 'og:image';
 
     /**
      * Open Graph property - URL
-     *
      *
      * @var string
      */
@@ -44,14 +40,12 @@ trait OpenGraph {
     /**
      * Open Graph property - type
      *
-     *
      * @var string
      */
     public const string OG_TYPE = 'og:type';
 
     /**
      * Open Graph property - locale
-     *
      *
      * @var string
      */
@@ -60,14 +54,12 @@ trait OpenGraph {
     /**
      * Open Graph property - site name
      *
-     *
      * @var string
      */
     public const string OG_SITE_NAME = 'og:site_name';
 
     /**
      * Open Graph property - updated time
-     *
      *
      * @var string
      */
@@ -76,14 +68,12 @@ trait OpenGraph {
     /**
      * Open Graph data
      *
-     *
      * @var array
      */
     protected array $_open_graph = [];
 
     /**
      * Set given Open Graph data
-     *
      *
      * @param array $data
      */
@@ -97,7 +87,6 @@ trait OpenGraph {
     /**
      * Set given Open Graph property
      *
-     *
      * @param string $key
      * @param string $value
      *
@@ -110,7 +99,6 @@ trait OpenGraph {
     /**
      * Set Open Graph title
      *
-     *
      * @param string $value
      *
      * @return void
@@ -121,7 +109,6 @@ trait OpenGraph {
 
     /**
      * Set Open Graph description
-     *
      *
      * @param string $value
      *
@@ -134,7 +121,6 @@ trait OpenGraph {
     /**
      * Set Open Graph image
      *
-     *
      * @param string $value
      *
      * @return void
@@ -145,7 +131,6 @@ trait OpenGraph {
 
     /**
      * Set Open Graph URL
-     *
      *
      * @param string $value
      *
@@ -158,7 +143,6 @@ trait OpenGraph {
     /**
      * Set Open Graph type
      *
-     *
      * @param string $value
      *
      * @return void
@@ -169,7 +153,6 @@ trait OpenGraph {
 
     /**
      * Set Open Graph locale
-     *
      *
      * @param string $value
      *
@@ -182,7 +165,6 @@ trait OpenGraph {
     /**
      * Set Open Graph site name
      *
-     *
      * @param string $value
      *
      * @return void
@@ -194,7 +176,6 @@ trait OpenGraph {
     /**
      * Set Open Graph updated time
      *
-     *
      * @param string $value
      *
      * @return void
@@ -205,7 +186,6 @@ trait OpenGraph {
 
     /**
      * Render Open Graph data as meta tags
-     *
      *
      * @return void
      */

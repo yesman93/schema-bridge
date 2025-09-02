@@ -9,14 +9,12 @@ class Breadcrumb extends Component {
     /**
      * Breadcrumb HTML
      *
-     *
      * @var string
      */
     private string $_html = '';
 
     /**
      * Build breadcrumb instance
-     *
      *
      * @return Breadcrumb
      */
@@ -56,7 +54,6 @@ class Breadcrumb extends Component {
     /**
      * Get the breadcrumb HTML
      *
-     *
      * @return string
      */
     public function get(): string {
@@ -65,7 +62,6 @@ class Breadcrumb extends Component {
 
     /**
      * Render the breadcrumb HTML
-     *
      *
      * @return void
      */

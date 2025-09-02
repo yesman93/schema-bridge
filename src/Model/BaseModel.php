@@ -27,14 +27,12 @@ abstract class BaseModel {
     /**
      * Column encryption - one way
      *
-     *
      * @var string
      */
     const COL_ENC_ONEWAY = 'oneway';
 
     /**
      * Column encryption - two way
-     *
      *
      * @var string
      */
@@ -43,14 +41,12 @@ abstract class BaseModel {
     /**
      * Column encryption - none
      *
-     *
      * @var string
      */
     const COL_ENC_NONE = 'none';
 
     /**
      * instance of the database adapter
-     *
      *
      * @var DatabaseAdapter
      */
@@ -59,14 +55,12 @@ abstract class BaseModel {
     /**
      * input data (from request passed by controller)
      *
-     *
      * @var array
      */
     protected array $_data = [];
 
     /**
      * DB table name
-     *
      *
      * @var string
      */
@@ -75,14 +69,12 @@ abstract class BaseModel {
     /**
      * DB primary key
      *
-     *
      * @var string
      */
     protected string $_primary_key = '';
 
     /**
      * Columns of DB table
-     *
      *
      * @var MysqlColumns
      */
@@ -91,14 +83,12 @@ abstract class BaseModel {
     /**
      * Encryption types for columns
      *
-     *
      * @var array
      */
     private array $_encryptions = [];
 
     /**
      * Current sorting
-     *
      *
      * @var Sorting|null
      */
@@ -107,14 +97,12 @@ abstract class BaseModel {
     /**
      * Container instance
      *
-     *
      * @var Container|null
      */
     private ?Container $_container = null;
 
     /**
      * Main model
-     *
      *
      * @param DatabaseAdapter $db
      *
@@ -134,7 +122,6 @@ abstract class BaseModel {
     /**
      * Initialize search
      *
-     *
      * @return void
      */
     private function _init_search() : void {
@@ -143,7 +130,6 @@ abstract class BaseModel {
 
     /**
      * Load metadata from cache or database
-     *
      *
      * @return void
      *
@@ -166,7 +152,6 @@ abstract class BaseModel {
     /**
      * Set container instance
      *
-     *
      * @param Container $container
      *
      * @return void
@@ -178,7 +163,6 @@ abstract class BaseModel {
     /**
      * Get container instance
      *
-     *
      * @return Container|null
      */
     protected function container(): ?Container {
@@ -188,7 +172,6 @@ abstract class BaseModel {
     /**
      * Get table columns
      *
-     *
      * @return MysqlColumns
      */
     public function get_columns() : MysqlColumns {
@@ -197,7 +180,6 @@ abstract class BaseModel {
 
     /**
      * set input data
-     *
      *
      * @param array $data
      *
@@ -217,7 +199,6 @@ abstract class BaseModel {
     /**
      * Set encryption for given column
      *
-     *
      * @param string $column
      * @param string $encryption
      *
@@ -230,7 +211,6 @@ abstract class BaseModel {
     /**
      * Check if model has given column
      *
-     *
      * @param $name
      *
      * @return bool
@@ -241,7 +221,6 @@ abstract class BaseModel {
 
     /**
      * Validate input data (mainly for add and edit)
-     *
      *
      * @param array $data
      *
@@ -289,7 +268,6 @@ abstract class BaseModel {
     /**
      * Encrypt value for given column by encryption type
      *
-     *
      * @param string $column
      * @param mixed $value
      *
@@ -323,7 +301,6 @@ abstract class BaseModel {
 
     /**
      * Normalize empty value for given column
-     *
      *
      * @param mixed $value
      * @param MysqlColumnDefinition $column
@@ -531,7 +508,6 @@ abstract class BaseModel {
     /**
      * Before add hook
      *
-     *
      * @return void
      */
     protected function before_add() : void {
@@ -540,7 +516,6 @@ abstract class BaseModel {
 
     /**
      * After add hook
-     *
      *
      * @return void
      */
@@ -551,7 +526,6 @@ abstract class BaseModel {
     /**
      * Before edit hook
      *
-     *
      * @return void
      */
     protected function before_edit() : void {
@@ -560,7 +534,6 @@ abstract class BaseModel {
 
     /**
      * After edit hook
-     *
      *
      * @return void
      */
@@ -571,7 +544,6 @@ abstract class BaseModel {
     /**
      * Before remove hook
      *
-     *
      * @return void
      */
     protected function before_remove() : void {
@@ -580,7 +552,6 @@ abstract class BaseModel {
 
     /**
      * After remove hook
-     *
      *
      * @return void
      */
@@ -622,7 +593,6 @@ abstract class BaseModel {
     /**
      * Set search - where condition with search query searched in all current search columns
      *
-     *
      * @return void
      */
     private function _set_search(): void {
@@ -646,7 +616,6 @@ abstract class BaseModel {
 
     /**
      * Get all records from corresponding DB table
-     *
      *
      * @param string|array ...$columns
      *
@@ -700,7 +669,6 @@ abstract class BaseModel {
     /**
      * Set sorting
      *
-     *
      * @param Sorting|null $sorting
      *
      * @return void
@@ -711,7 +679,6 @@ abstract class BaseModel {
 
     /**
      * Get model table name
-     *
      *
      * @return string
      */

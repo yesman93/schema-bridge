@@ -7,14 +7,12 @@ class Encryption {
     /**
      * Cipher algorithm - AES-256-CBC
      *
-     *
      * @var string
      */
     const _AES_128_CBC = 'aes-128-cbc';
 
     /**
      * Cipher algorithm - AES-192-CBC
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ class Encryption {
     /**
      * Cipher algorithm - AES-256-CBC
      *
-     *
      * @var string
      */
     const _AES_256_CBC = 'aes-256-cbc';
 
     /**
      * Default cipher algorithm
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ class Encryption {
     /**
      * Encryption salt
      *
-     *
      * @var string
      */
     private const IV_SALT = 'lumio_iv_salt';
 
     /**
      * Encrypt a string using the argon2 algorithm
-     *
      *
      * @param string $string
      *
@@ -63,7 +57,6 @@ class Encryption {
 
     /**
      * Encrypt a string
-     *
      *
      * @param string $string
      * @param string|null $key
@@ -93,7 +86,6 @@ class Encryption {
     /**
      * Decrypt a string
      *
-     *
      * @param string $encrypted_string
      * @param string|null $key
      *
@@ -120,7 +112,6 @@ class Encryption {
     /**
      * Lightweight XOR "encryption" for simple obfuscation
      *
-     *
      * @param string $string
      * @param string $salt
      *
@@ -140,7 +131,6 @@ class Encryption {
 
     /**
      * XOR decryption (symmetric with xor_encrypt)
-     *
      *
      * @param string $string
      * @param string $salt

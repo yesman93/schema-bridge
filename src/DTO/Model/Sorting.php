@@ -7,14 +7,12 @@ class Sorting {
     /**
      * Sorting direction - ascending
      *
-     *
      * @var string
      */
     public const ASC  = 'asc';
 
     /**
      * Sorting direction - descending
-     *
      *
      * @var string
      */
@@ -23,7 +21,6 @@ class Sorting {
     /**
      * Column by which to sort
      *
-     *
      * @var string
      */
     private string $_column;
@@ -31,14 +28,12 @@ class Sorting {
     /**
      * Direction in which to sort (asc|desc)
      *
-     *
      * @var string
      */
     private string $_direction;
 
     /**
      * Sorting
-     *
      *
      * @param string $column
      * @param string $direction
@@ -52,7 +47,6 @@ class Sorting {
 
     /**
      * Get the column by which to sort
-     *
      *
      * @return string
      */

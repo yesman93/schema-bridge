@@ -20,7 +20,6 @@ class SignedUrlMiddleware implements MiddlewareContract {
     /**
      * Handle signed URL validation
      *
-     *
      * @param Container $container
      * @param callable $next
      *

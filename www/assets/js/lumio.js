@@ -1,7 +1,6 @@
 /**
  * Core JS for Lumio
  *
- *
  */
 
 
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /**
  * Copy given text to clipboard
- *
  *
  * @param text
  */

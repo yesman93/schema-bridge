@@ -10,14 +10,12 @@ class ModelFactory {
     /**
      * instance of database adapter
      *
-     *
      * @var DatabaseAdapter
      */
     private DatabaseAdapter $_adapter;
 
     /**
      * Factory for creating models
-     *
      *
      * @param DatabaseAdapter $adapter
      *
@@ -29,7 +27,6 @@ class ModelFactory {
 
     /**
      * Make a model
-     *
      *
      * @param string $name
      *

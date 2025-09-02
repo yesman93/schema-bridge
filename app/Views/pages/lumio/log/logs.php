@@ -1,7 +1,6 @@
 <?php
 /**
  *
- *
  */
 
 use Lumio\View\Components;

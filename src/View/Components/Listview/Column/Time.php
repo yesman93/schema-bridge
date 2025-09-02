@@ -9,7 +9,6 @@ class Time extends Column {
     /**
      * Get time from the given row
      *
-     *
      * @param mixed $row
      *
      * @return string

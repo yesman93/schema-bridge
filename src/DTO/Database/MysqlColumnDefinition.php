@@ -15,7 +15,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * MySQL table definition
      *
-     *
      * @param string        $name
      * @param string        $type
      * @param int|null      $length
@@ -49,7 +48,6 @@ class MysqlColumnDefinition implements JsonSerializable {
 
     /**
      * Returns SQL query for creating the column
-     *
      *
      * @return string
      */
@@ -94,7 +92,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column name
      *
-     *
      * @return string
      */
     public function get_name(): string {
@@ -103,7 +100,6 @@ class MysqlColumnDefinition implements JsonSerializable {
 
     /**
      * Returns column type
-     *
      *
      * @return string
      */
@@ -114,7 +110,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column length
      *
-     *
      * @return int|null
      */
     public function get_length(): ?int {
@@ -123,7 +118,6 @@ class MysqlColumnDefinition implements JsonSerializable {
 
     /**
      * Returns column collation
-     *
      *
      * @return string|null
      */
@@ -134,7 +128,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column attribute
      *
-     *
      * @return string|null
      */
     public function get_attribute(): ?string {
@@ -143,7 +136,6 @@ class MysqlColumnDefinition implements JsonSerializable {
 
     /**
      * Returns if column is nullable
-     *
      *
      * @return bool
      */
@@ -154,7 +146,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column default value
      *
-     *
      * @return mixed|null
      */
     public function get_default(): mixed {
@@ -163,7 +154,6 @@ class MysqlColumnDefinition implements JsonSerializable {
 
     /**
      * Returns if column is auto increment
-     *
      *
      * @return bool
      */
@@ -174,7 +164,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column comment
      *
-     *
      * @return string|null
      */
     public function get_comment(): ?string {
@@ -184,7 +173,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column index
      *
-     *
      * @return string|null
      */
     public function get_index(): ?string {
@@ -193,7 +181,6 @@ class MysqlColumnDefinition implements JsonSerializable {
 
     /**
      * Returns JSON representation of the column definition
-     *
      *
      * @return array
      */

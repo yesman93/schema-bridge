@@ -7,14 +7,12 @@ trait Type {
     /**
      * Open Graph type - website
      *
-     *
      * @var string
      */
     public const string OGTYPE_WEBSITE = 'website';
 
     /**
      * Open Graph type - article
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ trait Type {
     /**
      * Open Graph type - book
      *
-     *
      * @var string
      */
     public const string OGTYPE_BOOK = 'book';
 
     /**
      * Open Graph type - profile
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ trait Type {
     /**
      * Open Graph type - video
      *
-     *
      * @var string
      */
     public const string OGTYPE_VIDEO = 'video';
 
     /**
      * Open Graph type - music
-     *
      *
      * @var string
      */
@@ -55,14 +49,12 @@ trait Type {
     /**
      * Open Graph type - product
      *
-     *
      * @var string
      */
     public const string OGTYPE_PRODUCT = 'product';
 
     /**
      * Open Graph type - event
-     *
      *
      * @var string
      */
@@ -71,14 +63,12 @@ trait Type {
     /**
      * Open Graph type - place
      *
-     *
      * @var string
      */
     public const string OGTYPE_PLACE = 'place';
 
     /**
      * Open Graph type - restaurant
-     *
      *
      * @var string
      */
@@ -87,14 +77,12 @@ trait Type {
     /**
      * Open Graph type - bar
      *
-     *
      * @var string
      */
     public const string OGTYPE_BAR = 'bar';
 
     /**
      * Open Graph type - cafe
-     *
      *
      * @var string
      */
@@ -103,14 +91,12 @@ trait Type {
     /**
      * Open Graph type - hotel
      *
-     *
      * @var string
      */
     public const string OGTYPE_HOTEL = 'hotel';
 
     /**
      * Open Graph type - organization
-     *
      *
      * @var string
      */
@@ -119,14 +105,12 @@ trait Type {
     /**
      * Open Graph type - service
      *
-     *
      * @var string
      */
     public const string OGTYPE_SERVICE = 'service';
 
     /**
      * Open Graph type - software
-     *
      *
      * @var string
      */

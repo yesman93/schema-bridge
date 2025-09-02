@@ -14,7 +14,6 @@ class Logger {
     /**
      * Current channel for logging
      *
-     *
      * @var string|null
      */
     private static ?string $_channel = null;
@@ -22,14 +21,12 @@ class Logger {
     /**
      * Request ID
      *
-     *
      * @var string
      */
     private static string $_request_id = '';
 
     /**
      * Set the current request ID
-     *
      *
      * @param string $request_id
      *
@@ -41,7 +38,6 @@ class Logger {
 
     /**
      * Create a new instance of the logger with the given channel
-     *
      *
      * @param string $channel
      *
@@ -57,7 +53,6 @@ class Logger {
     /**
      * Log emergency
      *
-     *
      * @param string $message
      * @param array $context
      *
@@ -71,7 +66,6 @@ class Logger {
 
     /**
      * Log alert
-     *
      *
      * @param string $message
      * @param array $context
@@ -87,7 +81,6 @@ class Logger {
     /**
      * Log critical
      *
-     *
      * @param string $message
      * @param array $context
      *
@@ -101,7 +94,6 @@ class Logger {
 
     /**
      * Log error
-     *
      *
      * @param string $message
      * @param array $context
@@ -117,7 +109,6 @@ class Logger {
     /**
      * Log warning
      *
-     *
      * @param string $message
      * @param array $context
      *
@@ -131,7 +122,6 @@ class Logger {
 
     /**
      * Log notice
-     *
      *
      * @param string $message
      * @param array $context
@@ -147,7 +137,6 @@ class Logger {
     /**
      * Log info
      *
-     *
      * @param string $message
      * @param array $context
      *
@@ -162,7 +151,6 @@ class Logger {
     /**
      * Log debug
      *
-     *
      * @param string $message
      * @param array $context
      *
@@ -176,7 +164,6 @@ class Logger {
 
     /**
      * Write log entry to the log file
-     *
      *
      * @param string $level
      * @param string $message

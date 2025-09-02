@@ -11,14 +11,12 @@ class Request {
     /**
      * ID of the request
      *
-     *
      * @var string
      */
     private string $_id = '';
 
     /**
      * data from $_GET
-     *
      *
      * @var array
      */
@@ -27,14 +25,12 @@ class Request {
     /**
      * data from $_POST
      *
-     *
      * @var array
      */
     private array $_post = [];
 
     /**
      * data from $_REQUEST
-     *
      *
      * @var array
      */
@@ -43,14 +39,12 @@ class Request {
     /**
      * data from $_FILES
      *
-     *
      * @var array
      */
     private array $_files = [];
 
     /**
      * data from $_SERVER
-     *
      *
      * @var array
      */
@@ -59,14 +53,12 @@ class Request {
     /**
      * request URI
      *
-     *
      * @var string
      */
     private string $_request_uri = '';
 
     /**
      * Current page
-     *
      *
      * @var mixed
      */
@@ -75,14 +67,12 @@ class Request {
     /**
      * Data for filtering
      *
-     *
      * @var array
      */
     private array $_filter_data = [];
 
     /**
      * Sorting
-     *
      *
      * @var Sorting|null
      */
@@ -91,14 +81,12 @@ class Request {
     /**
      * Headers
      *
-     *
      * @var array|null
      */
     private ?array $_headers = null;
 
     /**
      * Incoming JSON data
-     *
      *
      * @var array|null
      */
@@ -107,14 +95,12 @@ class Request {
     /**
      * Incoming XML data
      *
-     *
      * @var array|null
      */
     private ?array $_xml = null;
 
     /**
      * request - get, post, files, server
-     *
      *
      * @return void
      */
@@ -140,7 +126,6 @@ class Request {
 
     /**
      * Set request headers
-     *
      *
      * @return void
      */
@@ -178,7 +163,6 @@ class Request {
     /**
      * Parse and set JSON data
      *
-     *
      * @return void
      */
     private function _parse_json(): void {
@@ -202,7 +186,6 @@ class Request {
 
     /**
      * Parse and set XML data
-     *
      *
      * @return void
      */
@@ -232,7 +215,6 @@ class Request {
     /**
      * Get the ID of the request
      *
-     *
      * @return void
      */
     public function generate_id() : void {
@@ -247,7 +229,6 @@ class Request {
     /**
      * Get ID of the request
      *
-     *
      * @return string
      */
     public function get_id(): string {
@@ -256,7 +237,6 @@ class Request {
 
     /**
      * Parse the request URI
-     *
      *
      * @return void
      */
@@ -277,7 +257,6 @@ class Request {
     /**
      * Get the request URI
      *
-     *
      * @return string
      */
     public function get_request_uri(): string {
@@ -286,7 +265,6 @@ class Request {
 
     /**
      * Get a GET value
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -305,7 +283,6 @@ class Request {
     /**
      * Get a POST value
      *
-     *
      * @param string|null $key
      * @param mixed $default
      *
@@ -322,7 +299,6 @@ class Request {
 
     /**
      * Get a REQUEST value
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -341,7 +317,6 @@ class Request {
     /**
      * Get a FILE value
      *
-     *
      * @param string $key
      *
      * @return null|UploadedFile|array
@@ -357,7 +332,6 @@ class Request {
 
     /**
      * Get a SERVER value
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -376,7 +350,6 @@ class Request {
     /**
      * Get a filter value
      *
-     *
      * @param string|null $key
      * @param mixed $default
      *
@@ -393,7 +366,6 @@ class Request {
 
     /**
      * Get a header value
-     *
      *
      * @param string|null $key
      *
@@ -414,7 +386,6 @@ class Request {
 
     /**
      * Get JSON value
-     *
      *
      * @param string|null $key
      * @param mixed $default
@@ -437,7 +408,6 @@ class Request {
     /**
      * Get XML value
      *
-     *
      * @param string|null $key
      * @param mixed $default
      *
@@ -459,7 +429,6 @@ class Request {
     /**
      * Get the request URI
      *
-     *
      * @return string
      */
     public function get_uri(): string {
@@ -468,7 +437,6 @@ class Request {
 
     /**
      * Check if the request method is POST
-     *
      *
      * @return bool
      */
@@ -479,7 +447,6 @@ class Request {
     /**
      * Check if the request method is GET
      *
-     *
      * @return bool
      */
     public function is_get(): bool {
@@ -488,7 +455,6 @@ class Request {
 
     /**
      * Get submit value for given action
-     *
      *
      * @param string $action Action name
      *
@@ -504,7 +470,6 @@ class Request {
     /**
      * Erase a value from GET data
      *
-     *
      * @param string $key
      *
      * @return void
@@ -516,7 +481,6 @@ class Request {
 
     /**
      * Erase a value from POST data
-     *
      *
      * @param string $key
      *
@@ -530,7 +494,6 @@ class Request {
     /**
      * Erase a value from REQUEST data
      *
-     *
      * @param string $key
      *
      * @return void
@@ -542,7 +505,6 @@ class Request {
 
     /**
      * Erase a value from both GET and POST data
-     *
      *
      * @param string $key
      *
@@ -556,7 +518,6 @@ class Request {
 
     /**
      * Get client IP address
-     *
      *
      * @return string
      */
@@ -577,7 +538,6 @@ class Request {
 
     /**
      * Extract filter data from given source
-     *
      *
      * @param array $source
      *
@@ -600,7 +560,6 @@ class Request {
     /**
      * Set given data to filter data
      *
-     *
      * @param array $data
      *
      * @return void
@@ -615,7 +574,6 @@ class Request {
     /**
      * Replace filter data with given data
      *
-     *
      * @param array $data
      *
      * @return void
@@ -626,7 +584,6 @@ class Request {
 
     /**
      * Set current page
-     *
      *
      * @param mixed $page
      *
@@ -639,7 +596,6 @@ class Request {
     /**
      * Set sorting
      *
-     *
      * @param Sorting|null $sorting
      *
      * @return void
@@ -651,7 +607,6 @@ class Request {
     /**
      * Get current page
      *
-     *
      * @return mixed
      */
     public function get_page(): mixed {
@@ -661,7 +616,6 @@ class Request {
     /**
      * Get sorting
      *
-     *
      * @return Sorting|null
      */
     public function get_sorting(): ?Sorting {
@@ -670,7 +624,6 @@ class Request {
 
     /**
      * Check if GET data has given key
-     *
      *
      * @param string $key
      *
@@ -683,7 +636,6 @@ class Request {
     /**
      * Check if POST data has given key
      *
-     *
      * @param string $key
      *
      * @return bool
@@ -694,7 +646,6 @@ class Request {
 
     /**
      * Check if REQUEST data has given key
-     *
      *
      * @param string $key
      *
@@ -707,7 +658,6 @@ class Request {
     /**
      * Check if filter data has given key
      *
-     *
      * @param string $key
      *
      * @return bool
@@ -719,7 +669,6 @@ class Request {
     /**
      * Check if request expects JSON
      *
-     *
      * @return bool
      */
     public function expects_json(): bool {
@@ -728,7 +677,6 @@ class Request {
 
     /**
      * Check if request expects XML
-     *
      *
      * @return bool
      */
@@ -739,7 +687,6 @@ class Request {
 
     /**
      * Check if request is AJAX
-     *
      *
      * @return bool
      */

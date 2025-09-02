@@ -23,7 +23,6 @@ $env = require $env_file;
 /**
  * Check if the application is running in development environment
  *
- *
  * @return bool
  */
 function __is_dev(): bool {
@@ -33,7 +32,6 @@ function __is_dev(): bool {
 /**
  * Check if the application is running in test environment
  *
- *
  * @return bool
  */
 function __is_test(): bool {
@@ -42,7 +40,6 @@ function __is_test(): bool {
 
 /**
  * Check if the application is running in production environment
- *
  *
  * @return bool
  */

@@ -16,14 +16,12 @@ class ViewResponse {
     /**
      * View object
      *
-     *
      * @var View
      */
     private View $_view;
 
     /**
      * View response
-     *
      *
      * @param Container $container
      *
@@ -39,7 +37,6 @@ class ViewResponse {
     /**
      * Set realm
      *
-     *
      * @param string $realm
      *
      * @return self
@@ -51,7 +48,6 @@ class ViewResponse {
 
     /**
      * Set controller
-     *
      *
      * @param string $controller
      *
@@ -65,7 +61,6 @@ class ViewResponse {
     /**
      * Set action
      *
-     *
      * @param string $action
      *
      * @return self
@@ -78,7 +73,6 @@ class ViewResponse {
     /**
      * Set title
      *
-     *
      * @param string $title
      *
      * @return self
@@ -90,7 +84,6 @@ class ViewResponse {
 
     /**
      * Assign a variable to view
-     *
      *
      * @param string $key
      * @param mixed $value
@@ -105,7 +98,6 @@ class ViewResponse {
     /**
      * Set master page
      *
-     *
      * @param string $master
      *
      * @return self
@@ -119,7 +111,6 @@ class ViewResponse {
 
     /**
      * Render the view
-     *
      *
      * @return void
      *

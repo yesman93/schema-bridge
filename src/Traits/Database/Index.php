@@ -6,7 +6,6 @@ trait Index {
     /**
      * Index - PRIMARY
      *
-     *
      * @var string
      */
     public const INDEX_PRIMARY = 'PRIMARY';
@@ -14,14 +13,12 @@ trait Index {
     /**
      * Index - UNIQUE
      *
-     *
      * @var string
      */
     public const INDEX_UNIQUE = 'UNIQUE';
 
     /**
      * Index - INDEX
-     *
      *
      * @var string
      */

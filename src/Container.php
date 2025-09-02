@@ -25,14 +25,12 @@ class Container {
     /**
      * bindings for the container
      *
-     *
      * @var array
      */
     private array $_bindings = [];
 
     /**
      * services
-     *
      *
      * @var array
      */
@@ -41,14 +39,12 @@ class Container {
     /**
      * instances of services
      *
-     *
      * @var array
      */
     private array $_instances = [];
 
     /**
      * set service - saves the factory callable into the container
-     *
      *
      * @param string $service_name
      * @param callable $factory
@@ -62,7 +58,6 @@ class Container {
     /**
      * bind - binds the class name to the parameter map
      *
-     *
      * @param string $class_name
      * @param array $parameter_map
      *
@@ -74,7 +69,6 @@ class Container {
 
     /**
      * returns the instance of the service - if the service is not created yet, it creates it
-     *
      *
      * @param string $service_name
      *
@@ -168,7 +162,6 @@ class Container {
     /**
      * checks if the service is registered in the container
      *
-     *
      * @param string $service_name
      *
      * @return bool
@@ -179,7 +172,6 @@ class Container {
 
     /**
      * sets up the container instance and returns it
-     *
      *
      * @return Container
      */

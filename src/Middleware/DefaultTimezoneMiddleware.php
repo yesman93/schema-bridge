@@ -12,7 +12,6 @@ class DefaultTimezoneMiddleware implements MiddlewareContract {
     /**
      * Set timezone
      *
-     *
      * @param Container $container
      * @param callable $next
      *

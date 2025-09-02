@@ -2,7 +2,6 @@
 /**
  * Constants for the application
  *
- *
  */
 
 
@@ -58,7 +57,6 @@ define('LUMIO_HOST', $host);
 
 /**
  * Retrieve the current host - including scheme, host (spoofing protected) and port
- *
  *
  * @return string
  */

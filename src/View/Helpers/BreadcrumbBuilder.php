@@ -10,14 +10,12 @@ class BreadcrumbBuilder {
     /**
      * Breadcrumb DTO
      *
-     *
      * @var BreadcrumbDTO
      */
     protected BreadcrumbDTO $_breadcrumb;
 
     /**
      * Breadcrumb builder
-     *
      *
      * @return void
      */
@@ -28,7 +26,6 @@ class BreadcrumbBuilder {
     /**
      * Add breadcrumb item
      *
-     *
      * @return BreadcrumbBuilder
      */
     public function clear(): self {
@@ -38,7 +35,6 @@ class BreadcrumbBuilder {
 
     /**
      * Add breadcrumb item
-     *
      *
      * @param BreadcrumbItem $item
      *
@@ -52,7 +48,6 @@ class BreadcrumbBuilder {
     /**
      * Get breadcrumb DTO containing all items
      *
-     *
      * @return BreadcrumbDTO
      */
     public function get(): BreadcrumbDTO {
@@ -61,7 +56,6 @@ class BreadcrumbBuilder {
 
     /**
      * Check if breadcrumb ends with given item
-     *
      *
      * @param BreadcrumbItem $item
      *

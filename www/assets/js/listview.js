@@ -1,7 +1,6 @@
 /**
  * JS for listview
  *
- *
  */
 
 

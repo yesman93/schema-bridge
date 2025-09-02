@@ -14,14 +14,12 @@ class Scaffoldr {
     /**
      * Instance of database adapter
      *
-     *
      * @var DatabaseAdapter
      */
     private DatabaseAdapter $_adapter;
 
     /**
      * Tables in the database
-     *
      *
      * @var array
      */
@@ -31,7 +29,6 @@ class Scaffoldr {
      * Scaffoldr - Tool for synchronizing database schema with YAML definitions
      *
      * Initializes database adapter and retrieves list of tables
-     *
      *
      * @param Container $container
      *
@@ -45,7 +42,6 @@ class Scaffoldr {
 
     /**
      * Synchronizes the database schema with the YAML files in the schema directory
-     *
      *
      * @return void
      *
@@ -63,7 +59,6 @@ class Scaffoldr {
 
     /**
      * Synchronizes a single table from given YAML file
-     *
      *
      * @param string $filepath Full path to the YAML file
      *

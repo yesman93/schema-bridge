@@ -15,7 +15,6 @@ class Storage {
      * This method generates URI that can be used to access given file securely.
      * The URI is generated using a token that is stored in the session.
      *
-     *
      * @param string $filepath
      *
      * @return string
@@ -32,7 +31,6 @@ class Storage {
      *
      * This method generates a token that can be used to access the file securely.
      * The token is stored in the session and has a limited lifetime.
-     *
      *
      * @param string $filepath
      *
@@ -72,7 +70,6 @@ class Storage {
      *
      * This method retrieves file path associated with the given token.
      * If the token is invalid or expired, it returns null.
-     *
      *
      * @param string $token
      *

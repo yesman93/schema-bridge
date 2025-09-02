@@ -7,14 +7,12 @@ class DatabaseCredentials {
     /**
      * driver
      *
-     *
      * @var string
      */
     private string $_driver;
 
     /**
      * host
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ class DatabaseCredentials {
     /**
      * database name
      *
-     *
      * @var string
      */
     private string $_dbname;
 
     /**
      * username
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ class DatabaseCredentials {
     /**
      * password
      *
-     *
      * @var string
      */
     private string $_password;
 
     /**
      * database connection credentials
-     *
      *
      * @param string $host
      * @param string $username
@@ -71,7 +65,6 @@ class DatabaseCredentials {
     /**
      * Get the driver
      *
-     *
      * @return string
      */
     public function driver(): string {
@@ -80,7 +73,6 @@ class DatabaseCredentials {
 
     /**
      * Get the host
-     *
      *
      * @return string
      */
@@ -91,7 +83,6 @@ class DatabaseCredentials {
     /**
      * Get the database name
      *
-     *
      * @return string
      */
     public function dbname(): string {
@@ -101,7 +92,6 @@ class DatabaseCredentials {
     /**
      * Get the username
      *
-     *
      * @return string
      */
     public function username(): string {
@@ -110,7 +100,6 @@ class DatabaseCredentials {
 
     /**
      * Get the password
-     *
      *
      * @return string
      */

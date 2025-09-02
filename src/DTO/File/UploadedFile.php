@@ -7,14 +7,12 @@ class UploadedFile {
     /**
      * Temporary file path
      *
-     *
      * @var string
      */
     private string $_tmp_path;
 
     /**
      * Original file name
-     *
      *
      * @var string
      */
@@ -23,14 +21,12 @@ class UploadedFile {
     /**
      * File size in bytes
      *
-     *
      * @var int
      */
     private int $_size;
 
     /**
      * MIME type of the file
-     *
      *
      * @var string
      */
@@ -39,14 +35,12 @@ class UploadedFile {
     /**
      * Upload error code
      *
-     *
      * @var int
      */
     private int $_error;
 
     /**
      * Uploaded file
-     *
      *
      * @param string $tmp_path
      * @param string $name
@@ -68,7 +62,6 @@ class UploadedFile {
     /**
      * Get temporary file path
      *
-     *
      * @return string
      */
     public function get_tmp_path(): string {
@@ -77,7 +70,6 @@ class UploadedFile {
 
     /**
      * Get original file name
-     *
      *
      * @return string
      */
@@ -88,7 +80,6 @@ class UploadedFile {
     /**
      * Get file size in bytes
      *
-     *
      * @return int
      */
     public function get_size(): int {
@@ -97,7 +88,6 @@ class UploadedFile {
 
     /**
      * Get MIME type of the file
-     *
      *
      * @return string
      */
@@ -108,7 +98,6 @@ class UploadedFile {
     /**
      * Get upload error code
      *
-     *
      * @return int
      */
     public function get_error(): int {
@@ -117,7 +106,6 @@ class UploadedFile {
 
     /**
      * Get file extension
-     *
      *
      * @return string
      */
@@ -128,7 +116,6 @@ class UploadedFile {
     /**
      * Check if the uploaded file is valid - no errors and is an uploaded file
      *
-     *
      * @return bool
      */
     public function is_valid(): bool {
@@ -137,7 +124,6 @@ class UploadedFile {
 
     /**
      * Check if the uploaded file is an image
-     *
      *
      * @return bool
      */
@@ -148,7 +134,6 @@ class UploadedFile {
     /**
      * Check if the uploaded file is a document
      *
-     *
      * @return bool
      */
     public function is_document(): bool {
@@ -157,7 +142,6 @@ class UploadedFile {
 
     /**
      * Save the uploaded file to given directory
-     *
      *
      * @param string $dir Directory where the file should be saved. If it does not exist, it will be created
      * @param string|null $file_name Optional custom file name. If not provided original name will be used
@@ -183,7 +167,6 @@ class UploadedFile {
 
     /**
      * Create an UploadedFile instance from raw $_FILES data
-     *
      *
      * @param array $raw Raw $_FILES data - entry for one file input filed, e.g. $_FILES['file_input_name']
      *

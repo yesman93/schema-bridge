@@ -11,7 +11,6 @@ class ViewFactory {
     /**
      * Make a view
      *
-     *
      * @param string $controller
      * @param string $action
      * @param Request $request

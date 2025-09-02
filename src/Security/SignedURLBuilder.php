@@ -9,7 +9,6 @@ class SignedURLBuilder {
     /**
      * The URL to be signed
      *
-     *
      * @var string
      */
     private string $_url;
@@ -17,14 +16,12 @@ class SignedURLBuilder {
     /**
      * Expiration timestamp
      *
-     *
      * @var int|null
      */
     private ?int $_expiration = null;
 
     /**
      * Builder for signed URLs
-     *
      *
      * @param string $url
      *
@@ -37,7 +34,6 @@ class SignedURLBuilder {
     /**
      * Init the TTL setting
      *
-     *
      * @return TTLBuilder
      */
     public function ttl(): TTLBuilder {
@@ -46,7 +42,6 @@ class SignedURLBuilder {
 
     /**
      * Set URL expiration
-     *
      *
      * @param int $timestamp
      *
@@ -59,7 +54,6 @@ class SignedURLBuilder {
 
     /**
      * Get the signed URL
-     *
      *
      * @return string
      */
@@ -90,7 +84,6 @@ class SignedURLBuilder {
     /**
      * Get the signed URL as a string
      *
-     *
      * @return string
      */
     public function __toString(): string {
@@ -99,7 +92,6 @@ class SignedURLBuilder {
 
     /**
      * Encode given integer to a base62 string - timestamp obfuscation
-     *
      *
      * @param int $value
      *

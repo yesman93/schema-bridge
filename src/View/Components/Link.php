@@ -9,14 +9,12 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - sm
      *
-     *
      * @var string
      */
     public const string SIZE_SM = 'sm';
 
     /**
      * Size of the modal, that the link opens - md
-     *
      *
      * @var string
      */
@@ -25,14 +23,12 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - lg
      *
-     *
      * @var string
      */
     public const string SIZE_LG = 'lg';
 
     /**
      * Size of the modal, that the link opens - xl
-     *
      *
      * @var string
      */
@@ -41,7 +37,6 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - xxl
      *
-     *
      * @var string
      */
     public const string SIZE_XXL = 'xxl';
@@ -49,14 +44,12 @@ class Link extends Component {
     /**
      * HTML code of the link
      *
-     *
      * @var string
      */
     private string $_html = '';
 
     /**
      * Build a link
-     *
      *
      * @param string $href
      * @param string|null $label
@@ -82,7 +75,6 @@ class Link extends Component {
     /**
      * Get the link HTML
      *
-     *
      * @return string
      */
     public function get() : string {
@@ -92,7 +84,6 @@ class Link extends Component {
     /**
      * Render the link HTML
      *
-     *
      * @return void
      */
     public function render() : void {
@@ -101,7 +92,6 @@ class Link extends Component {
 
     /**
      * Build a link that opens a modal
-     *
      *
      * @param string $link
      * @param string|null $label

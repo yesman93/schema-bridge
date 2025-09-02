@@ -7,14 +7,12 @@ trait HttpStatus {
     /**
      * HTTP status code - 200 OK
      *
-     *
      * @var int
      */
     const HTTP_200 = 200;
 
     /**
      * HTTP status code - 201 Created
-     *
      *
      * @var int
      */
@@ -23,14 +21,12 @@ trait HttpStatus {
     /**
      * HTTP status code - 204 No Content
      *
-     *
      * @var int
      */
     const HTTP_204 = 204;
 
     /**
      * HTTP status code - 301 Moved Permanently
-     *
      *
      * @var int
      */
@@ -39,14 +35,12 @@ trait HttpStatus {
     /**
      * HTTP status code - 302 Found
      *
-     *
      * @var int
      */
     const HTTP_302 = 302;
 
     /**
      * HTTP status code - 400 Bad Request
-     *
      *
      * @var int
      */
@@ -55,14 +49,12 @@ trait HttpStatus {
     /**
      * HTTP status code - 401 Unauthorized
      *
-     *
      * @var int
      */
     const HTTP_401 = 401;
 
     /**
      * HTTP status code - 403 Forbidden
-     *
      *
      * @var int
      */
@@ -71,14 +63,12 @@ trait HttpStatus {
     /**
      * HTTP status code - 404 Not Found
      *
-     *
      * @var int
      */
     const HTTP_404 = 404;
 
     /**
      * HTTP status code - 405 Method Not Allowed
-     *
      *
      * @var int
      */
@@ -87,7 +77,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 500 Internal Server Error
      *
-     *
      * @var int
      */
     const HTTP_500 = 500;
@@ -95,14 +84,12 @@ trait HttpStatus {
     /**
      * HTTP status code - 503 Service Unavailable
      *
-     *
      * @var int
      */
     const HTTP_503 = 503;
 
     /**
      * Default HTTP status bodies
-     *
      *
      * @var array
      */
@@ -123,7 +110,6 @@ trait HttpStatus {
 
     /**
      * Get default body for given status code
-     *
      *
      * @param int $status_code
      *

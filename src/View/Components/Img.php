@@ -10,14 +10,12 @@ class Img extends Component {
     /**
      * HTML code of the image
      *
-     *
      * @var string
      */
     private string $_html = '';
 
     /**
      * Build image tag
-     *
      *
      * @param string $src
      * @param array|null $attributes
@@ -56,7 +54,6 @@ class Img extends Component {
     /**
      * Get HTML code of the image
      *
-     *
      * @return string
      */
     public function get() : string {
@@ -65,7 +62,6 @@ class Img extends Component {
 
     /**
      * Render HTML code of the image
-     *
      *
      * @return void
      */

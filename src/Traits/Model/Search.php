@@ -9,7 +9,6 @@ trait Search {
     /**
      * Current search query string
      *
-     *
      * @var string|null
      */
     protected ?string $_search_query = null;
@@ -17,14 +16,12 @@ trait Search {
     /**
      * Columns to search in
      *
-     *
      * @var array
      */
     protected array $_search_columns = [];
 
     /**
      * Set the search query
-     *
      *
      * @param string|null $query
      *
@@ -37,7 +34,6 @@ trait Search {
     /**
      * Get the search query
      *
-     *
      * @return string|null
      */
     public function get_search_query(): ?string {
@@ -46,7 +42,6 @@ trait Search {
 
     /**
      * Set search columns by given database columns
-     *
      *
      * @param MySQLColumns $columns
      *
@@ -64,7 +59,6 @@ trait Search {
     /**
      * Add search column
      *
-     *
      * @param string $column
      *
      * @return void
@@ -78,7 +72,6 @@ trait Search {
 
     /**
      * Remove one or more column names from the search list.
-     *
      *
      * @param string $column
      *
@@ -94,7 +87,6 @@ trait Search {
     /**
      * Overwrite all search columns with given set
      *
-     *
      * @param array $columns
      *
      * @return void
@@ -105,7 +97,6 @@ trait Search {
 
     /**
      * Get current search columns
-     *
      *
      * @return array
      */

@@ -9,7 +9,6 @@ class Date extends Column {
     /**
      * Get the date in the format j.n.Y
      *
-     *
      * @param mixed $row
      *
      * @return string

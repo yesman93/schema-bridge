@@ -9,14 +9,12 @@ class Number extends Column {
     /**
      * Number of decimals to display
      *
-     *
      * @var int|null
      */
     protected ?int $_decimals;
 
     /**
      * Number column
-     *
      *
      * @param string $name
      * @param string $label
@@ -33,7 +31,6 @@ class Number extends Column {
 
     /**
      * Get HTML of the column
-     *
      *
      * @param mixed $row
      *

@@ -13,14 +13,12 @@ class ControllerFactory {
     /**
      * instance of container
      *
-     *
      * @var Container
      */
     private Container $_container;
 
     /**
      * Factory for creating controllers
-     *
      *
      * @param Container $container
      *
@@ -32,7 +30,6 @@ class ControllerFactory {
 
     /**
      * Make a controller
-     *
      *
      * @param string $name
      * @param string $action

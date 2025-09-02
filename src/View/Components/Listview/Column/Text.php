@@ -9,14 +9,12 @@ class Text extends Column {
     /**
      * Maximum length of the text
      *
-     *
      * @var int|null
      */
     protected ?int $_truncate;
 
     /**
      * Text column
-     *
      *
      * @param string $name
      * @param string $label
@@ -33,7 +31,6 @@ class Text extends Column {
 
     /**
      * Get HTML of the text value from given row
-     *
      *
      * @param mixed $row
      *

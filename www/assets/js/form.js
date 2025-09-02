@@ -1,7 +1,6 @@
 /**
  * JS for forms
  *
- *
  */
 
 
@@ -25,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /**
  * Toggle password visibility
- *
  *
  * @param {Element} toggle
  *
@@ -69,7 +67,6 @@ function toggle_password(toggle) {
 /**
  * Initialize select2 plugin
  *
- *
  * @param {String|undefined} selector
  *
  * @returns {void}
@@ -98,7 +95,6 @@ function init_select2(selector) {
 
 /**
  * Initialize choices plugin
- *
  *
  * @param {String|undefined} selector
  *

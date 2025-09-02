@@ -11,14 +11,12 @@ class JsonResponse {
     /**
      * Data to be rendered as JSON
      *
-     *
      * @var array
      */
     private array $_data = [];
 
     /**
      * Data as a JSON string
-     *
      *
      * @var string
      */
@@ -27,14 +25,12 @@ class JsonResponse {
     /**
      * Length of the JSON string (size in bytes)
      *
-     *
      * @var int
      */
     private int $_length = 0;
 
     /**
      * Response for JSON rendering
-     *
      *
      * @param array $data
      *
@@ -50,7 +46,6 @@ class JsonResponse {
     /**
      * Creates JSON string from data
      *
-     *
      * @return void
      */
     private function _to_json(): void {
@@ -62,7 +57,6 @@ class JsonResponse {
     /**
      * Get JSON data
      *
-     *
      * @return array
      */
     public function get_data(): array {
@@ -72,7 +66,6 @@ class JsonResponse {
     /**
      * Render JSON data as a string
      *
-     *
      * @return string
      */
     public function __toString(): string {
@@ -81,7 +74,6 @@ class JsonResponse {
 
     /**
      * Get length of JSON data
-     *
      *
      * @return int
      */

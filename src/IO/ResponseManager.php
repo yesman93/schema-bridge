@@ -19,14 +19,12 @@ class ResponseManager {
     /**
      * instance of the container
      *
-     *
      * @var Container
      */
     private Container $_container;
 
     /**
      * Response management
-     *
      *
      * @param Container $container
      *
@@ -38,7 +36,6 @@ class ResponseManager {
 
     /**
      * Prepare response
-     *
      *
      * @param mixed $result
      *
@@ -109,7 +106,6 @@ class ResponseManager {
     /**
      * Prepare redirect response
      *
-     *
      * @param RedirectResponse $result
      *
      * @return mixed
@@ -154,7 +150,6 @@ class ResponseManager {
     /**
      * Prepare JSON response
      *
-     *
      * @param JsonResponse $result
      *
      * @return Response
@@ -179,7 +174,6 @@ class ResponseManager {
     /**
      * Prepare XML response
      *
-     *
      * @param XmlResponse $result
      *
      * @return Response
@@ -203,7 +197,6 @@ class ResponseManager {
 
     /**
      * Prepare file response
-     *
      *
      * @param FileResponse $result
      *
@@ -230,7 +223,6 @@ class ResponseManager {
 
     /**
      * Respond to the given controller result
-     *
      *
      * @param mixed $result
      *

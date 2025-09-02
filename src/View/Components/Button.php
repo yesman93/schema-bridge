@@ -9,14 +9,12 @@ class Button extends Component {
     /**
      * HTML of the button
      *
-     *
      * @var string
      */
     private string $_html = '';
 
     /**
      * Build a button
-     *
      *
      * @param string $link
      * @param string $label
@@ -82,7 +80,6 @@ class Button extends Component {
     /**
      * Get HTML of the button
      *
-     *
      * @return string
      */
     public function get(): string {
@@ -91,7 +88,6 @@ class Button extends Component {
 
     /**
      * Render the button
-     *
      *
      * @return void
      */

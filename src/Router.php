@@ -22,14 +22,12 @@ class Router {
     /**
      * instance of the container
      *
-     *
      * @var Container
      */
     private Container $_container;
 
     /**
      * Name of the realm
-     *
      *
      * @var string
      */
@@ -38,14 +36,12 @@ class Router {
     /**
      * name of the controller
      *
-     *
      * @var string
      */
     private string $_controller_name = '';
 
     /**
      * name of the action
-     *
      *
      * @var string
      */
@@ -54,14 +50,12 @@ class Router {
     /**
      * parameters of the action
      *
-     *
      * @var array
      */
     private array $_action_params = [];
 
     /**
      * Custom URI
-     *
      *
      * @var string|null
      */
@@ -70,14 +64,12 @@ class Router {
     /**
      * Full raw URL
      *
-     *
      * @var string|null
      */
     private ?string $_raw_url = null;
 
     /**
      * routing
-     *
      *
      * @param string|null $uri
      *
@@ -93,7 +85,6 @@ class Router {
     /**
      * set the full raw URL
      *
-     *
      * @return void
      */
     private function _set_full_url(): void {
@@ -102,7 +93,6 @@ class Router {
 
     /**
      * get the full raw URL
-     *
      *
      * @return string|null
      */
@@ -117,7 +107,6 @@ class Router {
 
     /**
      * perform routing
-     *
      *
      * @return void
      */
@@ -150,7 +139,6 @@ class Router {
     /**
      * get controller instance
      *
-     *
      * @return object
      */
     public function get_controller(): object {
@@ -165,7 +153,6 @@ class Router {
 
     /**
      * Get model instance based on current controller
-     *
      *
      * @return BaseModel|null
      *
@@ -185,7 +172,6 @@ class Router {
     /**
      * get action
      *
-     *
      * @return string
      */
     public function get_action(): string {
@@ -194,7 +180,6 @@ class Router {
 
     /**
      * get action parameters
-     *
      *
      * @return array
      */
@@ -205,7 +190,6 @@ class Router {
     /**
      * get the realm name
      *
-     *
      * @return string
      */
     public function get_realm_name() : string {
@@ -215,7 +199,6 @@ class Router {
     /**
      * get the controller name
      *
-     *
      * @return string
      */
     public function get_controller_name() : string {
@@ -224,7 +207,6 @@ class Router {
 
     /**
      * get the controller name in plural
-     *
      *
      * @return string
      */

@@ -12,14 +12,12 @@ class MysqlTableDefinition {
     /**
      * MySQL table name
      *
-     *
      * @var string
      */
     private string $_name;
 
     /**
      * MySQL table columns
-     *
      *
      * @var MysqlColumns
      */
@@ -28,14 +26,12 @@ class MysqlTableDefinition {
     /**
      * MySQL table indexes
      *
-     *
      * @var MysqlIndexes
      */
     private MysqlIndexes $_indexes;
 
     /**
      * MySQL table engine
-     *
      *
      * @var string
      */
@@ -44,7 +40,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table collation
      *
-     *
      * @var string
      */
     private string $_collation;
@@ -52,14 +47,12 @@ class MysqlTableDefinition {
     /**
      * MySQL table comment
      *
-     *
      * @var string|null
      */
     private ?string $_comment = null;
 
     /**
      * MySQL table
-     *
      *
      * @param string            $name
      * @param MysqlColumns      $columns
@@ -90,7 +83,6 @@ class MysqlTableDefinition {
     /**
      * Returns SQL query for creating the table
      *
-     *
      * @return string
      */
     public function to_sql(): string {
@@ -116,7 +108,6 @@ class MysqlTableDefinition {
     /**
      * Get table name
      *
-     *
      * @return string
      */
     public function get_name(): string {
@@ -125,7 +116,6 @@ class MysqlTableDefinition {
 
     /**
      * Get columns
-     *
      *
      * @return MysqlColumns
      */
@@ -136,7 +126,6 @@ class MysqlTableDefinition {
     /**
      * Get indexes
      *
-     *
      * @return MysqlIndexes
      */
     public function get_indexes(): MysqlIndexes {
@@ -145,7 +134,6 @@ class MysqlTableDefinition {
 
     /**
      * Get engine
-     *
      *
      * @return string
      */
@@ -156,7 +144,6 @@ class MysqlTableDefinition {
     /**
      * Get collation
      *
-     *
      * @return string
      */
     public function get_collation(): string {
@@ -165,7 +152,6 @@ class MysqlTableDefinition {
 
     /**
      * Get comment
-     *
      *
      * @return string|null
      */

@@ -9,14 +9,12 @@ class Badge extends Column {
     /**
      * Background class for the badge
      *
-     *
      * @var string
      */
     protected string $_bg_class;
 
     /**
      * Badge column
-     *
      *
      * @param string $name
      * @param string $label
@@ -33,7 +31,6 @@ class Badge extends Column {
 
     /**
      * Get HTML of the badge
-     *
      *
      * @param mixed $row
      *

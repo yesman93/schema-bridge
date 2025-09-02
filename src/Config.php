@@ -7,7 +7,6 @@ class Config {
     /**
      * Cache of loaded configs
      *
-     *
      * @var array
      */
     private static array $_cache = [];
@@ -15,14 +14,12 @@ class Config {
     /**
      * Directory where config files are stored
      *
-     *
      * @var string
      */
     private const CONFIG_DIR = __DIR__ . '/../config';
 
     /**
      * Get a configuration array by name
-     *
      *
      * @param string $name Config file name without .php (e.g., 'database' or 'services/fio') with support for array keys
      *

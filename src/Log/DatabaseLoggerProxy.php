@@ -10,7 +10,6 @@ class DatabaseLoggerProxy {
     /**
      * Database logger instance
      *
-     *
      * @var Container
      */
     private Container $_container;
@@ -18,14 +17,12 @@ class DatabaseLoggerProxy {
     /**
      * Default model for logging
      *
-     *
      * @var string|null
      */
     private ?string $_model = null;
 
     /**
      * Default model ID for logging
-     *
      *
      * @var int|null
      */
@@ -35,7 +32,6 @@ class DatabaseLoggerProxy {
      * Proxy for database logger
      *
      * This class acts as a proxy for the DatabaseLogger, allowing to log messages with values defaults
-     *
      *
      * @param Container $container
      * @param string|null $default_model
@@ -53,7 +49,6 @@ class DatabaseLoggerProxy {
     /**
      * Set default model
      *
-     *
      * @param string $model
      *
      * @return self
@@ -66,7 +61,6 @@ class DatabaseLoggerProxy {
     /**
      * Set default model ID
      *
-     *
      * @param int $model_id
      *
      * @return self
@@ -78,7 +72,6 @@ class DatabaseLoggerProxy {
 
     /**
      * Log emergency into database
-     *
      *
      * @param string $message
      * @param int|null $model_id
@@ -97,7 +90,6 @@ class DatabaseLoggerProxy {
     /**
      * Log alert into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -114,7 +106,6 @@ class DatabaseLoggerProxy {
 
     /**
      * Log critical into database
-     *
      *
      * @param string $message
      * @param int|null $model_id
@@ -133,7 +124,6 @@ class DatabaseLoggerProxy {
     /**
      * Log error into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -150,7 +140,6 @@ class DatabaseLoggerProxy {
 
     /**
      * Log warning into database
-     *
      *
      * @param string $message
      * @param int|null $model_id
@@ -169,7 +158,6 @@ class DatabaseLoggerProxy {
     /**
      * Log notice into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -187,7 +175,6 @@ class DatabaseLoggerProxy {
     /**
      * Log info into database
      *
-     *
      * @param string $message
      * @param int|null $model_id
      * @param string|null $model
@@ -204,7 +191,6 @@ class DatabaseLoggerProxy {
 
     /**
      * Log debug into database
-     *
      *
      * @param string $message
      * @param int|null $model_id

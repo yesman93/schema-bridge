@@ -13,7 +13,6 @@ interface DBDefinitionContract {
     /**
      * Returns the table definition to be used in schema syncing
      *
-     *
      * @return MysqlTableDefinition
      */
     public function get_table(): MysqlTableDefinition;

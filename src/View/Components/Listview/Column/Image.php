@@ -10,7 +10,6 @@ class Image extends Column {
     /**
      * Width of the image
      *
-     *
      * @var mixed
      */
     protected mixed $width;
@@ -18,14 +17,12 @@ class Image extends Column {
     /**
      * Height of the image
      *
-     *
      * @var mixed
      */
     protected mixed $height;
 
     /**
      * Image column
-     *
      *
      * @param string $name
      * @param string $label
@@ -45,7 +42,6 @@ class Image extends Column {
 
     /**
      * Get HTML code of the image
-     *
      *
      * @param mixed $row
      *

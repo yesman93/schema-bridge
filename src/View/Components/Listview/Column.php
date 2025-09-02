@@ -7,14 +7,12 @@ abstract class Column {
     /**
      * Column name
      *
-     *
      * @var string
      */
     protected string $_name;
 
     /**
      * Column label
-     *
      *
      * @var string|null
      */
@@ -23,14 +21,12 @@ abstract class Column {
     /**
      * Column width
      *
-     *
      * @var int|null
      */
     protected ?int $_width = null;
 
     /**
      * Column class
-     *
      *
      * @var string|null
      */
@@ -39,7 +35,6 @@ abstract class Column {
     /**
      * Whether the column is sortable
      *
-     *
      * @var bool
      */
     protected bool $_sortable = false;
@@ -47,14 +42,12 @@ abstract class Column {
     /**
      * Sort column
      *
-     *
      * @var string|null
      */
     protected ?string $_sort_column = null;
 
     /**
      * Listview Column
-     *
      *
      * @param string $name
      * @param string|null $label
@@ -73,7 +66,6 @@ abstract class Column {
     /**
      * Get column name
      *
-     *
      * @return string
      */
     public function get_name(): string {
@@ -82,7 +74,6 @@ abstract class Column {
 
     /**
      * Get column label
-     *
      *
      * @return string|null
      */
@@ -93,7 +84,6 @@ abstract class Column {
     /**
      * Get column width
      *
-     *
      * @return int|null
      */
     public function get_width(): ?int {
@@ -103,7 +93,6 @@ abstract class Column {
     /**
      * Get column class
      *
-     *
      * @return string|null
      */
     public function get_class(): ?string {
@@ -112,7 +101,6 @@ abstract class Column {
 
     /**
      * Get HTML of the value from given row
-     *
      *
      * @param mixed $row
      *
@@ -129,7 +117,6 @@ abstract class Column {
     /**
      * Render HTML of the value from given row
      *
-     *
      * @param mixed $row
      *
      * @return void
@@ -140,7 +127,6 @@ abstract class Column {
 
     /**
      * Set the column as sortable
-     *
      *
      * @param string|null $column
      *
@@ -157,7 +143,6 @@ abstract class Column {
     /**
      * Get whether the column is sortable
      *
-     *
      * @return bool
      */
     public function is_sortable(): bool {
@@ -166,7 +151,6 @@ abstract class Column {
 
     /**
      * Get the column by which to sort
-     *
      *
      * @return string|null
      */
