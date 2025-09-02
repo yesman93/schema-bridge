@@ -60,27 +60,23 @@ define('LUMIO_HOST', $host);
  *
  * @return string
  */
-function retrieve_host(): string {
+function retrieve_host(): string
+{
 
     $config_file = dirname(__DIR__) . '/config/routing.php';
     if (!file_exists($config_file)) {
-
         http_response_code(500);
         echo 'Missing routing.php config file! Please copy from routing-template.php';
         exit;
     }
 
     $config = require $config_file;
-
     $host   = filter_input(INPUT_SERVER, 'HTTP_HOST') ?? '';
     $scheme = filter_input(INPUT_SERVER, 'REQUEST_SCHEME') ?? (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http');
-
     $host   = strtolower(trim($host));
     $scheme = strtolower(trim($scheme));
-
     $port = (int) ($_SERVER['SERVER_PORT'] ?? 80);
     $default_ports = ['http' => 80, 'https' => 443];
-
     $port_append = '';
     if (!isset($default_ports[$scheme]) && strpos($host, ':') === false) {
         $port_append = ':' . $port;
@@ -90,7 +86,7 @@ function retrieve_host(): string {
 
     // Whitelist check
     $allowed_hosts = array_filter($config['allowed_hosts'] ?? []);
-    if (!empty($allowed_hosts) && !in_array($host, $allowed_hosts, true)) {
+    if (!empty($allowed_hosts) && !in_array($host, $allowed_hosts, true) && !in_array('forge', $GLOBALS['script_arguments'] ?? [], true)) {
         http_response_code(403);
         echo 'Host "' . $host . '" not allowed';
         exit;

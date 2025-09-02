@@ -25,5 +25,8 @@
       "src/Bootstrap/init.php",
       "src/Helpers/functions.php"
     ]
-  }
+  },
+  "bin": [
+    "bin/forge"
+  ]
 }

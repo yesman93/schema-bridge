@@ -1,0 +1,75 @@
+table: upload
+charset: utf8mb4
+collation: utf8mb4_czech_ci
+engine: InnoDB
+columns:
+
+  - name: upload_id
+    type: int
+    nullable: false
+    auto_increment: true
+
+  - name: filename_original
+    type: varchar
+    length: 255
+    collation: utf8mb4_czech_ci
+    nullable: false
+
+  - name: filename_stored
+    type: varchar
+    length: 255
+    collation: utf8mb4_czech_ci
+    nullable: false
+
+  - name: size_bytes
+    type: bigint
+    nullable: false
+
+  - name: encoding
+    type: varchar
+    length: 50
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: delimiter
+    type: char
+    length: 1
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: row_count
+    type: int
+    nullable: true
+
+  - name: status
+    type: enum
+    values: [uploaded, mapped, imported, failed]
+    nullable: false
+    default: uploaded
+
+  - name: error_message
+    type: text
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: datetime_add
+    type: datetime
+    nullable: false
+
+  - name: user_id_add
+    type: int
+    nullable: true
+
+  - name: datetime_update
+    type: datetime
+    nullable: true
+
+indexes:
+  - columns: [upload_id]
+    type: primary
+  - columns: [status]
+    type: index
+  - columns: [datetime_add]
+    type: index
+  - columns: [user_id_add]
+    type: index

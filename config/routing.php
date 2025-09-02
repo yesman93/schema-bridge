@@ -19,7 +19,7 @@ return [
     ],
 
     'allowed_hosts' => [
-        'schemabridge.test',
+        'schema-bridge.test',
         // allowed hosts go here
     ],
 

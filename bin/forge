@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+$GLOBALS['script_arguments'] = $argv;
+
+define('ROOT_PATH', dirname(__FILE__) . '/../');
+
+require ROOT_PATH . 'vendor/autoload.php';
+
+
+
+try {
+
+    $commander = new Lumio\Commander($argv);
+    $commander->handle();
+} catch (Throwable $e) {
+    echo "Error: \033[31m" . $e->getMessage() . "\033[0m\n";
+    exit(1);
+}

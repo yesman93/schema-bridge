@@ -221,8 +221,6 @@ class BaseController {
      * @param array $params
      *
      * @return mixed
-     *
-     * @throws Exception
      */
     public function process(string $action = 'index', array $params = []): mixed {
 
@@ -257,12 +255,16 @@ class BaseController {
 
             MessageBag::success($message, $name);
 
+            return null;
+
         } catch (LumioInfoException $e) { // catch and add info message
 
             $message = $e->get_message();
             $name = $e->get_name();
 
             MessageBag::info($message, $name);
+
+            return null;
 
         } catch (LumioWarningException $e) { // catch and add warning message
 
@@ -271,12 +273,16 @@ class BaseController {
 
             MessageBag::warning($message, $name);
 
+            return null;
+
         } catch (LumioErrorException $e) { // catch and add error message
 
             $message = $e->get_message();
             $name = $e->get_name();
 
             MessageBag::error($message, $name);
+
+            return null;
 
         } catch (LumioViewException $e) {
 
@@ -411,54 +417,32 @@ class BaseController {
         $this->_name_plural = $plural;
     }
 
-    public function add() : bool {
+    public function add() : mixed {
 
         $this->title(__tx('Add %s', $this->_name));
 
-        __t('Add %s', $this->_name);
-
         return true;
     }
 
-    public function edit(mixed $id = null) : bool {
+    public function edit(mixed $id = null) : mixed {
 
         $this->title(__tx('Edit %s', $this->_name));
 
-        __t('Edit %s (ID: %s)', $this->_name, $id);
-
         return true;
     }
 
-    public function delete(mixed $id = null) : void {
-
-        $this->title(__tx('Delete %s', $this->_name));
-
-        __t('Delete %s (ID: %s)', $this->_name, $id);
+    public function delete(mixed $id = null) : mixed {
 
     }
 
     public function view(mixed $id = null) : void {
 
         $this->title(__tx('View %s', $this->_name));
-
-        __t('View %s (ID: %s)', $this->_name, $id);
     }
 
     public function list() : void {
 
         $this->title(__tx('%s', ucfirst($this->_name_plural)));
-
-//        __t('Listing %s on page %s', $this->_name_plural, $page);
-
-
-//        if ($this->_model !== null) {
-//            $this->_model->page($page);
-//        }
-
-
-
-
-        // Here we'll later load view templates automatically
     }
 
     /**
@@ -466,7 +450,7 @@ class BaseController {
      *
      * @return void
      */
-    public function index() : void {
+    public function index() : mixed {
         $this->list();
     }
 
@@ -991,6 +975,81 @@ class BaseController {
         $logger->model($this->_name);
 
         return $logger;
+    }
+
+    /**
+     * Close the modal window and optionally reload the parent window
+     *
+     * @param bool $reload_parent Whether to reload the parent window
+     *
+     * @return RedirectResponse Returns a redirect response to close the modal
+     */
+    protected function close_modal(bool $reload_parent = false): RedirectResponse {
+
+        $params = [];
+        $params[] = $reload_parent ? 1 : 0;
+
+        return $this->redirect('/lumio/modal/close/' . implode('/', $params));
+    }
+
+    /**
+     * Add given error message and invalidate the request
+     *
+     * @param string $message
+     * @param string $name
+     *
+     * @return void
+     */
+    protected function error(string $message, string $name = ''): void {
+        MessageBag::error($message, $name);
+        RequestValidator::set_valid(false);
+    }
+
+    /**
+     * Check if the current controller is the given one
+     *
+     * @param string $controller
+     *
+     * @return bool
+     */
+    protected function is_controller(string $controller): bool {
+        return $this->_name === $controller;
+    }
+
+    /**
+     * Check if the current action is the given one
+     *
+     * @param string|array ...$action
+     *
+     * @return bool
+     */
+    protected function is_action(string|array ...$action): bool {
+
+        if (is_array($action)) {
+            return in_array($this->_action, $action, true);
+        }
+
+        return $this->_action === $action;
+    }
+
+    /**
+     * Add given asset to the view
+     *
+     * @param string $name
+     *
+     * @return void
+     */
+    protected function asset(string $name): void {
+        $this->_view->asset($name);
+    }
+
+    /**
+     * Get the request object
+     *
+     * @return Request
+     */
+    protected function request(): Request {
+        return $this->_request;
     }
 
 }
