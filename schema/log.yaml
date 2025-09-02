@@ -1,0 +1,78 @@
+table: log
+charset: utf8mb4
+collation: utf8mb4_czech_ci
+engine: InnoDB
+columns:
+  - name: log_id
+    type: int
+    nullable: false
+    auto_increment: true
+
+  - name: message
+    type: longtext
+    collation: utf8mb4_czech_ci
+    nullable: false
+
+  - name: level
+    type: varchar
+    length: 50
+    collation: utf8mb4_czech_ci
+    nullable: false
+
+  - name: environment
+    type: varchar
+    length: 50
+    collation: utf8mb4_czech_ci
+    nullable: false
+
+  - name: model
+    type: varchar
+    length: 200
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: model_id
+    type: int
+    nullable: true
+
+  - name: context
+    type: longtext
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: request_id
+    type: varchar
+    length: 30
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: datetime_add
+    type: datetime
+    nullable: false
+
+  - name: user_id_add
+    type: int
+    nullable: false
+
+indexes:
+
+  - columns: [log_id]
+    type: primary
+
+  - columns: [level]
+    type: index
+
+  - columns: [model]
+    type: index
+
+  - columns: [model, model_id]
+    type: index
+
+  - columns: [request_id]
+    type: index
+
+  - columns: [datetime_add]
+    type: index
+
+  - columns: [user_id_add]
+    type: index

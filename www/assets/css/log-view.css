@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.log-col-level {
+    --w: 100px;
+    width: var(--w);
+    min-width: var(--w);
+}
+
+.log-col-datetime {
+    --w: 110px;
+    width: var(--w);
+    min-width: var(--w);
+}
+
+.log-col-environment {
+    --w: 80px;
+    width: var(--w);
+    min-width: var(--w);
+}
+
+.log-col-requestid {
+    --w: 180px;
+    min-width: var(--w);
+}
+
+.log-col-message {
+    --w: 400px;
+    min-width: var(--w);
+}
+
+.log-col-context {
+    --w: 200px;
+    width: var(--w);
+    min-width: var(--w);
+}
+
+.log-row {
+    transition: border-bottom-color .3s;
+}
+
+.log-row:hover {
+    border-bottom-color: rgba(var(--bs-info-rgb), .9) !important;
+}
+

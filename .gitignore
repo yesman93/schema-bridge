@@ -1,0 +1,5 @@
+#/config/init.php
+#/config/routing.php
+#/config/database.php
+#/logs/*
+#/logs/archive/*/*

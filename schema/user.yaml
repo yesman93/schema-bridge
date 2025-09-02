@@ -1,0 +1,36 @@
+table: user
+charset: utf8mb4
+collation: utf8mb4_czech_ci
+engine: InnoDB
+columns:
+  - name: user_id
+    type: int
+    nullable: false
+    auto_increment: true
+    primary: true
+
+  - name: first_name
+    type: varchar
+    length: 200
+    nullable: true
+
+  - name: last_name
+    type: varchar
+    length: 200
+    nullable: true
+
+  - name: email
+    type: varchar
+    length: 200
+    nullable: true
+
+  - name: phone
+    type: varchar
+    length: 200
+    nullable: true
+
+indexes:
+  - columns: [user_id]
+    type: primary
+  - columns: [email]
+    type: index

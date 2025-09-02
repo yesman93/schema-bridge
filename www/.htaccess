@@ -1,0 +1,38 @@
+RewriteEngine On
+
+
+# Force HTTPS
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.*)$ index.php?action_query=$1 [L,QSA]
+
+
+# Deny direct access to certain file types (important for security)
+#<FilesMatch "\.(env|ini|yml|yaml|log|bak|sql|sh)$">
+#    Order allow,deny
+#    Deny from all
+#</FilesMatch>
+
+
+# Disable script execution inside /storage and /logs
+#<Directory "/storage">
+#    php_flag engine off
+#    Options -ExecCGI
+#</Directory>
+#
+#<Directory "/logs">
+#    php_flag engine off
+#    Options -ExecCGI
+#</Directory>
+
+
+# Better 404 for missing files
+#ErrorDocument 404 /index.php
+
+

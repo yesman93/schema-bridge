@@ -1,0 +1,80 @@
+table: page
+charset: utf8mb4
+collation: utf8mb4_czech_ci
+engine: InnoDB
+columns:
+
+  - name: page_id
+    type: int
+    nullable: false
+    auto_increment: true
+
+  - name: url
+    type: varchar
+    length: 200
+    collation: utf8mb4_czech_ci
+    nullable: false
+
+  - name: title
+    type: varchar
+    length: 200
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: heading
+    type: varchar
+    length: 200
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: keywords
+    type: varchar
+    length: 200
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: description
+    type: varchar
+    length: 200
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: content
+    type: longtext
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: note
+    type: text
+    collation: utf8mb4_czech_ci
+    nullable: true
+
+  - name: lang_iso
+    type: varchar
+    length: 3
+    nullable: false
+
+  - name: datetime_add
+    type: datetime
+    nullable: false
+
+  - name: user_id_add
+    type: int
+    nullable: false
+
+indexes:
+
+  - columns: [page_id]
+    type: primary
+
+  - columns: [url]
+    type: index
+
+  - columns: [lang_iso]
+    type: index
+
+  - columns: [url, lang_iso]
+    type: index
+
+  - columns: [user_id_add]
+    type: index

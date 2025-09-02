@@ -1,24 +1,24 @@
 {
-  "name": "yesman93/schema-bridge",
-  "description": "CSV data import to database with column mapping function",
+  "name": "bradlet/lumio",
+  "description": "Lumio - Lightweight PHP Framework",
   "type": "project",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": ">=8.2",
     "ext-pdo": "*",
-    "ext-mbstring": "*"
+    "ext-mbstring": "*",
+    "ext-openssl": "*",
+    "ext-ctype": "*",
+    "ext-curl": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "mustangostang/spyc": "^0.6.3",
+    "ext-fileinfo": "*"
   },
   "autoload": {
     "psr-4": {
-      "SchemaBridge\\": "src/"
+      "Lumio\\": "src/",
+      "App\\": "app/"
     }
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "@dump-autoload"
-    ],
-    "post-update-cmd": [
-      "@dump-autoload"
-    ]
   }
 }
