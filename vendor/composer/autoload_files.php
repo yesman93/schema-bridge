@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     '04c6c5c2f7095ccf6c481d3e53e1776f' => $vendorDir . '/mustangostang/spyc/Spyc.php',
+    '61709f2587c8f9519cc05f7fa96ec840' => $baseDir . '/config/const.php',
+    '6cc7267d23c5a353585e7065a600add9' => $baseDir . '/src/Bootstrap/init.php',
+    'c9f6a1d5d01f47917fa7cd177ce08948' => $baseDir . '/src/Helpers/functions.php',
 );

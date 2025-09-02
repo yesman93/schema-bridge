@@ -19,6 +19,11 @@
     "psr-4": {
       "Lumio\\": "src/",
       "App\\": "app/"
-    }
+    },
+    "files": [
+      "config/const.php",
+      "src/Bootstrap/init.php",
+      "src/Helpers/functions.php"
+    ]
   }
 }
