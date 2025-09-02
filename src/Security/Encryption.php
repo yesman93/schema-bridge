@@ -7,8 +7,6 @@ class Encryption {
     /**
      * Cipher algorithm - AES-256-CBC
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class Encryption {
     /**
      * Cipher algorithm - AES-192-CBC
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class Encryption {
     /**
      * Cipher algorithm - AES-256-CBC
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ class Encryption {
     /**
      * Default cipher algorithm
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ class Encryption {
     /**
      * Encryption salt
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ class Encryption {
     /**
      * Encrypt a string using the argon2 algorithm
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $string
      *
@@ -76,8 +64,6 @@ class Encryption {
     /**
      * Encrypt a string
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $string
      * @param string|null $key
@@ -107,8 +93,6 @@ class Encryption {
     /**
      * Decrypt a string
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $encrypted_string
      * @param string|null $key
@@ -136,7 +120,6 @@ class Encryption {
     /**
      * Lightweight XOR "encryption" for simple obfuscation
      *
-     * @author TB 28.4.2025
      *
      * @param string $string
      * @param string $salt
@@ -158,7 +141,6 @@ class Encryption {
     /**
      * XOR decryption (symmetric with xor_encrypt)
      *
-     * @author TB 28.4.2025
      *
      * @param string $string
      * @param string $salt

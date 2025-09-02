@@ -9,8 +9,6 @@ class Boolean extends Column {
     /**
      * Get HTML code of the column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

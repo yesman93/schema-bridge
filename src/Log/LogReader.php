@@ -14,8 +14,6 @@ class LogReader {
     /**
      * Read log records from given channel
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $channel
      * @param string|null $file
@@ -95,8 +93,6 @@ class LogReader {
     /**
      * Parses a log file and returns LogRecord DTOs in an array
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $file_path
      *
@@ -149,8 +145,6 @@ class LogReader {
     /**
      * Parses a single log entry and returns a LogRecord DTO or null if parsing fails
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param string $line
      *

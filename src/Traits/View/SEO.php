@@ -9,8 +9,6 @@ trait SEO {
     /**
      * SEO title
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @var string|null
      */
@@ -19,8 +17,6 @@ trait SEO {
     /**
      * SEO description
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @var string|null
      */
@@ -29,8 +25,6 @@ trait SEO {
     /**
      * SEO keywords
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @var string|null
      */
@@ -39,8 +33,6 @@ trait SEO {
     /**
      * Set SEO title
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param string $title
      *
@@ -53,8 +45,6 @@ trait SEO {
     /**
      * Get SEO title
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param bool $include_appname
      *
@@ -73,8 +63,6 @@ trait SEO {
     /**
      * Set SEO description
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param string $description
      *
@@ -87,8 +75,6 @@ trait SEO {
     /**
      * Get SEO description
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @return string|null
      */
@@ -99,8 +85,6 @@ trait SEO {
     /**
      * Set SEO keywords
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param string $keywords
      *
@@ -113,8 +97,6 @@ trait SEO {
     /**
      * Get SEO keywords
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @return string|null
      */

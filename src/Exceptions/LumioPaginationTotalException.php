@@ -7,7 +7,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Total number of records
      *
-     * @author TB
      * date 28.4.2025
      *
      * @var int
@@ -17,7 +16,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Number of records per page
      *
-     * @author TB
      * date 28.4.2025
      *
      * @var int
@@ -27,8 +25,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Exception for getting total number of records
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param int $total
      * @param int $per_page
@@ -46,8 +42,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Get total number of records
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return int
      */
@@ -58,8 +52,6 @@ class LumioPaginationTotalException extends \Exception {
     /**
      * Get number of records per page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return int
      */

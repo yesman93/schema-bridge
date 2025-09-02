@@ -21,8 +21,6 @@ class View {
     /**
      * Variables accessible in the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -31,8 +29,6 @@ class View {
     /**
      * Rendered template content
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -41,8 +37,6 @@ class View {
     /**
      * Master page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -51,8 +45,6 @@ class View {
     /**
      * Realm name
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -61,8 +53,6 @@ class View {
     /**
      * Controller name
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -71,8 +61,6 @@ class View {
     /**
      * Action name
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -81,8 +69,6 @@ class View {
     /**
      * Request object
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var Request|null
      */
@@ -91,8 +77,6 @@ class View {
     /**
      * Additional params from URI
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var array|null
      */
@@ -101,8 +85,6 @@ class View {
     /**
      * CSS files to include
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -111,8 +93,6 @@ class View {
     /**
      * JS files to include
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -121,8 +101,6 @@ class View {
     /**
      * Pagination
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var Pagination
      */
@@ -131,8 +109,6 @@ class View {
     /**
      * CSRF token
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -141,8 +117,6 @@ class View {
     /**
      * CSRF token form field name
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -151,8 +125,6 @@ class View {
     /**
      * View - rendering engine
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $controller
      * @param string|null $action
@@ -178,8 +150,6 @@ class View {
     /**
      * Set the title of the view
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $title
      *
@@ -193,8 +163,6 @@ class View {
     /**
      * Set the pagination
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param Pagination $pagination
      *
@@ -208,8 +176,6 @@ class View {
     /**
      * Assign a value to the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $key
      * @param mixed $value
@@ -223,8 +189,6 @@ class View {
     /**
      * Set the realm
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $realm
      *
@@ -238,8 +202,6 @@ class View {
     /**
      * Set the controller
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $controller
      *
@@ -252,8 +214,6 @@ class View {
     /**
      * Set the action
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $action
      *
@@ -266,8 +226,6 @@ class View {
     /**
      * Set URI params
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param array $params
      *
@@ -281,8 +239,6 @@ class View {
     /**
      * Set the master page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $master_page
      *
@@ -308,8 +264,6 @@ class View {
     /**
      * Add a CSS file to the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $path
      *
@@ -331,8 +285,6 @@ class View {
     /**
      * Add a JS file to the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $path
      *
@@ -354,8 +306,6 @@ class View {
     /**
      * Get a variable from the view - enables direct access to view variables property style
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $key
      *
@@ -368,8 +318,6 @@ class View {
     /**
      * Render the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return void
      *
@@ -417,8 +365,6 @@ class View {
     /**
      * Get content of the rendered template
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return string
      */
@@ -429,8 +375,6 @@ class View {
     /**
      * Minify HTML content
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $html
      *
@@ -452,8 +396,6 @@ class View {
     /**
      * Include a partial view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $partial_name
      *
@@ -475,8 +417,6 @@ class View {
     /**
      * Load common assets from config
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return void
      *
@@ -517,8 +457,6 @@ class View {
     /**
      * Include CSS files in the view
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return void
      *
@@ -539,8 +477,6 @@ class View {
     /**
      * Include JS files in the view
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return void
      *
@@ -561,8 +497,6 @@ class View {
     /**
      * Render and run flash messages
      *
-     * @author TB
-     * @date 13.5.2025
      *
      * @return void
      */
@@ -634,8 +568,6 @@ class View {
     /**
      * Set given CSRF token and form field name
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param string $token
      * @param string $field
@@ -654,8 +586,6 @@ class View {
     /**
      * Set breadcrumbs to view components
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param Breadcrumb $breadcrumb
      *
@@ -668,8 +598,6 @@ class View {
     /**
      * Render CSRF token in meta tag
      *
-     * @author TB
-     * @date 24.5.2025
      *
      * @return void
      */

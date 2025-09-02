@@ -7,8 +7,6 @@ trait DataType {
     /**
      * Data type - tinyint
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait DataType {
     /**
      * Data type - smallint
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait DataType {
     /**
      * Data type - mediumint
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait DataType {
     /**
      * Data type - integer
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ trait DataType {
     /**
      * Data type - bigint
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ trait DataType {
     /**
      * Data type - decimal
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -67,8 +55,6 @@ trait DataType {
     /**
      * Data type - float
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -77,8 +63,6 @@ trait DataType {
     /**
      * Data type - double
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -87,8 +71,6 @@ trait DataType {
     /**
      * Data type - char
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -97,8 +79,6 @@ trait DataType {
     /**
      * Data type - varchar
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -107,8 +87,6 @@ trait DataType {
     /**
      * Data type - tinytext
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -117,8 +95,6 @@ trait DataType {
     /**
      * Data type - text
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -127,8 +103,6 @@ trait DataType {
     /**
      * Data type - mediumtext
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -137,8 +111,6 @@ trait DataType {
     /**
      * Data type - longtext
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -147,8 +119,6 @@ trait DataType {
     /**
      * Data type - date
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -157,8 +127,6 @@ trait DataType {
     /**
      * Data type - time
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -167,8 +135,6 @@ trait DataType {
     /**
      * Data type - datetime
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -177,8 +143,6 @@ trait DataType {
     /**
      * Data type - timestamp
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -187,8 +151,6 @@ trait DataType {
     /**
      * Data type - year
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */

@@ -15,8 +15,6 @@ class FilterController extends BaseController {
     /**
      * controller for filters
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @param BaseModel|null $model
      * @param Request $request
@@ -31,8 +29,6 @@ class FilterController extends BaseController {
     /**
      * Remove a filter from URI
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @return void
      */

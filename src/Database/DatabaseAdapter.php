@@ -7,8 +7,6 @@ abstract class DatabaseAdapter {
     /**
      * Execute a query with optional parameters
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -20,8 +18,6 @@ abstract class DatabaseAdapter {
     /**
      * Fetch all results
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -33,8 +29,6 @@ abstract class DatabaseAdapter {
     /**
      * Fetch first column
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -46,8 +40,6 @@ abstract class DatabaseAdapter {
     /**
      * Fetch first row
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -59,8 +51,6 @@ abstract class DatabaseAdapter {
     /**
      * Fetch single cell
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -72,8 +62,6 @@ abstract class DatabaseAdapter {
     /**
      * Get last inserted ID
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -85,8 +73,6 @@ abstract class DatabaseAdapter {
      * Returns an associative array keyed by table name.
      * Each value is an array with a key 'columns' => [ ... column data ... ]
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @param bool $extended
      *

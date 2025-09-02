@@ -11,8 +11,6 @@ class Request {
     /**
      * ID of the request
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -21,8 +19,6 @@ class Request {
     /**
      * data from $_GET
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -31,8 +27,6 @@ class Request {
     /**
      * data from $_POST
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -41,8 +35,6 @@ class Request {
     /**
      * data from $_REQUEST
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -51,8 +43,6 @@ class Request {
     /**
      * data from $_FILES
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -61,8 +51,6 @@ class Request {
     /**
      * data from $_SERVER
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -71,8 +59,6 @@ class Request {
     /**
      * request URI
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @var string
      */
@@ -81,8 +67,6 @@ class Request {
     /**
      * Current page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var mixed
      */
@@ -91,8 +75,6 @@ class Request {
     /**
      * Data for filtering
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var array
      */
@@ -101,8 +83,6 @@ class Request {
     /**
      * Sorting
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var Sorting|null
      */
@@ -111,8 +91,6 @@ class Request {
     /**
      * Headers
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @var array|null
      */
@@ -121,8 +99,6 @@ class Request {
     /**
      * Incoming JSON data
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @var array|null
      */
@@ -131,8 +107,6 @@ class Request {
     /**
      * Incoming XML data
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @var array|null
      */
@@ -141,8 +115,6 @@ class Request {
     /**
      * request - get, post, files, server
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      */
@@ -169,8 +141,6 @@ class Request {
     /**
      * Set request headers
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return void
      */
@@ -208,8 +178,6 @@ class Request {
     /**
      * Parse and set JSON data
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return void
      */
@@ -235,8 +203,6 @@ class Request {
     /**
      * Parse and set XML data
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return void
      */
@@ -266,8 +232,6 @@ class Request {
     /**
      * Get the ID of the request
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      */
@@ -283,8 +247,6 @@ class Request {
     /**
      * Get ID of the request
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -295,8 +257,6 @@ class Request {
     /**
      * Parse the request URI
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return void
      */
@@ -317,8 +277,6 @@ class Request {
     /**
      * Get the request URI
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return string
      */
@@ -329,8 +287,6 @@ class Request {
     /**
      * Get a GET value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -349,8 +305,6 @@ class Request {
     /**
      * Get a POST value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -369,8 +323,6 @@ class Request {
     /**
      * Get a REQUEST value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -389,8 +341,6 @@ class Request {
     /**
      * Get a FILE value
      *
-     * @author TB
-     * @date 26.4.2025, 28.5.2025
      *
      * @param string $key
      *
@@ -408,8 +358,6 @@ class Request {
     /**
      * Get a SERVER value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -428,8 +376,6 @@ class Request {
     /**
      * Get a filter value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -448,8 +394,6 @@ class Request {
     /**
      * Get a header value
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string|null $key
      *
@@ -471,8 +415,6 @@ class Request {
     /**
      * Get JSON value
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -495,8 +437,6 @@ class Request {
     /**
      * Get XML value
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -519,8 +459,6 @@ class Request {
     /**
      * Get the request URI
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -531,8 +469,6 @@ class Request {
     /**
      * Check if the request method is POST
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return bool
      */
@@ -543,8 +479,6 @@ class Request {
     /**
      * Check if the request method is GET
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return bool
      */
@@ -555,8 +489,6 @@ class Request {
     /**
      * Get submit value for given action
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $action Action name
      *
@@ -572,8 +504,6 @@ class Request {
     /**
      * Erase a value from GET data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $key
      *
@@ -587,8 +517,6 @@ class Request {
     /**
      * Erase a value from POST data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $key
      *
@@ -602,8 +530,6 @@ class Request {
     /**
      * Erase a value from REQUEST data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $key
      *
@@ -617,8 +543,6 @@ class Request {
     /**
      * Erase a value from both GET and POST data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $key
      *
@@ -633,8 +557,6 @@ class Request {
     /**
      * Get client IP address
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -656,8 +578,6 @@ class Request {
     /**
      * Extract filter data from given source
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param array $source
      *
@@ -680,8 +600,6 @@ class Request {
     /**
      * Set given data to filter data
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @param array $data
      *
@@ -697,8 +615,6 @@ class Request {
     /**
      * Replace filter data with given data
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @param array $data
      *
@@ -711,8 +627,6 @@ class Request {
     /**
      * Set current page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param mixed $page
      *
@@ -725,8 +639,6 @@ class Request {
     /**
      * Set sorting
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param Sorting|null $sorting
      *
@@ -739,8 +651,6 @@ class Request {
     /**
      * Get current page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return mixed
      */
@@ -751,8 +661,6 @@ class Request {
     /**
      * Get sorting
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return Sorting|null
      */
@@ -763,8 +671,6 @@ class Request {
     /**
      * Check if GET data has given key
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $key
      *
@@ -777,8 +683,6 @@ class Request {
     /**
      * Check if POST data has given key
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $key
      *
@@ -791,8 +695,6 @@ class Request {
     /**
      * Check if REQUEST data has given key
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $key
      *
@@ -805,8 +707,6 @@ class Request {
     /**
      * Check if filter data has given key
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $key
      *
@@ -819,8 +719,6 @@ class Request {
     /**
      * Check if request expects JSON
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return bool
      */
@@ -831,8 +729,6 @@ class Request {
     /**
      * Check if request expects XML
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return bool
      */
@@ -844,8 +740,6 @@ class Request {
     /**
      * Check if request is AJAX
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return bool
      */

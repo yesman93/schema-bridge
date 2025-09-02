@@ -11,8 +11,6 @@ class ViewFactory {
     /**
      * Make a view
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param string $controller
      * @param string $action

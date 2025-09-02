@@ -7,8 +7,6 @@ class MessageBag {
     /**
      * Errors
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -17,8 +15,6 @@ class MessageBag {
     /**
      * Successes
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -27,8 +23,6 @@ class MessageBag {
     /**
      * Infos
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -37,8 +31,6 @@ class MessageBag {
     /**
      * Warnings
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -47,8 +39,6 @@ class MessageBag {
     /**
      * Add error message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -67,8 +57,6 @@ class MessageBag {
     /**
      * Add success message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -87,8 +75,6 @@ class MessageBag {
     /**
      * Add info message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -107,8 +93,6 @@ class MessageBag {
     /**
      * Add warning message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -127,8 +111,6 @@ class MessageBag {
     /**
      * Get error messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -141,8 +123,6 @@ class MessageBag {
     /**
      * Get success messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -155,8 +135,6 @@ class MessageBag {
     /**
      * Get info messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -169,8 +147,6 @@ class MessageBag {
     /**
      * Get warning messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -183,8 +159,6 @@ class MessageBag {
     /**
      * Clear all errors
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -195,8 +169,6 @@ class MessageBag {
     /**
      * Clear all successes
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -207,8 +179,6 @@ class MessageBag {
     /**
      * Clear all infos
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -219,8 +189,6 @@ class MessageBag {
     /**
      * Clear all warnings
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -231,8 +199,6 @@ class MessageBag {
     /**
      * Clear all messages
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */

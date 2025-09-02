@@ -9,8 +9,6 @@ class Date extends Column {
     /**
      * Get the date in the format j.n.Y
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

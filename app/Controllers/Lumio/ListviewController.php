@@ -19,8 +19,6 @@ class ListviewController extends BaseController {
     /**
      * controller for listview
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param BaseModel|null $model
      * @param Request $request
@@ -35,8 +33,6 @@ class ListviewController extends BaseController {
     /**
      * Get pagination
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return void
      */

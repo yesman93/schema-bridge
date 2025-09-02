@@ -15,8 +15,6 @@ class Yaml2definition {
     /**
      * Loads a MySQL table definition from given YAML file
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param string $filepath
      *

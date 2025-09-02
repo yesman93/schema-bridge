@@ -14,8 +14,6 @@ class History {
     /**
      * Push an entry into the history stack
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $controller
      * @param string $action
@@ -82,8 +80,6 @@ class History {
     /**
      * Check the stack size and remove oldest entries if necessary
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param array $stack
      *
@@ -113,8 +109,6 @@ class History {
     /**
      * Return full history stack
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @return array
      */
@@ -141,8 +135,6 @@ class History {
     /**
      * Return previous location - last entry in the history stack
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @return array|null
      */

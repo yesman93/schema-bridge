@@ -12,8 +12,6 @@ trait OpenGraph {
     /**
      * Open Graph property - title
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -22,8 +20,6 @@ trait OpenGraph {
     /**
      * Open Graph property - description
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -32,8 +28,6 @@ trait OpenGraph {
     /**
      * Open Graph property - image
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -42,8 +36,6 @@ trait OpenGraph {
     /**
      * Open Graph property - URL
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -52,8 +44,6 @@ trait OpenGraph {
     /**
      * Open Graph property - type
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -62,8 +52,6 @@ trait OpenGraph {
     /**
      * Open Graph property - locale
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -72,8 +60,6 @@ trait OpenGraph {
     /**
      * Open Graph property - site name
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -82,8 +68,6 @@ trait OpenGraph {
     /**
      * Open Graph property - updated time
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -92,8 +76,6 @@ trait OpenGraph {
     /**
      * Open Graph data
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var array
      */
@@ -102,8 +84,6 @@ trait OpenGraph {
     /**
      * Set given Open Graph data
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param array $data
      */
@@ -117,8 +97,6 @@ trait OpenGraph {
     /**
      * Set given Open Graph property
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $key
      * @param string $value
@@ -132,8 +110,6 @@ trait OpenGraph {
     /**
      * Set Open Graph title
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -146,8 +122,6 @@ trait OpenGraph {
     /**
      * Set Open Graph description
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -160,8 +134,6 @@ trait OpenGraph {
     /**
      * Set Open Graph image
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -174,8 +146,6 @@ trait OpenGraph {
     /**
      * Set Open Graph URL
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -188,8 +158,6 @@ trait OpenGraph {
     /**
      * Set Open Graph type
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -202,8 +170,6 @@ trait OpenGraph {
     /**
      * Set Open Graph locale
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -216,8 +182,6 @@ trait OpenGraph {
     /**
      * Set Open Graph site name
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -230,8 +194,6 @@ trait OpenGraph {
     /**
      * Set Open Graph updated time
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -244,8 +206,6 @@ trait OpenGraph {
     /**
      * Render Open Graph data as meta tags
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @return void
      */

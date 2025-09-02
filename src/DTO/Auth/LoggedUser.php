@@ -9,8 +9,6 @@ class LoggedUser {
     /**
      * Required fields that must be present in the data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -19,8 +17,6 @@ class LoggedUser {
     /**
      * Stored data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -29,8 +25,6 @@ class LoggedUser {
     /**
      * DTO for logged user - flexible, required core properties + dynamic other data
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param array $data
      *
@@ -54,8 +48,6 @@ class LoggedUser {
     /**
      * Dynamic getter
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $key
      *
@@ -68,8 +60,6 @@ class LoggedUser {
     /**
      * Check if property exists
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $key
      *
@@ -82,8 +72,6 @@ class LoggedUser {
     /**
      * Get all stored data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return array
      */

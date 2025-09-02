@@ -3,8 +3,6 @@
  *
  * This module provides a progress bar functionality for web applications.
  *
- * @author TB
- * @date 18.5.2025
  *
  */
 Object.defineProperty(window, 'Progressbar', {
@@ -13,8 +11,6 @@ Object.defineProperty(window, 'Progressbar', {
      * Prevents reconfiguration of the 'progressbar' property on window.
      * Ensures the singleton definition cannot be changed or deleted.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @type {Boolean}
      */
@@ -24,8 +20,6 @@ Object.defineProperty(window, 'Progressbar', {
      * Hides the 'progressbar' property from enumeration (e.g. for...in or Object.keys()).
      * Makes it invisible in most reflective operations.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @type {Boolean}
      */
@@ -36,8 +30,6 @@ Object.defineProperty(window, 'Progressbar', {
      * First access to window.Progressbar initializes the Progressbar instance,
      * subsequent accesses return the cached singleton.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @returns {Progressbar} Singleton instance of the progressbar.
      */
@@ -47,8 +39,6 @@ Object.defineProperty(window, 'Progressbar', {
          * Internal cached instance of the Progressbar singleton.
          * Lazily initialized upon first access to `window.Progressbar`.
          *
-         * @author TB
-         * @date 18.5.2025
          *
          * @type {Object|null}
          */
@@ -65,8 +55,6 @@ Object.defineProperty(window, 'Progressbar', {
                 /**
                  * Default progress duration in milliseconds.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @type {Number}
                  */
@@ -75,8 +63,6 @@ Object.defineProperty(window, 'Progressbar', {
                 /**
                  * Interval ID for updating progress.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @type {Number|null}
                  */
@@ -85,8 +71,6 @@ Object.defineProperty(window, 'Progressbar', {
                 /**
                  * Current progress (in %).
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @type {Number}
                  */
@@ -95,8 +79,6 @@ Object.defineProperty(window, 'Progressbar', {
                 /**
                  * Start the progress bar.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @param {Number} duration
                  * @param {String} label
@@ -160,8 +142,6 @@ Object.defineProperty(window, 'Progressbar', {
                 /**
                  * Update the caption text.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @param {String} label
                  *
@@ -188,8 +168,6 @@ Object.defineProperty(window, 'Progressbar', {
                 /**
                  * Stop and remove the progress indicator.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @param {Function} on_complete
                  *

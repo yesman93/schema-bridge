@@ -9,9 +9,9 @@
 
 return [
     'host' => 'localhost',
-    'username' => 'lumio',
-    'password' => 'OyFgu1uXebUW',
-    'database' => 'lumio',
+    'username' => 'schemabridge',
+    'password' => 'UHFg87u16uXebUW',
+    'database' => 'schemabridge',
     'driver' => 'mysql',
 ];
 

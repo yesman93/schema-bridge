@@ -14,8 +14,6 @@ class Logger {
     /**
      * Current channel for logging
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string|null
      */
@@ -24,8 +22,6 @@ class Logger {
     /**
      * Request ID
      *
-     * @author TB
-     * @date 11.5.2025
      *
      * @var string
      */
@@ -34,8 +30,6 @@ class Logger {
     /**
      * Set the current request ID
      *
-     * @author TB
-     * @date 11.5.2025
      *
      * @param string $request_id
      *
@@ -48,8 +42,6 @@ class Logger {
     /**
      * Create a new instance of the logger with the given channel
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $channel
      *
@@ -65,8 +57,6 @@ class Logger {
     /**
      * Log emergency
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -82,8 +72,6 @@ class Logger {
     /**
      * Log alert
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -99,8 +87,6 @@ class Logger {
     /**
      * Log critical
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -116,8 +102,6 @@ class Logger {
     /**
      * Log error
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -133,8 +117,6 @@ class Logger {
     /**
      * Log warning
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -150,8 +132,6 @@ class Logger {
     /**
      * Log notice
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -167,8 +147,6 @@ class Logger {
     /**
      * Log info
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -184,8 +162,6 @@ class Logger {
     /**
      * Log debug
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $message
      * @param array $context
@@ -201,8 +177,6 @@ class Logger {
     /**
      * Write log entry to the log file
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $level
      * @param string $message

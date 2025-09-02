@@ -12,8 +12,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -22,8 +20,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var MysqlColumns
      */
@@ -32,8 +28,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table indexes
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var MysqlIndexes
      */
@@ -42,8 +36,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table engine
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -52,8 +44,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table collation
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -62,8 +52,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table comment
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string|null
      */
@@ -72,8 +60,6 @@ class MysqlTableDefinition {
     /**
      * MySQL table
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string            $name
      * @param MysqlColumns      $columns
@@ -104,8 +90,6 @@ class MysqlTableDefinition {
     /**
      * Returns SQL query for creating the table
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -132,8 +116,6 @@ class MysqlTableDefinition {
     /**
      * Get table name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -144,8 +126,6 @@ class MysqlTableDefinition {
     /**
      * Get columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return MysqlColumns
      */
@@ -156,8 +136,6 @@ class MysqlTableDefinition {
     /**
      * Get indexes
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return MysqlIndexes
      */
@@ -168,8 +146,6 @@ class MysqlTableDefinition {
     /**
      * Get engine
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -180,8 +156,6 @@ class MysqlTableDefinition {
     /**
      * Get collation
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -192,8 +166,6 @@ class MysqlTableDefinition {
     /**
      * Get comment
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string|null
      */

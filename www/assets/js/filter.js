@@ -1,8 +1,6 @@
 /**
  * JS for filters
  *
- * @author TB
- * @date 12.5.2025
  *
  */
 
@@ -52,8 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
 /**
  * Set filters
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param {String} name - Filter name
  * @param {Array|Object|String|Number} value - Filter value

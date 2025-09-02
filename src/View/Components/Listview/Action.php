@@ -7,8 +7,6 @@ class Action {
     /**
      * Link to the action
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class Action {
     /**
      * Key to retrieve parameter from the row
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class Action {
     /**
      * Label of the action
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ class Action {
     /**
      * Icon of the action
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -47,8 +39,6 @@ class Action {
     /**
      * Whether the action should be opened in a modal
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -57,8 +47,6 @@ class Action {
     /**
      * Size of the modal
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -67,8 +55,6 @@ class Action {
     /**
      * Wheteher to insert divider before the action
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -77,8 +63,6 @@ class Action {
     /**
      * Listview action
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string        $link           Link to the action
      * @param string        $key            Key to retrieve parameter from the row and append to the link
@@ -112,8 +96,6 @@ class Action {
     /**
      * Get the link
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -124,8 +106,6 @@ class Action {
     /**
      * Get the key
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -136,8 +116,6 @@ class Action {
     /**
      * Get the label
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -148,8 +126,6 @@ class Action {
     /**
      * Get the icon
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string|null
      */
@@ -160,8 +136,6 @@ class Action {
     /**
      * Get if action should be opened in a modal
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return bool
      */
@@ -172,8 +146,6 @@ class Action {
     /**
      * Get the size of the modal
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string|null
      */
@@ -184,8 +156,6 @@ class Action {
     /**
      * Get if divider should be inserted before the action
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return bool
      */
@@ -196,8 +166,6 @@ class Action {
     /**
      * Get the full link with parameter from the given row
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @param mixed $row
      *

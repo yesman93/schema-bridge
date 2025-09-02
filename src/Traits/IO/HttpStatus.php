@@ -7,8 +7,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 200 OK
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -17,8 +15,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 201 Created
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -27,8 +23,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 204 No Content
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -37,8 +31,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 301 Moved Permanently
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -47,8 +39,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 302 Found
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -57,8 +47,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 400 Bad Request
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -67,8 +55,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 401 Unauthorized
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -77,8 +63,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 403 Forbidden
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -87,8 +71,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 404 Not Found
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -97,8 +79,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 405 Method Not Allowed
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -107,8 +87,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 500 Internal Server Error
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -117,8 +95,6 @@ trait HttpStatus {
     /**
      * HTTP status code - 503 Service Unavailable
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -127,8 +103,6 @@ trait HttpStatus {
     /**
      * Default HTTP status bodies
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -150,8 +124,6 @@ trait HttpStatus {
     /**
      * Get default body for given status code
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param int $status_code
      *

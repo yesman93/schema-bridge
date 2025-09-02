@@ -39,8 +39,6 @@ class BaseController {
     /**
      * instance of the MVC model
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var BaseModel|null
      */
@@ -49,8 +47,6 @@ class BaseController {
     /**
      * request object with data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var Request
      */
@@ -59,8 +55,6 @@ class BaseController {
     /**
      * response object
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var Response
      */
@@ -69,8 +63,6 @@ class BaseController {
     /**
      * view object
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var View
      */
@@ -79,8 +71,6 @@ class BaseController {
     /**
      * instance of the container
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var Container|null
      */
@@ -89,8 +79,6 @@ class BaseController {
     /**
      * Current action method
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -99,8 +87,6 @@ class BaseController {
     /**
      * Page title
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -109,8 +95,6 @@ class BaseController {
     /**
      * Name of the realm
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var string
      */
@@ -119,8 +103,6 @@ class BaseController {
     /**
      * Name of the controller
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -129,8 +111,6 @@ class BaseController {
     /**
      * Name of the controller in plural
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -139,8 +119,6 @@ class BaseController {
     /**
      * Render flag
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var bool
      */
@@ -149,8 +127,6 @@ class BaseController {
     /**
      * CSRF token
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -159,8 +135,6 @@ class BaseController {
     /**
      * CSRF token form field name
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -169,8 +143,6 @@ class BaseController {
     /**
      * Instance of database logger
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var DatabaseLogger|null
      */
@@ -179,8 +151,6 @@ class BaseController {
     /**
      * base controller - parent to all controllers
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param BaseModel|null $model
      * @param Request $request
@@ -203,25 +173,17 @@ class BaseController {
     /**
      * Initialize the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return void
      */
     private function _init_view() : void {
 
-        if (Logged::is_logged()) {
-            $this->master(View::MASTER_PRIVATE);
-        } else {
-            $this->master(View::MASTER_PUBLIC);
-        }
+        $this->master(View::MASTER_PRIVATE);
     }
 
     /**
      * Set input data to model
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      */
@@ -248,25 +210,22 @@ class BaseController {
     /**
      * Set a container instance
      *
-     * @author TB
-     * @date 8.5.2025
      *
      * @param Container|null $container
+     * @param bool $set_container_to_model If `TRUE`, the container will also be set to the model
      *
      * @return void
      */
-    public function set_container(?Container $container) : void {
+    public function set_container(?Container $container, bool $set_container_to_model = true) : void {
 
         $this->_container = $container;
 
-        // TODO: setter for model - to allow it to use the logger too
+        $this->_model?->set_container($container);
     }
 
     /**
      * Get the container instance
      *
-     * @author TB
-     * @date 8.5.2025
      *
      * @return Container|null
      */
@@ -277,13 +236,13 @@ class BaseController {
     /**
      * Process and call the action method
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $action
      * @param array $params
      *
      * @return mixed
+     *
+     * @throws Exception
      */
     public function process(string $action = 'index', array $params = []): mixed {
 
@@ -381,8 +340,6 @@ class BaseController {
     /**
      * Set action method
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param string $action
      *
@@ -396,8 +353,6 @@ class BaseController {
     /**
      * Check if a form was submitted in current action
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|null $name Custom submit name (can be multiple submits in one action)
      *
@@ -413,8 +368,6 @@ class BaseController {
     /**
      * Set page title
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $title
      *
@@ -428,8 +381,6 @@ class BaseController {
     /**
      * Set SEO description
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param string $description
      *
@@ -442,8 +393,6 @@ class BaseController {
     /**
      * Set SEO keywords
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param string $keywords
      *
@@ -456,8 +405,6 @@ class BaseController {
     /**
      * Set realm name
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $realm
      *
@@ -471,8 +418,6 @@ class BaseController {
     /**
      * Set controller name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $singular
      *
@@ -485,8 +430,6 @@ class BaseController {
     /**
      * Set controller name in plural
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $plural
      *
@@ -549,8 +492,6 @@ class BaseController {
     /**
      * Index method - default action
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      */
@@ -561,8 +502,6 @@ class BaseController {
     /**
      * Assign a value to the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return void
      */
@@ -573,8 +512,6 @@ class BaseController {
     /**
      * Set the master page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $master_page
      *
@@ -587,8 +524,6 @@ class BaseController {
     /**
      * Add a CSS file to the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $path
      *
@@ -601,8 +536,6 @@ class BaseController {
     /**
      * Add a JS file to the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $path
      *
@@ -615,8 +548,6 @@ class BaseController {
     /**
      * Enable/disable rendering of the view
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param bool $enabled
      *
@@ -629,8 +560,6 @@ class BaseController {
     /**
      * Check if rendering is enabled
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return bool
      */
@@ -641,8 +570,6 @@ class BaseController {
     /**
      * Render the view
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      *
@@ -687,8 +614,6 @@ class BaseController {
     /**
      * Actions to be performed before the action method is called
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @return void
      *
@@ -712,8 +637,6 @@ class BaseController {
     /**
      * Actions to be performed after the action method is called
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @return void
      */
@@ -738,8 +661,6 @@ class BaseController {
     /**
      * Set CSRF token
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return void
      *
@@ -754,8 +675,6 @@ class BaseController {
     /**
      * Check if the action exists in controller
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @return void
      *
@@ -783,8 +702,6 @@ class BaseController {
     /**
      * Validate request data
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -798,8 +715,6 @@ class BaseController {
     /**
      * Check if the request is valid
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -810,8 +725,6 @@ class BaseController {
     /**
      * Get value from $_GET
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -825,8 +738,6 @@ class BaseController {
     /**
      * Get value from $_POST
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -840,8 +751,6 @@ class BaseController {
     /**
      * Get value from filter data
      *
-     * @author TB
-     * @date 11.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -855,8 +764,6 @@ class BaseController {
     /**
      * Get uploaded file from request
      *
-     * @author TB
-     * @date 28.5.2025
      *
      * @param string $key
      *
@@ -869,8 +776,6 @@ class BaseController {
     /**
      * Get value from JSON data
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -884,8 +789,6 @@ class BaseController {
     /**
      * Get value from XML data
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string|null $key
      * @param mixed $default
@@ -899,8 +802,6 @@ class BaseController {
     /**
      * Get the response object
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @return Response
      */
@@ -911,8 +812,6 @@ class BaseController {
     /**
      * Replace the controller request object with the given one
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param Request $request
      *
@@ -928,8 +827,6 @@ class BaseController {
     /**
      * Creates a redirect response that is to be returned from inside the controller
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $url
      * @param int $status_code
@@ -943,8 +840,6 @@ class BaseController {
     /**
      * Creates a JSON response that is to be returned from inside the controller
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param array $data
      *
@@ -957,8 +852,6 @@ class BaseController {
     /**
      * Creates an XML response that is to be returned from inside the controller
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param array $data
      *
@@ -973,8 +866,6 @@ class BaseController {
      *
      * This is used for downloading files, such as images, documents, etc.
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param string $file_path
      * @param string|null $file_name
@@ -988,8 +879,6 @@ class BaseController {
     /**
      * Set given CSRF protection
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param CSRF $csrf
      *
@@ -1006,8 +895,6 @@ class BaseController {
     /**
      * Get the breadcrumb builder singleton instance
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbItem $item
      *
@@ -1025,8 +912,6 @@ class BaseController {
      * This happens right when the controller is ready, set up but before any request processing.
      * Actions that would normally be done in the constructor but need container should be done here.
      *
-     * @author TB
-     * @date 21.5.2025
      *
      * @return void
      */
@@ -1038,8 +923,6 @@ class BaseController {
     /**
      * Set given Open Graph data
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param array $data
      *
@@ -1052,8 +935,6 @@ class BaseController {
     /**
      * Set given Open Graph property
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $key
      * @param string $value
@@ -1067,8 +948,6 @@ class BaseController {
     /**
      * Set Open Graph title
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1081,8 +960,6 @@ class BaseController {
     /**
      * Set Open Graph description
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1095,8 +972,6 @@ class BaseController {
     /**
      * Set Open Graph image
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1109,8 +984,6 @@ class BaseController {
     /**
      * Set Open Graph URL
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1123,8 +996,6 @@ class BaseController {
     /**
      * Set Open Graph type
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1137,8 +1008,6 @@ class BaseController {
     /**
      * Set Open Graph locale
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1151,8 +1020,6 @@ class BaseController {
     /**
      * Set Open Graph locale
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1165,8 +1032,6 @@ class BaseController {
     /**
      * Set Open Graph updated time
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @param string $value
      *
@@ -1179,8 +1044,6 @@ class BaseController {
     /**
      * Get the database logger instance
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @return DatabaseLoggerProxy
      *

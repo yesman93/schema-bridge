@@ -11,10 +11,16 @@
 
 return [
 
-    '/^login/' => array(
-        'link' => '/login/',
-        'controller' => 'user',
-        'action' => 'login',
+    '/^upload/' => array(
+        'link' => '/upload/',
+        'controller' => 'upload',
+        'action' => 'index',
+    ),
+
+    '/^mapping/' => array(
+        'link' => '/mapping/',
+        'controller' => 'mapping',
+        'action' => 'index',
     ),
 
 ];

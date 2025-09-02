@@ -19,8 +19,6 @@ class Form extends Component {
     /**
      * Form enctype - application/x-www-form-urlencoded
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -29,8 +27,6 @@ class Form extends Component {
     /**
      * Form enctype - application/form-data
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -40,8 +36,6 @@ class Form extends Component {
     /**
      * Form action
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -50,8 +44,6 @@ class Form extends Component {
     /**
      * Form enctype
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -60,8 +52,6 @@ class Form extends Component {
     /**
      * Form wrapper class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -70,8 +60,6 @@ class Form extends Component {
     /**
      * Form card class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -80,8 +68,6 @@ class Form extends Component {
     /**
      * Form header class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -90,8 +76,6 @@ class Form extends Component {
     /**
      * Form body class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -100,8 +84,6 @@ class Form extends Component {
     /**
      * Form class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -110,8 +92,6 @@ class Form extends Component {
     /**
      * Form ID
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -120,8 +100,6 @@ class Form extends Component {
     /**
      * Form prefill data
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var array
      */
@@ -130,8 +108,6 @@ class Form extends Component {
     /**
      * Form prefill data ID key
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -140,8 +116,6 @@ class Form extends Component {
     /**
      * Stored readable selected/filled input values of the form, available at the end of the render
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @var array
      */
@@ -151,8 +125,6 @@ class Form extends Component {
      * Indicates if it is the filter form.
      * If enabled, prefix by config `app.filter.fields_prefix` will be prepended to form field names
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var bool
      */
@@ -161,8 +133,6 @@ class Form extends Component {
     /**
      * Builds the form components end renders the opening HTML
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormSetup|null $form_setup
      *
@@ -258,8 +228,6 @@ class Form extends Component {
     /**
      * Resolve the input prefill value
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -304,8 +272,6 @@ class Form extends Component {
     /**
      * Returns class for select plugin initialization by default select plugin - only if required plugin source JS is loaded
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -377,8 +343,6 @@ class Form extends Component {
     /**
      * Render the input HTML
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param string $type
      * @param FormInput $input
@@ -585,8 +549,6 @@ class Form extends Component {
     /**
      * Render the text input
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -599,8 +561,6 @@ class Form extends Component {
     /**
      * Render the password input
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -616,8 +576,6 @@ class Form extends Component {
     /**
      * Render the color input
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -630,8 +588,6 @@ class Form extends Component {
     /**
      * Render the hidden input
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -652,8 +608,6 @@ class Form extends Component {
     /**
      * Render the file input
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -674,8 +628,6 @@ class Form extends Component {
     /**
      * Render the date input
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput $input
      *
@@ -740,8 +692,6 @@ class Form extends Component {
     /**
      * Render the submit button and close the form
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param FormInput|null $input
      *
@@ -795,8 +745,6 @@ class Form extends Component {
      * Set if the form is a filter form.
      * If enabled, prefix by config `app.filter.fields_prefix` will be prepended to form field names
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param bool $enable
      *
@@ -809,8 +757,6 @@ class Form extends Component {
     /**
      * Start a row
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param string|null $class
      *
@@ -826,8 +772,6 @@ class Form extends Component {
     /**
      * End a row
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return void
      */
@@ -838,8 +782,6 @@ class Form extends Component {
     /**
      * Get readable values
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @return array
      */
@@ -850,8 +792,6 @@ class Form extends Component {
     /**
      * Store readable value for the given input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @param FormInput $input
      * @param string $type

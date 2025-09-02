@@ -22,8 +22,6 @@ class Router {
     /**
      * instance of the container
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var Container
      */
@@ -32,8 +30,6 @@ class Router {
     /**
      * Name of the realm
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -42,8 +38,6 @@ class Router {
     /**
      * name of the controller
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -52,8 +46,6 @@ class Router {
     /**
      * name of the action
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -62,8 +54,6 @@ class Router {
     /**
      * parameters of the action
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -72,8 +62,6 @@ class Router {
     /**
      * Custom URI
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string|null
      */
@@ -82,8 +70,6 @@ class Router {
     /**
      * Full raw URL
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @var string|null
      */
@@ -92,8 +78,6 @@ class Router {
     /**
      * routing
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|null $uri
      *
@@ -109,8 +93,6 @@ class Router {
     /**
      * set the full raw URL
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return void
      */
@@ -121,8 +103,6 @@ class Router {
     /**
      * get the full raw URL
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return string|null
      */
@@ -138,8 +118,6 @@ class Router {
     /**
      * perform routing
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      */
@@ -172,8 +150,6 @@ class Router {
     /**
      * get controller instance
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return object
      */
@@ -190,8 +166,6 @@ class Router {
     /**
      * Get model instance based on current controller
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|null
      *
@@ -211,8 +185,6 @@ class Router {
     /**
      * get action
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -223,8 +195,6 @@ class Router {
     /**
      * get action parameters
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return array
      */
@@ -235,8 +205,6 @@ class Router {
     /**
      * get the realm name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -247,8 +215,6 @@ class Router {
     /**
      * get the controller name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -259,8 +225,6 @@ class Router {
     /**
      * get the controller name in plural
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */

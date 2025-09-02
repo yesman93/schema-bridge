@@ -14,8 +14,6 @@ class Scaffoldr {
     /**
      * Instance of database adapter
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @var DatabaseAdapter
      */
@@ -24,8 +22,6 @@ class Scaffoldr {
     /**
      * Tables in the database
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @var array
      */
@@ -36,8 +32,6 @@ class Scaffoldr {
      *
      * Initializes database adapter and retrieves list of tables
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @param Container $container
      *
@@ -52,8 +46,6 @@ class Scaffoldr {
     /**
      * Synchronizes the database schema with the YAML files in the schema directory
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @return void
      *
@@ -72,8 +64,6 @@ class Scaffoldr {
     /**
      * Synchronizes a single table from given YAML file
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @param string $filepath Full path to the YAML file
      *

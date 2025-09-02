@@ -16,8 +16,6 @@ class DatabaseLogger {
     /**
      * Database adapter - for database interaction
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @var DatabaseAdapter
      */
@@ -26,8 +24,6 @@ class DatabaseLogger {
     /**
      * Request ID
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @var string
      */
@@ -36,10 +32,7 @@ class DatabaseLogger {
     /**
      * Database logger
      *
-     * @author TB
-     *
-     * @date 26.5.2025
-     * @param Container $container
+     *     * @param Container $container
      *
      * @return void
      * @throws Exception
@@ -51,8 +44,6 @@ class DatabaseLogger {
     /**
      * Set the current request ID
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $request_id
      *
@@ -65,8 +56,6 @@ class DatabaseLogger {
     /**
      * Log given message into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $level
      * @param string $message
@@ -116,8 +105,6 @@ class DatabaseLogger {
     /**
      * Log emergency into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -135,8 +122,6 @@ class DatabaseLogger {
     /**
      * Log alert into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -154,8 +139,6 @@ class DatabaseLogger {
     /**
      * Log critical into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -173,8 +156,6 @@ class DatabaseLogger {
     /**
      * Log error into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -192,8 +173,6 @@ class DatabaseLogger {
     /**
      * Log warning into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -211,8 +190,6 @@ class DatabaseLogger {
     /**
      * Log notice into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -230,8 +207,6 @@ class DatabaseLogger {
     /**
      * Log info into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -249,8 +224,6 @@ class DatabaseLogger {
     /**
      * Log debug into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id

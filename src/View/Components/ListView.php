@@ -16,8 +16,6 @@ class ListView extends Component {
     /**
      * Columns
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var array
      */
@@ -26,8 +24,6 @@ class ListView extends Component {
     /**
      * Buttons
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var array
      */
@@ -36,8 +32,6 @@ class ListView extends Component {
     /**
      * Actions
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var array
      */
@@ -46,8 +40,6 @@ class ListView extends Component {
     /**
      * Data for rendering the rows
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var array|null
      */
@@ -56,8 +48,6 @@ class ListView extends Component {
     /**
      * Text to be rendered if there is no data
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -66,8 +56,6 @@ class ListView extends Component {
     /**
      * Filter name
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -76,8 +64,6 @@ class ListView extends Component {
     /**
      * Filter enabled
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -86,8 +72,6 @@ class ListView extends Component {
     /**
      * Search enabled
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -96,8 +80,6 @@ class ListView extends Component {
     /**
      * Pagination enabled
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -106,8 +88,6 @@ class ListView extends Component {
     /**
      * Show title
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -116,8 +96,6 @@ class ListView extends Component {
     /**
      * Title
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -126,8 +104,6 @@ class ListView extends Component {
     /**
      * Export to XLS enabled
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -136,8 +112,6 @@ class ListView extends Component {
     /**
      * Export to CSV enabled
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -146,8 +120,6 @@ class ListView extends Component {
     /**
      * Checkers enabled
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var bool
      */
@@ -156,8 +128,6 @@ class ListView extends Component {
     /**
      * Key for retrieving value from the row for checker value
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -166,8 +136,6 @@ class ListView extends Component {
     /**
      * Checkers input name
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -176,8 +144,6 @@ class ListView extends Component {
     /**
      * Summary row columns
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var array
      */
@@ -186,8 +152,6 @@ class ListView extends Component {
     /**
      * Applied filters (stored readable values from the filter form)
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @var array
      */
@@ -196,8 +160,6 @@ class ListView extends Component {
     /**
      * Current full URI including page number and applied filters
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string
      */
@@ -206,8 +168,6 @@ class ListView extends Component {
     /**
      * Show the share button
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @var bool
      */
@@ -216,8 +176,6 @@ class ListView extends Component {
     /**
      * Create the listview component instance
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param array|null $data
      *
@@ -245,8 +203,6 @@ class ListView extends Component {
     /**
      * Set the URI
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string|null $uri
      *
@@ -266,8 +222,6 @@ class ListView extends Component {
     /**
      * Set the data for listview
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param array $rows
      *
@@ -281,8 +235,6 @@ class ListView extends Component {
     /**
      * Add a column to listview
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param Column $column
      *
@@ -296,8 +248,6 @@ class ListView extends Component {
     /**
      * Add a button to listview
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param Button $button
      *
@@ -311,8 +261,6 @@ class ListView extends Component {
     /**
      * Add actions to listview
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param Action ...$actions
      *
@@ -326,8 +274,6 @@ class ListView extends Component {
     /**
      * Set the title of listview
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $title
      *
@@ -341,8 +287,6 @@ class ListView extends Component {
     /**
      * Set whether to show the title
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $show
      *
@@ -356,8 +300,6 @@ class ListView extends Component {
     /**
      * Set whether to enable filter
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $enable
      *
@@ -371,8 +313,6 @@ class ListView extends Component {
     /**
      * Set custom filter name
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      *
@@ -386,8 +326,6 @@ class ListView extends Component {
     /**
      * Set whether to enable search
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $enable
      *
@@ -401,8 +339,6 @@ class ListView extends Component {
     /**
      * Set whether to enable pagination
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $enable
      *
@@ -416,8 +352,6 @@ class ListView extends Component {
     /**
      * Set text to be displayed when there is no data
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $text
      *
@@ -431,8 +365,6 @@ class ListView extends Component {
     /**
      * Set whether to enable export to XLS
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $enable
      *
@@ -446,8 +378,6 @@ class ListView extends Component {
     /**
      * Set whether to enable export to CSV
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $enable
      *
@@ -463,8 +393,6 @@ class ListView extends Component {
      * If enabled, specify key for value from the row and name of the input.
      * If the name is not given, the key will be used as input name
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param bool $enable
      * @param string|null $key
@@ -483,8 +411,6 @@ class ListView extends Component {
      * Set whether to enable summary row.
      * If enabled, specify columns for which the summary will be calculated
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string ...$columns
      *
@@ -498,8 +424,6 @@ class ListView extends Component {
     /**
      * Set whether to show the share button
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param bool $enable
      *
@@ -513,8 +437,6 @@ class ListView extends Component {
     /**
      * Get link for sorting based on the given sorting object
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param Sorting $sorting
      *
@@ -535,8 +457,6 @@ class ListView extends Component {
     /**
      * Render the listview
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return void
      */
@@ -916,8 +836,6 @@ class ListView extends Component {
     /**
      * Get the HTML for actions of the given row
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *
@@ -985,8 +903,6 @@ class ListView extends Component {
     /**
      * Get HTML of the filter
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @return string
      */

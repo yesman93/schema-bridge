@@ -9,8 +9,6 @@ class URLSigner {
     /**
      * Entry point to build signed URL
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $url
      *
@@ -23,8 +21,6 @@ class URLSigner {
     /**
      * Validate given signed URL
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $signed_url
      *
@@ -71,8 +67,6 @@ class URLSigner {
     /**
      * Decode given base62 encoded string - timestamp de-obfuscation
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $encoded
      *

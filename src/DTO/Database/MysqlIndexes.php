@@ -9,8 +9,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Indexes
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var MysqlIndexDefinition[]
      */
@@ -19,8 +17,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Adds an index to the collection
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param MysqlIndexDefinition $index
      *
@@ -33,8 +29,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Get all indexes
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return MysqlIndexDefinition[]
      */
@@ -45,8 +39,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Get an iterator for the indexes
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return \Traversable
      */
@@ -57,8 +49,6 @@ class MysqlIndexes implements \IteratorAggregate {
     /**
      * Converts the indexes to SQL query
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return string
      */

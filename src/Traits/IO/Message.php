@@ -7,8 +7,6 @@ trait Message {
     /**
      * Errors
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -17,8 +15,6 @@ trait Message {
     /**
      * Successes
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -27,8 +23,6 @@ trait Message {
     /**
      * Infos
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -37,8 +31,6 @@ trait Message {
     /**
      * Warnings
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -47,8 +39,6 @@ trait Message {
     /**
      * Add error message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -62,8 +52,6 @@ trait Message {
     /**
      * Add success message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -77,8 +65,6 @@ trait Message {
     /**
      * Add info message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -92,8 +78,6 @@ trait Message {
     /**
      * Add warning message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string $name
@@ -107,8 +91,6 @@ trait Message {
     /**
      * Get error messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -121,8 +103,6 @@ trait Message {
     /**
      * Get success messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -135,8 +115,6 @@ trait Message {
     /**
      * Get info messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *
@@ -149,8 +127,6 @@ trait Message {
     /**
      * Get warning messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|null $name
      *

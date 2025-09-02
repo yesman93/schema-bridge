@@ -10,8 +10,6 @@ class Image extends Column {
     /**
      * Width of the image
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var mixed
      */
@@ -20,8 +18,6 @@ class Image extends Column {
     /**
      * Height of the image
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var mixed
      */
@@ -30,8 +26,6 @@ class Image extends Column {
     /**
      * Image column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string $label
@@ -52,8 +46,6 @@ class Image extends Column {
     /**
      * Get HTML code of the image
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

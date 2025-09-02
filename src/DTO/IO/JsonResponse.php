@@ -11,8 +11,6 @@ class JsonResponse {
     /**
      * Data to be rendered as JSON
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var array
      */
@@ -21,8 +19,6 @@ class JsonResponse {
     /**
      * Data as a JSON string
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var string
      */
@@ -31,8 +27,6 @@ class JsonResponse {
     /**
      * Length of the JSON string (size in bytes)
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var int
      */
@@ -41,8 +35,6 @@ class JsonResponse {
     /**
      * Response for JSON rendering
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param array $data
      *
@@ -58,8 +50,6 @@ class JsonResponse {
     /**
      * Creates JSON string from data
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return void
      */
@@ -72,8 +62,6 @@ class JsonResponse {
     /**
      * Get JSON data
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return array
      */
@@ -84,8 +72,6 @@ class JsonResponse {
     /**
      * Render JSON data as a string
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return string
      */
@@ -96,8 +82,6 @@ class JsonResponse {
     /**
      * Get length of JSON data
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return int
      */

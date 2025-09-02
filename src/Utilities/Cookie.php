@@ -9,8 +9,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 hour
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int
      */
@@ -19,8 +17,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 day
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int
      */
@@ -29,8 +25,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 week
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int
      */
@@ -39,8 +33,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 month
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int
      */
@@ -49,8 +41,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 quarter
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int
      */
@@ -59,8 +49,6 @@ class Cookie {
     /**
      * Cookie expiration - 1 year
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int
      */
@@ -69,8 +57,6 @@ class Cookie {
     /**
      * Set a cookie
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $name
      * @param mixed $value
@@ -113,8 +99,6 @@ class Cookie {
     /**
      * Get given cookie value
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $name
      *
@@ -136,8 +120,6 @@ class Cookie {
     /**
      * Erase given cookie
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $name
      * @param string $path
@@ -158,8 +140,6 @@ class Cookie {
     /**
      * Erase all cookies with given prefix
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $prefix
      *
@@ -178,8 +158,6 @@ class Cookie {
     /**
      * Get given cookie and forget it
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $name
      *
@@ -196,8 +174,6 @@ class Cookie {
     /**
      * Check if cookie exists
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $key
      *
@@ -210,8 +186,6 @@ class Cookie {
     /**
      * Check if given expiration is predefined
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $expiration
      *
@@ -232,8 +206,6 @@ class Cookie {
     /**
      * Get expiration time by given predefined expiration
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $expiration
      *

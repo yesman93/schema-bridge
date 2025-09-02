@@ -9,8 +9,6 @@ class Number extends Column {
     /**
      * Number of decimals to display
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var int|null
      */
@@ -19,8 +17,6 @@ class Number extends Column {
     /**
      * Number column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string $label
@@ -38,8 +34,6 @@ class Number extends Column {
     /**
      * Get HTML of the column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

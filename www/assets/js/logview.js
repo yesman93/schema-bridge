@@ -1,8 +1,6 @@
 /**
  * JS for log view
  *
- * @author TB
- * @date 11.5.2025
  *
  */
 
@@ -64,8 +62,6 @@ document.addEventListener('DOMContentLoaded', function () {
 /**
  * Harvest checked log levels
  *
- * @author TB
- * @date 12.5.2025
  *
  * @returns {Array}
  */

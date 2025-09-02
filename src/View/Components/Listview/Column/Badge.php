@@ -9,8 +9,6 @@ class Badge extends Column {
     /**
      * Background class for the badge
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class Badge extends Column {
     /**
      * Badge column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string $label
@@ -38,8 +34,6 @@ class Badge extends Column {
     /**
      * Get HTML of the badge
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

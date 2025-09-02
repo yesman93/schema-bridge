@@ -7,8 +7,6 @@ class Daypart {
     /**
      * Returns the current daypart label or greeting
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param bool $greeting
      *
@@ -21,8 +19,6 @@ class Daypart {
     /**
      * Returns the daypart label or greeting for given time
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $time
      * @param bool $greeting

@@ -12,8 +12,6 @@ class ScaffoldrMiddleware {
     /**
      * Handle database synchronization using Scaffoldr (code first approach)
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param Container $container
      * @param callable $next

@@ -9,8 +9,6 @@ class Time extends Column {
     /**
      * Get time from the given row
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

@@ -9,8 +9,6 @@ class RequestFactory {
     /**
      * Make a new request
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @return Request
      */

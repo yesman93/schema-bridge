@@ -9,8 +9,6 @@ class FormInput {
     /**
      * Input name
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class FormInput {
     /**
      * Input label
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -29,8 +25,6 @@ class FormInput {
     /**
      * Input ID
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -39,8 +33,6 @@ class FormInput {
     /**
      * Input source
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var array
      */
@@ -49,8 +41,6 @@ class FormInput {
     /**
      * Input searchable
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -59,8 +49,6 @@ class FormInput {
     /**
      * Input default value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var mixed
      */
@@ -69,8 +57,6 @@ class FormInput {
     /**
      * Force default value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -79,8 +65,6 @@ class FormInput {
     /**
      * Input required
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -89,8 +73,6 @@ class FormInput {
     /**
      * Input disabled
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -99,8 +81,6 @@ class FormInput {
     /**
      * Input readonly
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -109,8 +89,6 @@ class FormInput {
     /**
      * Input multiple
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -119,8 +97,6 @@ class FormInput {
     /**
      * Input placeholder
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -129,8 +105,6 @@ class FormInput {
     /**
      * Input class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -139,8 +113,6 @@ class FormInput {
     /**
      * Whether the input is in a row with other inputs
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool|null
      */
@@ -149,8 +121,6 @@ class FormInput {
     /**
      * Input col-* class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -159,8 +129,6 @@ class FormInput {
     /**
      * Input .form-group class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -169,8 +137,6 @@ class FormInput {
     /**
      * Input label class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -179,8 +145,6 @@ class FormInput {
     /**
      * Input icon
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string
      */
@@ -189,8 +153,6 @@ class FormInput {
     /**
      * Input is WYSIWYG text
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -199,8 +161,6 @@ class FormInput {
     /**
      * Input align (for submit)
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -209,8 +169,6 @@ class FormInput {
     /**
      * Input data attributes
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var array|null
      */
@@ -219,8 +177,6 @@ class FormInput {
     /**
      * Input prepend add-on
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -229,8 +185,6 @@ class FormInput {
     /**
      * Input append add-on
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -239,8 +193,6 @@ class FormInput {
     /**
      * Input group class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -249,8 +201,6 @@ class FormInput {
     /**
      * DTO for form input definition
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $name
      * @param string $label
@@ -339,8 +289,6 @@ class FormInput {
     /**
      * Get input name
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -351,8 +299,6 @@ class FormInput {
     /**
      * Get input label
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -363,8 +309,6 @@ class FormInput {
     /**
      * Get input ID
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -375,8 +319,6 @@ class FormInput {
     /**
      * Get input source
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return array
      */
@@ -387,8 +329,6 @@ class FormInput {
     /**
      * Get if input is searchable
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -399,8 +339,6 @@ class FormInput {
     /**
      * Get input default value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return mixed
      */
@@ -411,8 +349,6 @@ class FormInput {
     /**
      * Get if input is forced default value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -423,8 +359,6 @@ class FormInput {
     /**
      * Get if input is required
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -435,8 +369,6 @@ class FormInput {
     /**
      * Get if input is disabled
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -447,8 +379,6 @@ class FormInput {
     /**
      * Get if input is readonly
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -459,8 +389,6 @@ class FormInput {
     /**
      * Get if input is multiple
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -471,8 +399,6 @@ class FormInput {
     /**
      * Get input placeholder
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -483,8 +409,6 @@ class FormInput {
     /**
      * Get input class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -495,8 +419,6 @@ class FormInput {
     /**
      * Get if input is in a row with other inputs
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool|null
      */
@@ -507,8 +429,6 @@ class FormInput {
     /**
      * Get input col-* class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -519,8 +439,6 @@ class FormInput {
     /**
      * Get input .form-group class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -531,8 +449,6 @@ class FormInput {
     /**
      * Get input label class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -543,8 +459,6 @@ class FormInput {
     /**
      * Get input icon
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -555,8 +469,6 @@ class FormInput {
     /**
      * Get if input is WYSIWYG text
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -567,8 +479,6 @@ class FormInput {
     /**
      * Get input align (for submit)
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -579,8 +489,6 @@ class FormInput {
     /**
      * Get input data attributes
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return array|null
      */
@@ -591,8 +499,6 @@ class FormInput {
     /**
      * Get input append add-on
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -603,8 +509,6 @@ class FormInput {
     /**
      * Get input prepend add-on
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -615,8 +519,6 @@ class FormInput {
     /**
      * Get input group class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -627,8 +529,6 @@ class FormInput {
     /**
      * Set input name
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $name
      *
@@ -641,8 +541,6 @@ class FormInput {
     /**
      * Set input label
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $label
      *
@@ -655,8 +553,6 @@ class FormInput {
     /**
      * Set input ID
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $id
      *
@@ -669,8 +565,6 @@ class FormInput {
     /**
      * Set input source
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param array $source
      *
@@ -683,8 +577,6 @@ class FormInput {
     /**
      * Set if input is searchable
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool $searchable
      *
@@ -697,8 +589,6 @@ class FormInput {
     /**
      * Set input default value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param mixed $default
      *
@@ -711,8 +601,6 @@ class FormInput {
     /**
      * Set if input is forced default value
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool $force_default
      *
@@ -725,8 +613,6 @@ class FormInput {
     /**
      * Set if input is required
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool $required
      *
@@ -739,8 +625,6 @@ class FormInput {
     /**
      * Set if input is disabled
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool $disabled
      *
@@ -753,8 +637,6 @@ class FormInput {
     /**
      * Set if input is readonly
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool $readonly
      *
@@ -767,8 +649,6 @@ class FormInput {
     /**
      * Set input placeholder
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $placeholder
      *
@@ -781,8 +661,6 @@ class FormInput {
     /**
      * Set input class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $class
      *
@@ -795,8 +673,6 @@ class FormInput {
     /**
      * Set if input is in a row with other inputs
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool|null $inline
      *
@@ -809,8 +685,6 @@ class FormInput {
     /**
      * Set input col-* class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $class_col
      *
@@ -823,8 +697,6 @@ class FormInput {
     /**
      * Set input .form-group class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $class_group
      *
@@ -837,8 +709,6 @@ class FormInput {
     /**
      * Set input label class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $class_label
      *
@@ -851,8 +721,6 @@ class FormInput {
     /**
      * Set input icon
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $icon
      *
@@ -865,8 +733,6 @@ class FormInput {
     /**
      * Set if input is WYSIWYG text
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param bool $is_wysiwyg
      *
@@ -879,8 +745,6 @@ class FormInput {
     /**
      * Set input align (for submit)
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string|null $align
      *
@@ -893,8 +757,6 @@ class FormInput {
     /**
      * Set input data attributes
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param array|null $data
      *
@@ -907,8 +769,6 @@ class FormInput {
     /**
      * Set input append add-on
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string|null $addon_append
      *
@@ -921,8 +781,6 @@ class FormInput {
     /**
      * Set input prepend add-on
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string|null $addon_prepend
      *
@@ -935,8 +793,6 @@ class FormInput {
     /**
      * Set input group class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string|null $class_input_group
      *
@@ -949,8 +805,6 @@ class FormInput {
     /**
      * Check if source array is valid
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param array $source
      *

@@ -12,8 +12,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Index name
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -22,8 +20,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Index type (e.g., PRIMARY, UNIQUE, INDEX)
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -32,8 +28,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Columns included in the index
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var array
      */
@@ -42,8 +36,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Constructor for MysqlIndexDefinition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param string $type
      * @param array $columns
@@ -60,8 +52,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get name of the index
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return string
      */
@@ -72,8 +62,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get type of the index
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return string
      */
@@ -84,8 +72,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get columns included in the index
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return array
      */
@@ -96,8 +82,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Convert the index definition to SQL query
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return string
      */
@@ -124,8 +108,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Get a unique key for comparison purposes
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return string
      */
@@ -145,8 +127,6 @@ class MysqlIndexDefinition implements JsonSerializable {
     /**
      * Returns JSON representation of the index definition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return array
      */

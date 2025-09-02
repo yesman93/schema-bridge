@@ -7,8 +7,6 @@ class RequestSanitizer {
     /**
      * Sanitize a string value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param mixed $value
      *
@@ -26,8 +24,6 @@ class RequestSanitizer {
     /**
      * Sanitize an integer value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param mixed $value
      *
@@ -40,8 +36,6 @@ class RequestSanitizer {
     /**
      * Sanitize an array recursively
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param mixed $value
      *
@@ -59,8 +53,6 @@ class RequestSanitizer {
     /**
      * General sanitize function based on type
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param mixed $value
      *
@@ -82,8 +74,6 @@ class RequestSanitizer {
     /**
      * Sanitize values in the $_SERVER array
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param array $array
      *

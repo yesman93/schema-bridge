@@ -13,8 +13,6 @@ class PageController extends BaseController {
     /**
      * Controller for pages
      *
-     * @author TB
-     * @date 30.4.2025
      *
      * @param BaseModel|null $model
      * @param Request $request

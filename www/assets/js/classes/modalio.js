@@ -5,8 +5,6 @@
  * Automatically appends modal HTML on first use. Includes support for
  * sizing, keyboard handling, and progress indication during load.
  *
- * @author TB
- * @date 18.5.2025
  *
  */
 Object.defineProperty(window, 'Modalio', {
@@ -15,8 +13,6 @@ Object.defineProperty(window, 'Modalio', {
      * Prevents reconfiguration of the 'progressbar' property on window.
      * Ensures the singleton definition cannot be changed or deleted.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @type {Boolean}
      */
@@ -26,8 +22,6 @@ Object.defineProperty(window, 'Modalio', {
      * Hides the 'progressbar' property from enumeration (e.g. for...in or Object.keys()).
      * Makes it invisible in most reflective operations.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @type {Boolean}
      */
@@ -38,8 +32,6 @@ Object.defineProperty(window, 'Modalio', {
      * First access to window.Modalio initializes the Progressbar instance,
      * subsequent accesses return the cached singleton.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @returns {Modalio} Singleton instance of the modal management.
      */
@@ -49,8 +41,6 @@ Object.defineProperty(window, 'Modalio', {
          * Internal cached instance of the Modalio singleton.
          * Lazily initialized upon first access to `window.Modalio`.
          *
-         * @author TB
-         * @date 18.5.2025
          *
          * @type {Object|null}
          */
@@ -67,8 +57,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Modal container ID selector.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @type {string}
                  */
@@ -77,8 +65,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Confirmation modal ID.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @type {string}
                  */
@@ -87,8 +73,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Alert modal ID.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @type {string}
                  */
@@ -97,8 +81,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Opens iframe modal with the given URL.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @param {String} url
                  * @param {String} size_class Bootstrap modal size class (e.g. modal-lg)
@@ -130,8 +112,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Resize iframe modal content based on iframe body height.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @returns {void}
                  */
@@ -154,8 +134,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Opens a confirmation modal.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @param {String} message
                  * @param {Function|null} on_ok
@@ -198,8 +176,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Opens an alert modal.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @param {String} message
                  * @param {Function|null} on_close
@@ -231,8 +207,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Closes the iframe modal.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @returns {void}
                  */
@@ -249,8 +223,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Closes the confirmation modal.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @returns {void}
                  */
@@ -262,8 +234,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Closes the alert modal.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @returns {void}
                  */
@@ -276,8 +246,6 @@ Object.defineProperty(window, 'Modalio', {
                  * Initializes event listeners for modals.
                  * Handles ESC and ENTER keys for confirm/alert modals.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @returns {void}
                  */
@@ -322,8 +290,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Ensures that iframe modal HTML structure is in the DOM.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @returns {void}
                  */
@@ -348,8 +314,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Ensure the confirm modal exists in the DOM.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @private
                  * @returns {void}
@@ -379,8 +343,6 @@ Object.defineProperty(window, 'Modalio', {
                 /**
                  * Ensure the alert modal exists in the DOM.
                  *
-                 * @author TB
-                 * @date 18.5.2025
                  *
                  * @private
                  * @returns {void}

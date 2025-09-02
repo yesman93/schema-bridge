@@ -10,8 +10,6 @@ class File {
     /**
      * Lists all files in the given directory and its subdirectories
      *
-     * @author TB
-     * @date 29.5.2025
      *
      * @param string $dir_path
      * @param bool $full_paths
@@ -87,8 +85,6 @@ class File {
      * Normalizes a file path by converting backslashes to forward slashes
      * and ensuring Windows drive letters are handled correctly
      *
-     * @author TB
-     * @date 29.5.2025
      *
      * @param string $path
      *
@@ -112,8 +108,6 @@ class File {
      *
      * Deletes files older than the configured maximum age
      *
-     * @author TB
-     * @date 29.5.2025
      *
      * @param string $path
      *
@@ -158,8 +152,6 @@ class File {
     /**
      * Splits a file path into directory and filename
      *
-     * @author TB
-     * @date 29.5.2025
      *
      * @param string $path
      *

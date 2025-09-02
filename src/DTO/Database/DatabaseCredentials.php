@@ -7,8 +7,6 @@ class DatabaseCredentials {
     /**
      * driver
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class DatabaseCredentials {
     /**
      * host
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class DatabaseCredentials {
     /**
      * database name
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ class DatabaseCredentials {
     /**
      * username
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ class DatabaseCredentials {
     /**
      * password
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ class DatabaseCredentials {
     /**
      * database connection credentials
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $host
      * @param string $username
@@ -83,8 +71,6 @@ class DatabaseCredentials {
     /**
      * Get the driver
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -95,8 +81,6 @@ class DatabaseCredentials {
     /**
      * Get the host
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -107,8 +91,6 @@ class DatabaseCredentials {
     /**
      * Get the database name
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -119,8 +101,6 @@ class DatabaseCredentials {
     /**
      * Get the username
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -131,8 +111,6 @@ class DatabaseCredentials {
     /**
      * Get the password
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */

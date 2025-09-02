@@ -7,8 +7,6 @@ class FileView {
     /**
      * Get Font Awesome icon based on file extension of the given filename
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param string $filename
      *
@@ -36,8 +34,6 @@ class FileView {
     /**
      * Check if the file is previewable in browser based on its extension
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param string $filename
      *
@@ -51,8 +47,6 @@ class FileView {
     /**
      * Convert bytes to a human readable format
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param int $bytes
      *

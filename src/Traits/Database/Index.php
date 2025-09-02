@@ -6,8 +6,6 @@ trait Index {
     /**
      * Index - PRIMARY
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -16,8 +14,6 @@ trait Index {
     /**
      * Index - UNIQUE
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -26,8 +22,6 @@ trait Index {
     /**
      * Index - INDEX
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */

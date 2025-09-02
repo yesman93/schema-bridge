@@ -7,8 +7,6 @@ trait Collation {
     /**
      * Collation - utf8_general_ci
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait Collation {
     /**
      * Collation - utf8_czech_ci
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait Collation {
     /**
      * Collation - utf8mb4_general_ci
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait Collation {
     /**
      * Collation - utf8mb4_czech_ci
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */

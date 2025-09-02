@@ -7,8 +7,6 @@ class BreadcrumbItem {
     /**
      * URL of the breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class BreadcrumbItem {
     /**
      * Label of the breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string|null
      */
@@ -27,8 +23,6 @@ class BreadcrumbItem {
     /**
      * Breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param string $url
      * @param string|null $label
@@ -44,8 +38,6 @@ class BreadcrumbItem {
     /**
      * Get URL of the breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return string
      */
@@ -56,8 +48,6 @@ class BreadcrumbItem {
     /**
      * Get label of the breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return string
      */
@@ -68,8 +58,6 @@ class BreadcrumbItem {
     /**
      * Check if given breadcrumb item is the same as this one
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbItem $item
      *

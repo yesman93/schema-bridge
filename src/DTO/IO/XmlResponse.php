@@ -11,8 +11,6 @@ class XmlResponse {
     /**
      * Data to be rendered as XML
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var array
      */
@@ -21,8 +19,6 @@ class XmlResponse {
     /**
      * XML string rendered from data
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var string
      */
@@ -31,8 +27,6 @@ class XmlResponse {
     /**
      * Length of the XML string (size in bytes)
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var int
      */
@@ -41,8 +35,6 @@ class XmlResponse {
     /**
      * Constructor for XML response
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param array $data
      *
@@ -58,8 +50,6 @@ class XmlResponse {
     /**
      * Get XML-safe key
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string|int $key
      *
@@ -72,8 +62,6 @@ class XmlResponse {
     /**
      * Convert array to XML string
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return void
      */
@@ -89,8 +77,6 @@ class XmlResponse {
     /**
      * Recursive array to XML conversion
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param array $data
      * @param \SimpleXMLElement $xml
@@ -115,8 +101,6 @@ class XmlResponse {
     /**
      * Get original array data
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return array
      */
@@ -127,8 +111,6 @@ class XmlResponse {
     /**
      * Get rendered XML string
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return string
      */
@@ -139,8 +121,6 @@ class XmlResponse {
     /**
      * Get length of XML data
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return int
      */

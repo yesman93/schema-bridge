@@ -7,8 +7,6 @@ class LumioSuccessException extends \Exception {
     /**
      * Success message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class LumioSuccessException extends \Exception {
     /**
      * Name that the message is related to
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class LumioSuccessException extends \Exception {
     /**
      * Exception for success messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string|null $name
@@ -46,8 +40,6 @@ class LumioSuccessException extends \Exception {
     /**
      * Get success message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return string
      */
@@ -58,8 +50,6 @@ class LumioSuccessException extends \Exception {
     /**
      * Get name that the message is related to
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return string
      */

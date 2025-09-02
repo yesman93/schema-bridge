@@ -7,8 +7,6 @@ trait Engine {
     /**
      * Engine - InnoDB
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait Engine {
     /**
      * Engine - MyISAM
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait Engine {
     /**
      * Engine - CSV
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait Engine {
     /**
      * Engine - ARIA
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */

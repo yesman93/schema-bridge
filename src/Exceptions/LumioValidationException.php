@@ -12,9 +12,7 @@ class LumioValidationException extends \Exception {
      * @param Throwable|null $previous
      *
      * @return LumioValidationException
-     *@author TB
-     * @date 27.4.2025
-     *
+     *@author TB     *
      */
     public function __construct(string $message = "", int $code = 0, ?Throwable $previous = null) {
         parent::__construct('Validation error: ' . $message, $code, $previous);

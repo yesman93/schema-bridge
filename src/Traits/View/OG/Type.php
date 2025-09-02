@@ -7,8 +7,6 @@ trait Type {
     /**
      * Open Graph type - website
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait Type {
     /**
      * Open Graph type - article
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait Type {
     /**
      * Open Graph type - book
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait Type {
     /**
      * Open Graph type - profile
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ trait Type {
     /**
      * Open Graph type - video
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ trait Type {
     /**
      * Open Graph type - music
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -67,8 +55,6 @@ trait Type {
     /**
      * Open Graph type - product
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -77,8 +63,6 @@ trait Type {
     /**
      * Open Graph type - event
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -87,8 +71,6 @@ trait Type {
     /**
      * Open Graph type - place
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -97,8 +79,6 @@ trait Type {
     /**
      * Open Graph type - restaurant
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -107,8 +87,6 @@ trait Type {
     /**
      * Open Graph type - bar
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -117,8 +95,6 @@ trait Type {
     /**
      * Open Graph type - cafe
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -127,8 +103,6 @@ trait Type {
     /**
      * Open Graph type - hotel
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -137,8 +111,6 @@ trait Type {
     /**
      * Open Graph type - organization
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -147,8 +119,6 @@ trait Type {
     /**
      * Open Graph type - service
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -157,8 +127,6 @@ trait Type {
     /**
      * Open Graph type - software
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */

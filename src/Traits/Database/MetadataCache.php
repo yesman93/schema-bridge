@@ -14,8 +14,6 @@ trait MetadataCache {
     /**
      * Storage for all harvested metadata
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -24,8 +22,6 @@ trait MetadataCache {
     /**
      * Retrieves metadata for given table and stores it in the cache
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $name
      * @param DatabaseAdapter $adapter
@@ -97,8 +93,6 @@ trait MetadataCache {
     /**
      * Get metadata for given model
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $name
      * @param DatabaseAdapter $adapter

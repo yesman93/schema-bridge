@@ -7,8 +7,6 @@ trait LogLevel {
     /**
      * Log level - emergency
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait LogLevel {
     /**
      * Log level - alert
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait LogLevel {
     /**
      * Log level - critical
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait LogLevel {
     /**
      * Log level - error
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ trait LogLevel {
     /**
      * Log level - warning
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ trait LogLevel {
     /**
      * Log level - notice
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -67,8 +55,6 @@ trait LogLevel {
     /**
      * Log level - info
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -77,8 +63,6 @@ trait LogLevel {
     /**
      * Log level - debug
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -87,8 +71,6 @@ trait LogLevel {
     /**
      * Get human-readable description of given log level
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $level
      *
@@ -112,8 +94,6 @@ trait LogLevel {
     /**
      * Get all supported log levels
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @return array
      */
@@ -134,8 +114,6 @@ trait LogLevel {
     /**
      * Get all supported log levels as options for select input
      *
-     * @author TB
-     * @date 11.5.2025
      *
      * @param bool $first_empty
      *
@@ -163,8 +141,6 @@ trait LogLevel {
     /**
      * Get color class for given log level
      *
-     * @author TB
-     * @date 11.5.2025
      *
      * @param string $level
      *

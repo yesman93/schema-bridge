@@ -17,8 +17,6 @@ class TestsController extends BaseController {
     /**
      * Constroller for application tests in isolation
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param BaseModel|null $model
      * @param Request $request

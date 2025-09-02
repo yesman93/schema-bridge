@@ -15,8 +15,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * MySQL table definition
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string        $name
      * @param string        $type
@@ -52,8 +50,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns SQL query for creating the column
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -98,8 +94,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -110,8 +104,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column type
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -122,8 +114,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column length
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return int|null
      */
@@ -134,8 +124,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column collation
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string|null
      */
@@ -146,8 +134,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column attribute
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string|null
      */
@@ -158,8 +144,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns if column is nullable
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return bool
      */
@@ -170,8 +154,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column default value
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return mixed|null
      */
@@ -182,8 +164,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns if column is auto increment
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return bool
      */
@@ -194,8 +174,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column comment
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string|null
      */
@@ -206,8 +184,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns column index
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string|null
      */
@@ -218,8 +194,6 @@ class MysqlColumnDefinition implements JsonSerializable {
     /**
      * Returns JSON representation of the column definition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return array
      */

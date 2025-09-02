@@ -12,8 +12,6 @@ class RouterFactory {
     /**
      * Make a new router
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param Container $container
      * @param string|null $uri

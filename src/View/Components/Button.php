@@ -9,8 +9,6 @@ class Button extends Component {
     /**
      * HTML of the button
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class Button extends Component {
     /**
      * Build a button
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $link
      * @param string $label
@@ -86,8 +82,6 @@ class Button extends Component {
     /**
      * Get HTML of the button
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -98,8 +92,6 @@ class Button extends Component {
     /**
      * Render the button
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return void
      */

@@ -19,8 +19,6 @@ class ResponseManager {
     /**
      * instance of the container
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @var Container
      */
@@ -29,8 +27,6 @@ class ResponseManager {
     /**
      * Response management
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param Container $container
      *
@@ -43,8 +39,6 @@ class ResponseManager {
     /**
      * Prepare response
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param mixed $result
      *
@@ -115,8 +109,6 @@ class ResponseManager {
     /**
      * Prepare redirect response
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param RedirectResponse $result
      *
@@ -162,8 +154,6 @@ class ResponseManager {
     /**
      * Prepare JSON response
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param JsonResponse $result
      *
@@ -189,8 +179,6 @@ class ResponseManager {
     /**
      * Prepare XML response
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param XmlResponse $result
      *
@@ -216,8 +204,6 @@ class ResponseManager {
     /**
      * Prepare file response
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param FileResponse $result
      *
@@ -245,8 +231,6 @@ class ResponseManager {
     /**
      * Respond to the given controller result
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param mixed $result
      *

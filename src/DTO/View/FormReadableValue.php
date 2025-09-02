@@ -7,8 +7,6 @@ class FormReadableValue {
     /**
      * Name of the input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class FormReadableValue {
     /**
      * Readable value of the input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @var mixed
      */
@@ -27,8 +23,6 @@ class FormReadableValue {
     /**
      * Label of the input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ class FormReadableValue {
     /**
      * Stored readable selected/filled value of the form input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @param string $name
      * @param mixed $value
@@ -56,8 +48,6 @@ class FormReadableValue {
     /**
      * Get the name of the input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @return string
      */
@@ -68,8 +58,6 @@ class FormReadableValue {
     /**
      * Get the value of the input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @return mixed
      */
@@ -80,8 +68,6 @@ class FormReadableValue {
     /**
      * Get the label of the input
      *
-     * @author TB
-     * @date 4.5.2025
      *
      * @return string
      */

@@ -7,8 +7,6 @@ trait Master {
     /**
      * Master page - public
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait Master {
     /**
      * Master page - private
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait Master {
     /**
      * Master page - modal
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait Master {
     /**
      * Master page - empty
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ trait Master {
     /**
      * Master page - error
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */

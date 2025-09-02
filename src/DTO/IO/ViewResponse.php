@@ -16,8 +16,6 @@ class ViewResponse {
     /**
      * View object
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @var View
      */
@@ -26,8 +24,6 @@ class ViewResponse {
     /**
      * View response
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param Container $container
      *
@@ -43,8 +39,6 @@ class ViewResponse {
     /**
      * Set realm
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $realm
      *
@@ -58,8 +52,6 @@ class ViewResponse {
     /**
      * Set controller
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $controller
      *
@@ -73,8 +65,6 @@ class ViewResponse {
     /**
      * Set action
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $action
      *
@@ -88,8 +78,6 @@ class ViewResponse {
     /**
      * Set title
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $title
      *
@@ -103,8 +91,6 @@ class ViewResponse {
     /**
      * Assign a variable to view
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $key
      * @param mixed $value
@@ -119,8 +105,6 @@ class ViewResponse {
     /**
      * Set master page
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $master
      *
@@ -136,8 +120,6 @@ class ViewResponse {
     /**
      * Render the view
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return void
      *

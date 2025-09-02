@@ -7,8 +7,6 @@ trait Locale {
     /**
      * Locale - English (United States)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait Locale {
     /**
      * Locale - English (United Kingdom)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ trait Locale {
     /**
      * Locale - Czech (Czech Republic)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ trait Locale {
     /**
      * Locale - German (Germany)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ trait Locale {
     /**
      * Locale - French (France)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ trait Locale {
     /**
      * Locale - Spanish (Spain)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -67,8 +55,6 @@ trait Locale {
     /**
      * Locale - Italian (Italy)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -77,8 +63,6 @@ trait Locale {
     /**
      * Locale - Dutch (Netherlands)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -87,8 +71,6 @@ trait Locale {
     /**
      * Locale - Polish (Poland)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -97,8 +79,6 @@ trait Locale {
     /**
      * Locale - Russian (Russia)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -107,8 +87,6 @@ trait Locale {
     /**
      * Locale - Chinese (Simplified)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -117,8 +95,6 @@ trait Locale {
     /**
      * Locale - Japanese (Japan)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -127,8 +103,6 @@ trait Locale {
     /**
      * Locale - Korean (South Korea)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -137,8 +111,6 @@ trait Locale {
     /**
      * Locale - Portuguese (Brazil)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -147,8 +119,6 @@ trait Locale {
     /**
      * Locale - Arabic (Saudi Arabia)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -157,8 +127,6 @@ trait Locale {
     /**
      * Locale - Turkish (Turkey)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -167,8 +135,6 @@ trait Locale {
     /**
      * Locale - Swedish (Sweden)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -177,8 +143,6 @@ trait Locale {
     /**
      * Locale - Norwegian (Norway)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -187,8 +151,6 @@ trait Locale {
     /**
      * Locale - Danish (Denmark)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -197,8 +159,6 @@ trait Locale {
     /**
      * Locale - Finnish (Finland)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -207,8 +167,6 @@ trait Locale {
     /**
      * Locale - Greek (Greece)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -217,8 +175,6 @@ trait Locale {
     /**
      * Locale - Hungarian (Hungary)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -227,8 +183,6 @@ trait Locale {
     /**
      * Locale - Romanian (Romania)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */
@@ -237,8 +191,6 @@ trait Locale {
     /**
      * Locale - Slovak (Slovakia)
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @var string
      */

@@ -1,8 +1,6 @@
 /**
  * JS for listview
  *
- * @author TB
- * @date 2.5.2025
  *
  */
 

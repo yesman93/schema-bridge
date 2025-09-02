@@ -11,8 +11,6 @@ class CSRFFactory {
     /**
      * Instance of the container
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var Container
      */
@@ -21,8 +19,6 @@ class CSRFFactory {
     /**
      * Factory for creating CSRF instances
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param Container $container
      */
@@ -33,8 +29,6 @@ class CSRFFactory {
     /**
      * Create a new CSRF instance
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return CSRF
      *

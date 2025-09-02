@@ -7,8 +7,6 @@ class Breadcrumb {
     /**
      * Breadcrumb items
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var BreadcrumbItem[]
      */
@@ -17,8 +15,6 @@ class Breadcrumb {
     /**
      * Add breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbItem $item
      *
@@ -31,8 +27,6 @@ class Breadcrumb {
     /**
      * Clear all breadcrumb items
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return void
      */
@@ -43,8 +37,6 @@ class Breadcrumb {
     /**
      * Get all breadcrumb items
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return array
      */
@@ -55,8 +47,6 @@ class Breadcrumb {
     /**
      * Get the last breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return BreadcrumbItem|null
      */
@@ -67,8 +57,6 @@ class Breadcrumb {
     /**
      * Get count of breadcrumb items
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return int
      */
@@ -79,8 +67,6 @@ class Breadcrumb {
     /**
      * Check if breadcrumb ends with given item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbItem $item
      *

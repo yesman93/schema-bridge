@@ -2,8 +2,6 @@
 /**
  * Homepage
  *
- * @author TB
- * @date 30.4.2025
  *
  */
 

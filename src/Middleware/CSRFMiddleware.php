@@ -18,8 +18,6 @@ class CSRFMiddleware {
     /**
      * Handle CSRF validation
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param Container $container
      * @param callable $next

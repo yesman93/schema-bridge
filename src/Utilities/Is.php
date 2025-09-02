@@ -10,8 +10,6 @@ class Is {
     /**
      * Check if the input is a valid date
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $date
      *
@@ -24,8 +22,6 @@ class Is {
     /**
      * Check if the input is a valid datetime
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $val
      *
@@ -38,8 +34,6 @@ class Is {
     /**
      * Check if the input is a valid DB time
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $input
      *
@@ -56,8 +50,6 @@ class Is {
     /**
      * Check if the date is empty
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param mixed $input
      *
@@ -70,8 +62,6 @@ class Is {
     /**
      * Check if the time is empty
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param mixed $input
      *
@@ -84,8 +74,6 @@ class Is {
     /**
      * Check if the datetime is empty
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param mixed $input
      *
@@ -110,8 +98,6 @@ class Is {
     /**
      * Check if the input is an integer
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param mixed $input
      *
@@ -124,8 +110,6 @@ class Is {
     /**
      * Check if the input is a float
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param mixed $input
      *
@@ -141,8 +125,6 @@ class Is {
     /**
      * Check if the input is a valid email address
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $email
      *
@@ -163,8 +145,6 @@ class Is {
     /**
      * Check if the input is a valid phone number
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $phone
      *
@@ -183,8 +163,6 @@ class Is {
     /**
      * Check if the input is a valid postal code
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $code
      * @param string|null $country_iso

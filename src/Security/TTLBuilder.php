@@ -9,8 +9,6 @@ class TTLBuilder {
     /**
      * Builder for TTL (time-to-live) of given signed URL
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param SignedUrlBuilder $builder
      *
@@ -23,8 +21,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in seconds
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *
@@ -37,8 +33,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in minutes
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *
@@ -51,8 +45,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in hours
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *
@@ -65,8 +57,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in days
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *
@@ -79,8 +69,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in weeks
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *
@@ -93,8 +81,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in months (n * 30 days)
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *
@@ -107,8 +93,6 @@ class TTLBuilder {
     /**
      * Set given expiration time - in years (n * 365 days)
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $n
      *

@@ -7,8 +7,6 @@ class LumioInfoException extends \Exception {
     /**
      * Info message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class LumioInfoException extends \Exception {
     /**
      * Name that the message is related to
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class LumioInfoException extends \Exception {
     /**
      * Exception for info messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param string|null $name
@@ -45,8 +39,6 @@ class LumioInfoException extends \Exception {
     /**
      * Get info message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return string
      */
@@ -57,8 +49,6 @@ class LumioInfoException extends \Exception {
     /**
      * Get name that the message is related to
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return string
      */

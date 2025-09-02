@@ -11,8 +11,6 @@ class LogRecord {
     /**
      * datetime
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -21,8 +19,6 @@ class LogRecord {
     /**
      * environment
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -31,8 +27,6 @@ class LogRecord {
     /**
      * level
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -41,8 +35,6 @@ class LogRecord {
     /**
      * request ID
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -51,8 +43,6 @@ class LogRecord {
     /**
      * message
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var string
      */
@@ -61,8 +51,6 @@ class LogRecord {
     /**
      * context
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @var array|null
      */
@@ -71,8 +59,6 @@ class LogRecord {
     /**
      * Reader of file logs
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param string $datetime
      * @param string $env
@@ -96,8 +82,6 @@ class LogRecord {
     /**
      * Get datetime
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @return string
      */
@@ -108,8 +92,6 @@ class LogRecord {
     /**
      * Get environment
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @return string
      */
@@ -120,8 +102,6 @@ class LogRecord {
     /**
      * Get level
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @param bool $readable
      *
@@ -134,8 +114,6 @@ class LogRecord {
     /**
      * Get request ID
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @return string
      */
@@ -146,8 +124,6 @@ class LogRecord {
     /**
      * Get message
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @return string
      */
@@ -158,8 +134,6 @@ class LogRecord {
     /**
      * Get context
      *
-     * @author TB
-     * @date 9.5.2025
      *
      * @return array|null
      */

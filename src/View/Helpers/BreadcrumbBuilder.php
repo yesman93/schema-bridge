@@ -10,8 +10,6 @@ class BreadcrumbBuilder {
     /**
      * Breadcrumb DTO
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var BreadcrumbDTO
      */
@@ -20,8 +18,6 @@ class BreadcrumbBuilder {
     /**
      * Breadcrumb builder
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return void
      */
@@ -32,8 +28,6 @@ class BreadcrumbBuilder {
     /**
      * Add breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return BreadcrumbBuilder
      */
@@ -45,8 +39,6 @@ class BreadcrumbBuilder {
     /**
      * Add breadcrumb item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbItem $item
      *
@@ -60,8 +52,6 @@ class BreadcrumbBuilder {
     /**
      * Get breadcrumb DTO containing all items
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return BreadcrumbDTO
      */
@@ -72,8 +62,6 @@ class BreadcrumbBuilder {
     /**
      * Check if breadcrumb ends with given item
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbItem $item
      *

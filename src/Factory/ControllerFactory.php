@@ -13,8 +13,6 @@ class ControllerFactory {
     /**
      * instance of container
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @var Container
      */
@@ -23,8 +21,6 @@ class ControllerFactory {
     /**
      * Factory for creating controllers
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param Container $container
      *
@@ -37,8 +33,6 @@ class ControllerFactory {
     /**
      * Make a controller
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param string $name
      * @param string $action

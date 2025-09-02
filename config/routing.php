@@ -19,7 +19,7 @@ return [
     ],
 
     'allowed_hosts' => [
-        'lumio.test',
+        'schemabridge.test',
         // allowed hosts go here
     ],
 

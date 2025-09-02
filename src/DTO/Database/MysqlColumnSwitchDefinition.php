@@ -7,8 +7,6 @@ class MysqlColumnSwitchDefinition extends MysqlColumnDefinition {
     /**
      * MySQL column switch definition
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $name
      *

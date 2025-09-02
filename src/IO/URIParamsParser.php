@@ -10,8 +10,6 @@ class URIParamsParser {
     /**
      * Prefix for array keys in filter
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @var string
      */
@@ -20,8 +18,6 @@ class URIParamsParser {
     /**
      * Separator for key-value pairs in filter
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @var string
      */
@@ -30,8 +26,6 @@ class URIParamsParser {
     /**
      * Separator for pairs in filter
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @var string
      */
@@ -40,8 +34,6 @@ class URIParamsParser {
     /**
      * Separator for column-direction pairs in ordering
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @var string
      */
@@ -50,8 +42,6 @@ class URIParamsParser {
     /**
      * Parse segments from URI, recognize page, filters and sorting, and apply it to the request object
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param array $params (by reference)
      * @param Request $request (by reference)
@@ -148,8 +138,6 @@ class URIParamsParser {
     /**
      * Build filter URI string from given filter data
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param array $filter_data
      *
@@ -181,8 +169,6 @@ class URIParamsParser {
     /**
      * Build sorting URI string from given sorting object
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param Sorting|null $sorting
      *
@@ -200,8 +186,6 @@ class URIParamsParser {
     /**
      * Build base URI for the given controller, action and optional realm
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $controller
      * @param string $action
@@ -227,8 +211,6 @@ class URIParamsParser {
     /**
      * Build URI based on the given params
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $controller
      * @param string $action
@@ -275,8 +257,6 @@ class URIParamsParser {
     /**
      * Detect if given string is a filter string - contains at least one filter key-value pair
      *
-     * @author TB
-     * @date 5.5.2025
      *
      * @param string $string
      *
@@ -298,8 +278,6 @@ class URIParamsParser {
     /**
      * Detect if given string is a sorting string - contains at least one column-direction pair
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $string
      *
@@ -323,8 +301,6 @@ class URIParamsParser {
      * Sanitize sorting.
      * Check if the column name is valid and does not contain any potentially dangerous characters and the direction is either ASC or DESC
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $column
      * @param string $direction

@@ -11,8 +11,6 @@ class RouteResolver {
     /**
      * instance of the request object
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @var Request
      */
@@ -21,8 +19,6 @@ class RouteResolver {
     /**
      * array of regex route exceptions
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @var array
      */
@@ -31,8 +27,6 @@ class RouteResolver {
     /**
      * array of resolved parameters
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @var array
      */
@@ -41,8 +35,6 @@ class RouteResolver {
     /**
      * Resolver for routes to controller, action and parameters
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @param Request $request
      *
@@ -60,8 +52,6 @@ class RouteResolver {
     /**
      * Load regex exceptions from config
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return void
      */
@@ -75,8 +65,6 @@ class RouteResolver {
     /**
      * Resolve the URI to controller, action and parameters
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @param string|null $uri
      *
@@ -132,8 +120,6 @@ class RouteResolver {
     /**
      * Sanitize the URI
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @param string $uri
      *
@@ -153,8 +139,6 @@ class RouteResolver {
     /**
      * Match the URI against regex route exceptions
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @param string $uri
      *
@@ -186,8 +170,6 @@ class RouteResolver {
     /**
      * Get the resolved realm name
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return string|null
      */
@@ -198,8 +180,6 @@ class RouteResolver {
     /**
      * Get the resolved controller name
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return string|null
      */
@@ -210,8 +190,6 @@ class RouteResolver {
     /**
      * Get the resolved action name
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return string|null
      */
@@ -222,8 +200,6 @@ class RouteResolver {
     /**
      * Get the resolved parameters
      *
-     * @author TB
-     * @date 29.4.2025
      *
      * @return array
      */

@@ -7,8 +7,6 @@ abstract class Column {
     /**
      * Column name
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ abstract class Column {
     /**
      * Column label
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -27,8 +23,6 @@ abstract class Column {
     /**
      * Column width
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var int|null
      */
@@ -37,8 +31,6 @@ abstract class Column {
     /**
      * Column class
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -47,8 +39,6 @@ abstract class Column {
     /**
      * Whether the column is sortable
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var bool
      */
@@ -57,8 +47,6 @@ abstract class Column {
     /**
      * Sort column
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string|null
      */
@@ -67,8 +55,6 @@ abstract class Column {
     /**
      * Listview Column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string|null $label
@@ -87,8 +73,6 @@ abstract class Column {
     /**
      * Get column name
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -99,8 +83,6 @@ abstract class Column {
     /**
      * Get column label
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string|null
      */
@@ -111,8 +93,6 @@ abstract class Column {
     /**
      * Get column width
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return int|null
      */
@@ -123,8 +103,6 @@ abstract class Column {
     /**
      * Get column class
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string|null
      */
@@ -135,8 +113,6 @@ abstract class Column {
     /**
      * Get HTML of the value from given row
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *
@@ -153,8 +129,6 @@ abstract class Column {
     /**
      * Render HTML of the value from given row
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *
@@ -167,8 +141,6 @@ abstract class Column {
     /**
      * Set the column as sortable
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string|null $column
      *
@@ -185,8 +157,6 @@ abstract class Column {
     /**
      * Get whether the column is sortable
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return bool
      */
@@ -197,8 +167,6 @@ abstract class Column {
     /**
      * Get the column by which to sort
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return string|null
      */

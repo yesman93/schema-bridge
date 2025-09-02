@@ -10,8 +10,6 @@ class Flash {
     /**
      * Errors
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -20,8 +18,6 @@ class Flash {
     /**
      * Successes
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -30,8 +26,6 @@ class Flash {
     /**
      * Infos
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -40,8 +34,6 @@ class Flash {
     /**
      * Warnings
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -50,8 +42,6 @@ class Flash {
     /**
      * Add error message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      *
@@ -64,8 +54,6 @@ class Flash {
     /**
      * Add success message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      *
@@ -78,8 +66,6 @@ class Flash {
     /**
      * Add info message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      *
@@ -92,8 +78,6 @@ class Flash {
     /**
      * Add warning message
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      *
@@ -106,8 +90,6 @@ class Flash {
     /**
      * Get error messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return array
      */
@@ -118,8 +100,6 @@ class Flash {
     /**
      * Get success messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return array
      */
@@ -130,8 +110,6 @@ class Flash {
     /**
      * Get info messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return array
      */
@@ -142,8 +120,6 @@ class Flash {
     /**
      * Get warning messages
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return array
      */
@@ -154,8 +130,6 @@ class Flash {
     /**
      * Clear all errors
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -166,8 +140,6 @@ class Flash {
     /**
      * Clear all successes
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -178,8 +150,6 @@ class Flash {
     /**
      * Clear all infos
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -190,8 +160,6 @@ class Flash {
     /**
      * Clear all warnings
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -202,8 +170,6 @@ class Flash {
     /**
      * Clear all messages
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return void
      */
@@ -218,8 +184,6 @@ class Flash {
     /**
      * Absorbs flash messages from session (e.g. after redirect)
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return void
      *

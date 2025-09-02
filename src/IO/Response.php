@@ -14,8 +14,6 @@ class Response {
     /**
      * HTTP status code
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var int
      */
@@ -24,8 +22,6 @@ class Response {
     /**
      * HTTP body
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -34,8 +30,6 @@ class Response {
     /**
      * HTTP headers
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -44,8 +38,6 @@ class Response {
     /**
      * set HTTP status code
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param int $status_code
      *
@@ -59,8 +51,6 @@ class Response {
     /**
      * set HTTP body
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $body
      *
@@ -74,8 +64,6 @@ class Response {
     /**
      * set HTTP header
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string|array $header The header to set - it accepts ready string like `"Location: /path"` or array - associative like this: `['location' => '/path']`, or non-associative like this: `['location', '/path']`. If the right format is not met, the header will not be set
      *
@@ -115,8 +103,6 @@ class Response {
     /**
      * Check if the response has given header
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param string $name
      *
@@ -138,8 +124,6 @@ class Response {
     /**
      * Check if the response has given header with given value
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param string $name
      * @param string $value
@@ -163,8 +147,6 @@ class Response {
     /**
      * Check if the response has given header containing given value (case-insensitive)
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @param string $name
      * @param string $value
@@ -188,8 +170,6 @@ class Response {
     /**
      * Check if the response is a download response
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @return bool
      */
@@ -202,8 +182,6 @@ class Response {
     /**
      * clear the response - resets status code, body and headers
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return \Lumio\IO\Response
      */
@@ -217,8 +195,6 @@ class Response {
     /**
      * send the response
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      *
@@ -244,8 +220,6 @@ class Response {
     /**
      * Send response headers only
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @return void
      */
@@ -266,8 +240,6 @@ class Response {
     /**
      * send JSON response
      *
-     * @author TB
-     * @date 8.5.2025
      *
      * @param array $data
      *
@@ -285,8 +257,6 @@ class Response {
     /**
      * Show failure page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param \Throwable $e
      *
@@ -302,8 +272,6 @@ class Response {
     /**
      * Redirect to the given destination
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $destination
      * @param int $status_code

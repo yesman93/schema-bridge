@@ -9,8 +9,6 @@ class Text extends Column {
     /**
      * Maximum length of the text
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var int|null
      */
@@ -19,8 +17,6 @@ class Text extends Column {
     /**
      * Text column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string $label
@@ -38,8 +34,6 @@ class Text extends Column {
     /**
      * Get HTML of the text value from given row
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

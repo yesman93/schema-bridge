@@ -9,8 +9,6 @@ class SignedURLBuilder {
     /**
      * The URL to be signed
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class SignedURLBuilder {
     /**
      * Expiration timestamp
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @var int|null
      */
@@ -29,8 +25,6 @@ class SignedURLBuilder {
     /**
      * Builder for signed URLs
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param string $url
      *
@@ -43,8 +37,6 @@ class SignedURLBuilder {
     /**
      * Init the TTL setting
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @return TTLBuilder
      */
@@ -55,8 +47,6 @@ class SignedURLBuilder {
     /**
      * Set URL expiration
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $timestamp
      *
@@ -70,8 +60,6 @@ class SignedURLBuilder {
     /**
      * Get the signed URL
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @return string
      */
@@ -102,8 +90,6 @@ class SignedURLBuilder {
     /**
      * Get the signed URL as a string
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @return string
      */
@@ -114,8 +100,6 @@ class SignedURLBuilder {
     /**
      * Encode given integer to a base62 string - timestamp obfuscation
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param int $value
      *

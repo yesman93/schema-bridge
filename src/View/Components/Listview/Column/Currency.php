@@ -9,8 +9,6 @@ class Currency extends Column {
     /**
      * Currency symbol
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class Currency extends Column {
     /**
      * Currency column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string $label
@@ -38,8 +34,6 @@ class Currency extends Column {
     /**
      * Get HTML of the currency column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

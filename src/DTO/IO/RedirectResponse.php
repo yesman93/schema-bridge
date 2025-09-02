@@ -13,8 +13,6 @@ class RedirectResponse {
     /**
      * HTTP status code
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var int
      */
@@ -23,8 +21,6 @@ class RedirectResponse {
     /**
      * URL
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var string
      */
@@ -33,8 +29,6 @@ class RedirectResponse {
     /**
      * Response for redirect
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $url
      * @param int $status_code
@@ -50,8 +44,6 @@ class RedirectResponse {
     /**
      * Normalizes URL - trimming, adding host if necessary, etc.
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @param string $url
      *
@@ -73,8 +65,6 @@ class RedirectResponse {
     /**
      * Check if the host is allowed
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return bool
      */
@@ -101,8 +91,6 @@ class RedirectResponse {
     /**
      * Get host from the URL
      *
-     * @author TB
-     * @date 17.5.2025
      *
      * @return string
      */
@@ -113,8 +101,6 @@ class RedirectResponse {
     /**
      * Get HTTP status code
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return int
      */
@@ -125,8 +111,6 @@ class RedirectResponse {
     /**
      * Get URL
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return string
      */
@@ -137,8 +121,6 @@ class RedirectResponse {
     /**
      * Set error message to show after redirect
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $message
      *
@@ -152,8 +134,6 @@ class RedirectResponse {
     /**
      * Set success message to show after redirect
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $message
      *
@@ -167,8 +147,6 @@ class RedirectResponse {
     /**
      * Set info message to show after redirect
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $message
      *
@@ -182,8 +160,6 @@ class RedirectResponse {
     /**
      * Set warning message to show after redirect
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $message
      *

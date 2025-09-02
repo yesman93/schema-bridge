@@ -9,8 +9,6 @@ trait Search {
     /**
      * Current search query string
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var string|null
      */
@@ -19,8 +17,6 @@ trait Search {
     /**
      * Columns to search in
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var array
      */
@@ -29,8 +25,6 @@ trait Search {
     /**
      * Set the search query
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param string|null $query
      *
@@ -43,8 +37,6 @@ trait Search {
     /**
      * Get the search query
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return string|null
      */
@@ -55,8 +47,6 @@ trait Search {
     /**
      * Set search columns by given database columns
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param MySQLColumns $columns
      *
@@ -74,8 +64,6 @@ trait Search {
     /**
      * Add search column
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param string $column
      *
@@ -91,8 +79,6 @@ trait Search {
     /**
      * Remove one or more column names from the search list.
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param string $column
      *
@@ -108,8 +94,6 @@ trait Search {
     /**
      * Overwrite all search columns with given set
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param array $columns
      *
@@ -122,8 +106,6 @@ trait Search {
     /**
      * Get current search columns
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return array
      */

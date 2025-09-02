@@ -10,8 +10,6 @@ class DatabaseLoggerProxy {
     /**
      * Database logger instance
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @var Container
      */
@@ -20,8 +18,6 @@ class DatabaseLoggerProxy {
     /**
      * Default model for logging
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @var string|null
      */
@@ -30,8 +26,6 @@ class DatabaseLoggerProxy {
     /**
      * Default model ID for logging
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @var int|null
      */
@@ -42,8 +36,6 @@ class DatabaseLoggerProxy {
      *
      * This class acts as a proxy for the DatabaseLogger, allowing to log messages with values defaults
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param Container $container
      * @param string|null $default_model
@@ -61,8 +53,6 @@ class DatabaseLoggerProxy {
     /**
      * Set default model
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $model
      *
@@ -76,8 +66,6 @@ class DatabaseLoggerProxy {
     /**
      * Set default model ID
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param int $model_id
      *
@@ -91,8 +79,6 @@ class DatabaseLoggerProxy {
     /**
      * Log emergency into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -111,8 +97,6 @@ class DatabaseLoggerProxy {
     /**
      * Log alert into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -131,8 +115,6 @@ class DatabaseLoggerProxy {
     /**
      * Log critical into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -151,8 +133,6 @@ class DatabaseLoggerProxy {
     /**
      * Log error into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -171,8 +151,6 @@ class DatabaseLoggerProxy {
     /**
      * Log warning into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -191,8 +169,6 @@ class DatabaseLoggerProxy {
     /**
      * Log notice into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -211,8 +187,6 @@ class DatabaseLoggerProxy {
     /**
      * Log info into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id
@@ -231,8 +205,6 @@ class DatabaseLoggerProxy {
     /**
      * Log debug into database
      *
-     * @author TB
-     * @date 26.5.2025
      *
      * @param string $message
      * @param int|null $model_id

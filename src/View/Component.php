@@ -13,8 +13,6 @@ abstract class Component {
     /**
      * Current realm
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string|null
      */
@@ -23,8 +21,6 @@ abstract class Component {
     /**
      * Current controller
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -33,8 +29,6 @@ abstract class Component {
     /**
      * Current action
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -43,8 +37,6 @@ abstract class Component {
     /**
      * Current request object
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var Request|null
      */
@@ -53,8 +45,6 @@ abstract class Component {
     /**
      * Current title
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var string|null
      */
@@ -63,8 +53,6 @@ abstract class Component {
     /**
      * Current pagination object
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var Pagination|null
      */
@@ -73,8 +61,6 @@ abstract class Component {
     /**
      * Current URI parameters
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var array|null
      */
@@ -83,8 +69,6 @@ abstract class Component {
     /**
      * Current master page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string|null
      */
@@ -93,8 +77,6 @@ abstract class Component {
     /**
      * Current CSRF token
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -103,8 +85,6 @@ abstract class Component {
     /**
      * Current CSRF token form field name
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -113,8 +93,6 @@ abstract class Component {
     /**
      * DTO for breadcrumb items
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var BreadcrumbDTO|null
      */
@@ -123,8 +101,6 @@ abstract class Component {
     /**
      * Set realm
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $_realm
      *
@@ -140,9 +116,7 @@ abstract class Component {
      * @param string $_controller
      *
      * @return void
-     *@author TB
-     * @date 1.5.2025
-     *
+     *@author TB     *
      */
     public static function set_controller(string $_controller): void {
         self::$_controller = $_controller;
@@ -154,9 +128,7 @@ abstract class Component {
      * @param string $_action
      *
      * @return void
-     *@author TB
-     * @date 1.5.2025
-     *
+     *@author TB     *
      */
     public static function set_action(string $_action): void {
         self::$_action = $_action;
@@ -168,9 +140,7 @@ abstract class Component {
      * @param Request $_request
      *
      * @return void
-     *@author TB
-     * @date 1.5.2025
-     *
+     *@author TB     *
      */
     public static function set_request(Request $_request): void {
         self::$_request = $_request;
@@ -179,8 +149,6 @@ abstract class Component {
     /**
      * Set title
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $title
      *
@@ -193,8 +161,6 @@ abstract class Component {
     /**
      * Set pagination
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param Pagination $pagination
      *
@@ -207,8 +173,6 @@ abstract class Component {
     /**
      * Set URI parameters
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param array $params
      *
@@ -221,8 +185,6 @@ abstract class Component {
     /**
      * Set master page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $master
      *
@@ -235,8 +197,6 @@ abstract class Component {
     /**
      * Get realm
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return string|null
      */
@@ -247,8 +207,6 @@ abstract class Component {
     /**
      * Get controller
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -259,8 +217,6 @@ abstract class Component {
     /**
      * Get action
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -271,8 +227,6 @@ abstract class Component {
     /**
      * Get request
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return Request|null
      */
@@ -283,8 +237,6 @@ abstract class Component {
     /**
      * Get title
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string|null
      */
@@ -295,8 +247,6 @@ abstract class Component {
     /**
      * Get pagination
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return Pagination|null
      */
@@ -307,8 +257,6 @@ abstract class Component {
     /**
      * Get URI parameters
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return array|null
      */
@@ -319,8 +267,6 @@ abstract class Component {
     /**
      * Get master page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return string|null
      */
@@ -331,8 +277,6 @@ abstract class Component {
     /**
      * Get current action URI
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return string
      */
@@ -343,8 +287,6 @@ abstract class Component {
     /**
      * Get base URI for the current action
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return string
      */
@@ -355,8 +297,6 @@ abstract class Component {
     /**
      * Generate HTML attributes from the given associative array
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param array $attributes
      *
@@ -378,8 +318,6 @@ abstract class Component {
     /**
      * Generate HTML attribute if the given value is not empty
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param string $name
      * @param mixed $value
@@ -398,8 +336,6 @@ abstract class Component {
     /**
      * Check if the given string contains an icon class
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $string
      *
@@ -425,8 +361,6 @@ abstract class Component {
     /**
      * Get the prefix for filter fields
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @return string
      */
@@ -444,8 +378,6 @@ abstract class Component {
     /**
      * Get the search query from request
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @return string
      */
@@ -495,8 +427,6 @@ abstract class Component {
     /**
      * Set CSRF token
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param string $token
      *
@@ -509,8 +439,6 @@ abstract class Component {
     /**
      * Get CSRF token form field
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param string $field
      *
@@ -523,8 +451,6 @@ abstract class Component {
     /**
      * Set given breadcrumb
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @param BreadcrumbDTO $breadcrumb
      *

@@ -9,8 +9,6 @@ trait Filter {
     /**
      * Filter data
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var array|null
      */
@@ -19,8 +17,6 @@ trait Filter {
     /**
      * Set given filter. If its a search query, set it to the search query instead of filter data
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param string $name
      * @param mixed $value
@@ -39,8 +35,6 @@ trait Filter {
     /**
      * Set given filter data. If ti contains a search query, set it to the search query instead of filter data
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param array $data
      *
@@ -65,8 +59,6 @@ trait Filter {
     /**
      * Replace current filter data with given data. If it contains a search query, set it to the search query instead of filter data
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param array $data
      *

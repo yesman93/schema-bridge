@@ -7,8 +7,6 @@ class LumioQueryException extends \Exception {
     /**
      * Exception for query errors
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $message
      * @param int $code

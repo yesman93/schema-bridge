@@ -7,8 +7,6 @@ class Sorting {
     /**
      * Sorting direction - ascending
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class Sorting {
     /**
      * Sorting direction - descending
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class Sorting {
     /**
      * Column by which to sort
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ class Sorting {
     /**
      * Direction in which to sort (asc|desc)
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ class Sorting {
     /**
      * Sorting
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param string $column
      * @param string $direction
@@ -63,8 +53,6 @@ class Sorting {
     /**
      * Get the column by which to sort
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @return string
      */
@@ -75,7 +63,6 @@ class Sorting {
     /**
      * Get the direction in which to sort
      *
-     * @author TB
      * date 6.5.2025
      *
      * @return string

@@ -11,8 +11,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * MySQL database connection
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var PDO
      */
@@ -21,8 +19,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * MySQL database adapter
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param DatabaseCredentials $credentials
      *
@@ -48,8 +44,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Execute a query with optional parameters
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -66,8 +60,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Fetch all results
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -85,8 +77,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Fetch first column
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -104,8 +94,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Fetch first column
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -123,8 +111,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Fetch the first column of first row
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $query
      * @param array $params
@@ -144,8 +130,6 @@ class MysqlAdapter extends DatabaseAdapter {
     /**
      * Get last inserted ID
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return string
      */
@@ -159,8 +143,6 @@ class MysqlAdapter extends DatabaseAdapter {
      * Returns an associative array keyed by table name.
      * Each value is an array with a key 'columns' => [ ... column data ... ]
      *
-     * @author TB
-     * @date 23.5.2025
      *
      * @param bool $extended
      *

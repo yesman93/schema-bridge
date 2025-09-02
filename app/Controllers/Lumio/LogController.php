@@ -18,8 +18,6 @@ class LogController extends BaseController {
     /**
      * controller for filters
      *
-     * @author TB
-     * @date 11.5.2025
      *
      * @param BaseModel|null $model
      * @param Request $request

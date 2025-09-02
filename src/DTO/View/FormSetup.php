@@ -7,8 +7,6 @@ class FormSetup {
     /**
      * Form action
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class FormSetup {
     /**
      * Form enctype
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string|null
      */
@@ -27,8 +23,6 @@ class FormSetup {
     /**
      * Form wrapper class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -37,8 +31,6 @@ class FormSetup {
     /**
      * Form card class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ class FormSetup {
     /**
      * Form header class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -57,8 +47,6 @@ class FormSetup {
     /**
      * Form body class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -67,8 +55,6 @@ class FormSetup {
     /**
      * Form class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -77,8 +63,6 @@ class FormSetup {
     /**
      * Form id
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -87,8 +71,6 @@ class FormSetup {
     /**
      * Form data
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var array
      */
@@ -97,8 +79,6 @@ class FormSetup {
     /**
      * Form data id
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var string
      */
@@ -107,8 +87,6 @@ class FormSetup {
     /**
      * Form is card
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var bool|null
      */
@@ -117,8 +95,6 @@ class FormSetup {
     /**
      * Form show title
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @var bool|null
      */
@@ -127,8 +103,6 @@ class FormSetup {
     /**
      * Form setup
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @param array $data
      * @param string $data_id
@@ -176,8 +150,6 @@ class FormSetup {
     /**
      * Get action
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -188,8 +160,6 @@ class FormSetup {
     /**
      * Get enctype
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string|null
      */
@@ -200,8 +170,6 @@ class FormSetup {
     /**
      * Get wrapper class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -212,8 +180,6 @@ class FormSetup {
     /**
      * Get card class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -224,8 +190,6 @@ class FormSetup {
     /**
      * Get header class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -236,8 +200,6 @@ class FormSetup {
     /**
      * Get body class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -248,8 +210,6 @@ class FormSetup {
     /**
      * Get form class
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -260,8 +220,6 @@ class FormSetup {
     /**
      * Get form id
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -272,8 +230,6 @@ class FormSetup {
     /**
      * Get form data
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return array
      */
@@ -284,8 +240,6 @@ class FormSetup {
     /**
      * Get form data id
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return string
      */
@@ -296,8 +250,6 @@ class FormSetup {
     /**
      * Get whether the form is a card
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return bool|null
      */
@@ -308,8 +260,6 @@ class FormSetup {
     /**
      * Get whether to show the title
      *
-     * @author TB
-     * @date 2.5.2025
      *
      * @return bool|null
      */

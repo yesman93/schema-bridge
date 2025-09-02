@@ -10,8 +10,6 @@ class Img extends Component {
     /**
      * HTML code of the image
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -20,8 +18,6 @@ class Img extends Component {
     /**
      * Build image tag
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $src
      * @param array|null $attributes
@@ -60,8 +56,6 @@ class Img extends Component {
     /**
      * Get HTML code of the image
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -72,8 +66,6 @@ class Img extends Component {
     /**
      * Render HTML code of the image
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return void
      */

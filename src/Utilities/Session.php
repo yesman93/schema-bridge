@@ -7,8 +7,6 @@ class Session {
     /**
      * Start a session
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return void
      */
@@ -22,8 +20,6 @@ class Session {
     /**
      * Set a session value
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      * @param mixed $value
@@ -37,8 +33,6 @@ class Session {
     /**
      * Get a session value
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      *
@@ -51,8 +45,6 @@ class Session {
     /**
      * Check if given session key exists
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      *
@@ -65,8 +57,6 @@ class Session {
     /**
      * Erase a session key
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      *
@@ -79,8 +69,6 @@ class Session {
     /**
      * Get and erase a session value
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      *
@@ -97,8 +85,6 @@ class Session {
     /**
      * Destroy the session
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return void
      */
@@ -109,8 +95,6 @@ class Session {
     /**
      * Add a value to array in session
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      * @param mixed $value
@@ -141,8 +125,6 @@ class Session {
     /**
      * Remove a value from array in session
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      * @param mixed $value
@@ -174,8 +156,6 @@ class Session {
     /**
      * Check if value is in session array
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $key
      * @param mixed $needle
@@ -192,8 +172,6 @@ class Session {
     /**
      * Regenerate session ID and keep session data
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return void
      */

@@ -33,8 +33,6 @@ class Kernel {
     /**
      * container for services
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var Container
      */
@@ -43,8 +41,6 @@ class Kernel {
     /**
      * run of the application
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return \Lumio\Kernel
      */
@@ -60,8 +56,6 @@ class Kernel {
     /**
      * run the application
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      *

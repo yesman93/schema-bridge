@@ -2,16 +2,14 @@
 /**
  * Constants for the application
  *
- * @author TB
- * @date 24.4.2025
  *
  */
 
 
 
 // application name
-const APP_NAME = 'IS Lumio';
-const APP_NAME_PUBLIC = 'Lumio';
+const APP_NAME = 'Schema Bridge';
+const APP_NAME_PUBLIC = 'Schema Bridge';
 
 // encryption
 const SSL_ENC_KEY = 'e18020c9bebc23f59f3e2353f3558fdf1b0eb25193c278f4deeb6f603b155c66d2775aaa000e4eba';
@@ -23,7 +21,7 @@ const LUMIO_TEST = 'test';
 const LUMIO_PROD = 'prod';
 
 // assets cache control
-const CACHE_VERSION = '202506011459';
+const CACHE_VERSION = '202509021210';
 
 // routing
 $host = retrieve_host();
@@ -61,8 +59,6 @@ define('LUMIO_HOST', $host);
 /**
  * Retrieve the current host - including scheme, host (spoofing protected) and port
  *
- * @author TB
- * @date 17.5.2025
  *
  * @return string
  */

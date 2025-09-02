@@ -7,8 +7,6 @@ trait Attribute {
     /**
      * Attribute - UNSIGNED
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ trait Attribute {
     /**
      * Attribute - ZEROFILL
      *
-     * @author TB
-     * @date 12.4.2025
      *
      * @var string
      */

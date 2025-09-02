@@ -7,8 +7,6 @@ class LumioViewException extends \Exception {
     /**
      * Exception for view errors
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param int $code

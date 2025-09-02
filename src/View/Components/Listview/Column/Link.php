@@ -10,8 +10,6 @@ class Link extends Column {
     /**
      * Key for retrieval of the label
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string|null
      */
@@ -20,8 +18,6 @@ class Link extends Column {
     /**
      * Link column
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $name
      * @param string|null $name_label
@@ -38,8 +34,6 @@ class Link extends Column {
     /**
      * Get HTML code of the link
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param mixed $row
      *

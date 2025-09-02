@@ -9,8 +9,6 @@ class Breadcrumb extends Component {
     /**
      * Breadcrumb HTML
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class Breadcrumb extends Component {
     /**
      * Build breadcrumb instance
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return Breadcrumb
      */
@@ -60,8 +56,6 @@ class Breadcrumb extends Component {
     /**
      * Get the breadcrumb HTML
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return string
      */
@@ -72,8 +66,6 @@ class Breadcrumb extends Component {
     /**
      * Render the breadcrumb HTML
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return void
      */

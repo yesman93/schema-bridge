@@ -12,8 +12,6 @@ class Path {
      *
      * This method returns the private storage path, optionally appending a subpath
      *
-     * @author TB
-     * @date 28.5.2025
      *
      * @param string $subpath
      *
@@ -31,8 +29,6 @@ class Path {
      *
      * This method returns the public storage path, optionally appending a subpath
      *
-     * @author TB
-     * @date 28.5.2025
      *
      * @param string $subpath
      *
@@ -48,8 +44,6 @@ class Path {
     /**
      * Get path for uploaded files
      *
-     * @author TB
-     * @date 28.5.2025
      *
      * @return string
      *
@@ -62,8 +56,6 @@ class Path {
     /**
      * Get path for documents
      *
-     * @author TB
-     * @date 28.5.2025
      *
      * @return string
      *
@@ -76,8 +68,6 @@ class Path {
     /**
      * Get path for public images
      *
-     * @author TB
-     * @date 28.5.2025
      *
      * @return string
      *

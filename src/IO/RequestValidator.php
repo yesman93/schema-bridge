@@ -16,8 +16,6 @@ class RequestValidator {
     /**
      * Indicator if the request is valid
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var bool
      */
@@ -26,8 +24,6 @@ class RequestValidator {
     /**
      * Validate given request based on given model
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param Request $request
      * @param BaseModel  $model
@@ -75,8 +71,6 @@ class RequestValidator {
     /**
      * Get if the request is valid
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return bool
      */
@@ -87,8 +81,6 @@ class RequestValidator {
     /**
      * Validate given value based on given type
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param mixed $value
      * @param string $type
@@ -129,8 +121,6 @@ class RequestValidator {
     /**
      * Get given type specific error message
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param string $type
      * @return string
@@ -172,8 +162,6 @@ class RequestValidator {
     /**
      * Validate given value based on given name
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param mixed $value
      * @param string $name

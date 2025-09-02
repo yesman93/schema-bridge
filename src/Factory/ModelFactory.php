@@ -10,8 +10,6 @@ class ModelFactory {
     /**
      * instance of database adapter
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @var DatabaseAdapter
      */
@@ -20,8 +18,6 @@ class ModelFactory {
     /**
      * Factory for creating models
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param DatabaseAdapter $adapter
      *
@@ -34,8 +30,6 @@ class ModelFactory {
     /**
      * Make a model
      *
-     * @author TB
-     * @date 7.5.2025
      *
      * @param string $name
      *

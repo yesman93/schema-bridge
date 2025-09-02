@@ -14,8 +14,6 @@ class TableDiffer {
     /**
      * Type of difference - add new column
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -24,8 +22,6 @@ class TableDiffer {
     /**
      * Type of difference - change existing column
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -34,8 +30,6 @@ class TableDiffer {
     /**
      * Type of difference - add new index
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -44,8 +38,6 @@ class TableDiffer {
     /**
      * Type of difference - drop existing index
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -54,8 +46,6 @@ class TableDiffer {
     /**
      * Database table name
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var string
      */
@@ -64,8 +54,6 @@ class TableDiffer {
     /**
      * Table structure from the database
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var array
      */
@@ -74,8 +62,6 @@ class TableDiffer {
     /**
      * Schema definition for the table
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var MysqlTableDefinition
      */
@@ -84,8 +70,6 @@ class TableDiffer {
     /**
      * Existing columns in the table
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var array
      */
@@ -94,8 +78,6 @@ class TableDiffer {
     /**
      * Existing indexes in the table
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var array
      */
@@ -104,8 +86,6 @@ class TableDiffer {
     /**
      * Differences between the database structure and the schema definition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @var array
      */
@@ -117,8 +97,6 @@ class TableDiffer {
      * This class compares the structure of a MySQL table in the database with a defined schema and identifies differences.
      * It can be used to generate SQL statements for altering the table structure to match the schema definition.
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param string $table_name
      * @param array $db_structure
@@ -141,8 +119,6 @@ class TableDiffer {
      * This method processes the database structure to create a normalized representation of columns and indexes,
      * which can be easily compared with the schema definition.
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return void
      */
@@ -194,8 +170,6 @@ class TableDiffer {
     /**
      * Factory method to create an instance of TableDiffer and determine differences
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @param string $table_name
      * @param array $db_structure
@@ -215,8 +189,6 @@ class TableDiffer {
     /**
      * Compares columns in the database with those defined in the schema
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return void
      */
@@ -342,8 +314,6 @@ class TableDiffer {
      *
      * This method checks for indexes that need to be added or dropped based on the schema definition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return void
      */
@@ -379,8 +349,6 @@ class TableDiffer {
      *
      * This method compares the columns in the database with those defined in the schema and identifies any additions or changes needed
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return void
      */
@@ -394,8 +362,6 @@ class TableDiffer {
     /**
      * Checks if there are any differences between the database structure and the schema definition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return bool
      */
@@ -406,8 +372,6 @@ class TableDiffer {
     /**
      * Returns the differences found between the database structure and the schema definition
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return array
      */
@@ -418,8 +382,6 @@ class TableDiffer {
     /**
      * Generates the SQL statement to alter the table based on the differences found
      *
-     * @author TB
-     * @date 25.5.2025
      *
      * @return string
      */

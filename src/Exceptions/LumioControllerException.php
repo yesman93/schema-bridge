@@ -7,8 +7,6 @@ class LumioControllerException extends \Exception {
     /**
      * Exception for controller errors
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $message
      * @param int $code

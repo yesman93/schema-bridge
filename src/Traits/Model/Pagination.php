@@ -9,8 +9,6 @@ trait Pagination {
     /**
      * Switch for pagination
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var bool
      */
@@ -19,7 +17,6 @@ trait Pagination {
     /**
      * Count of records per page
      *
-     * @author TB
      * date 28.4.2025
      *
      * @var int
@@ -29,7 +26,6 @@ trait Pagination {
     /**
      * Current page number
      *
-     * @author TB
      * date 28.4.2025
      *
      * @var int|string
@@ -39,7 +35,6 @@ trait Pagination {
     /**
      * Total records count
      *
-     * @author TB
      * date 28.4.2025
      *
      * @var int
@@ -49,7 +44,6 @@ trait Pagination {
     /**
      * Special value for page to get total records count
      *
-     * @author TB
      * date 28.4.2025
      *
      * @var string
@@ -59,8 +53,6 @@ trait Pagination {
     /**
      * Enable or disable pagination
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param bool $is_enabled
      *
@@ -76,8 +68,6 @@ trait Pagination {
     /**
      * Set the current page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param int|string $page
      *
@@ -93,8 +83,6 @@ trait Pagination {
     /**
      * Set the number of records per page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param int $records
      *
@@ -110,8 +98,6 @@ trait Pagination {
     /**
      * Initialize pagination
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return void
      *
@@ -128,8 +114,6 @@ trait Pagination {
     /**
      * Returns if pagination is enabled
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return bool
      */
@@ -140,8 +124,6 @@ trait Pagination {
     /**
      * Get total records
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return int
      */
@@ -152,7 +134,6 @@ trait Pagination {
     /**
      * Get current page
      *
-     * @author TB
      * date 28.4.2025
      *
      * @return int|string
@@ -164,8 +145,6 @@ trait Pagination {
     /**
      * Get records per page
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return int
      */
@@ -176,8 +155,6 @@ trait Pagination {
     /**
      * Generate LIMIT and OFFSET for current pagination settings
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return array
      */
@@ -195,8 +172,6 @@ trait Pagination {
     /**
      * Is the total requested?
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return bool
      */

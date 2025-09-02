@@ -10,8 +10,6 @@ trait QueryBuilder {
     /**
      * Query type - SELECT
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -20,8 +18,6 @@ trait QueryBuilder {
     /**
      * Query type - INSERT
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -30,8 +26,6 @@ trait QueryBuilder {
     /**
      * Query type - UPDATE
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -40,8 +34,6 @@ trait QueryBuilder {
     /**
      * Query type - DELETE
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -50,8 +42,6 @@ trait QueryBuilder {
     /**
      * Join type - inner
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -60,8 +50,6 @@ trait QueryBuilder {
     /**
      * Join type - outer
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -70,8 +58,6 @@ trait QueryBuilder {
     /**
      * Join type - left
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -80,8 +66,6 @@ trait QueryBuilder {
     /**
      * Join type - right
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -90,8 +74,6 @@ trait QueryBuilder {
     /**
      * Join type - full
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -100,8 +82,6 @@ trait QueryBuilder {
     /**
      * Operator - AND
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -110,8 +90,6 @@ trait QueryBuilder {
     /**
      * Operator - OR
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -120,8 +98,6 @@ trait QueryBuilder {
     /**
      * Sort direction - ASC
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -130,8 +106,6 @@ trait QueryBuilder {
     /**
      * Sort direction - DESC
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -140,8 +114,6 @@ trait QueryBuilder {
     /**
      * Type of WHERE condition - basic
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -150,8 +122,6 @@ trait QueryBuilder {
     /**
      * Type of WHERE condition - group
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -160,8 +130,6 @@ trait QueryBuilder {
     /**
      * Escape character - for MySQL
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -170,8 +138,6 @@ trait QueryBuilder {
     /**
      * Escape character - for PostgreSQL
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -180,8 +146,6 @@ trait QueryBuilder {
     /**
      * Current query type
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -190,8 +154,6 @@ trait QueryBuilder {
     /**
      * Current table name
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -200,8 +162,6 @@ trait QueryBuilder {
     /**
      * Columns to select
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -210,8 +170,6 @@ trait QueryBuilder {
     /**
      * WHERE conditions
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -220,8 +178,6 @@ trait QueryBuilder {
     /**
      * Parameters for the query
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -230,8 +186,6 @@ trait QueryBuilder {
     /**
      * JOIN clauses
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -240,8 +194,6 @@ trait QueryBuilder {
     /**
      * ORDER BY clauses
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -250,8 +202,6 @@ trait QueryBuilder {
     /**
      * GROUP BY clauses
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -260,8 +210,6 @@ trait QueryBuilder {
     /**
      * LIMIT clause
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -270,8 +218,6 @@ trait QueryBuilder {
     /**
      * Data for INSERT
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -280,8 +226,6 @@ trait QueryBuilder {
     /**
      * Data for UPDATE
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var array
      */
@@ -290,8 +234,6 @@ trait QueryBuilder {
     /**
      * Soft reset flag
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var bool
      */
@@ -300,8 +242,6 @@ trait QueryBuilder {
     /**
      * Driver name
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -310,8 +250,6 @@ trait QueryBuilder {
     /**
      * Current escape character
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @var string
      */
@@ -322,8 +260,6 @@ trait QueryBuilder {
      *
      * @param string $driver
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -345,8 +281,6 @@ trait QueryBuilder {
      *
      * @param string $table
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -362,8 +296,6 @@ trait QueryBuilder {
      *
      * @param string|array ...$columns
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -380,8 +312,6 @@ trait QueryBuilder {
      *
      * @param array $data
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -396,8 +326,6 @@ trait QueryBuilder {
     /**
      * Update to given data
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param array $data
      *
@@ -414,8 +342,6 @@ trait QueryBuilder {
     /**
      * Delete from table
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -429,8 +355,6 @@ trait QueryBuilder {
     /**
      * Set WHERE condition
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $column
      * @param string $operator
@@ -458,8 +382,6 @@ trait QueryBuilder {
      * @param callable $callback
      * @param string $connector
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -472,8 +394,6 @@ trait QueryBuilder {
             /**
              * WHERE conditions
              *
-             * @author TB
-             * @date 27.4.2025
              *
              * @var array
              */
@@ -482,8 +402,6 @@ trait QueryBuilder {
             /**
              * Constructor
              *
-             * @author TB
-             * @date 27.4.2025
              *
              * @param string $column
              * @param string $operator
@@ -508,8 +426,6 @@ trait QueryBuilder {
             /**
              * Returns conditions
              *
-             * @author TB
-             * @date 27.4.2025
              *
              * @return array
              */
@@ -539,8 +455,6 @@ trait QueryBuilder {
      * @param string|null $alias
      * @param string $connector
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return BaseModel|QueryBuilder
      */
@@ -568,8 +482,6 @@ trait QueryBuilder {
     /**
      * Add INNER JOIN clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $table
      * @param array $conditions
@@ -584,8 +496,6 @@ trait QueryBuilder {
     /**
      * Add OUTER JOIN clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $table
      * @param array $conditions
@@ -600,8 +510,6 @@ trait QueryBuilder {
     /**
      * Add LEFT JOIN clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $table
      * @param array $conditions
@@ -616,8 +524,6 @@ trait QueryBuilder {
     /**
      * Add RIGHT JOIN clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $table
      * @param array $conditions
@@ -632,8 +538,6 @@ trait QueryBuilder {
     /**
      * Add FULL JOIN clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $table
      * @param array $conditions
@@ -648,8 +552,6 @@ trait QueryBuilder {
     /**
      * Add ORDER BY clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $column
      * @param string $direction
@@ -671,8 +573,6 @@ trait QueryBuilder {
     /**
      * Add GROUP BY clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string ...$columns
      *
@@ -690,8 +590,6 @@ trait QueryBuilder {
     /**
      * Add LIMIT clause
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param int|null $limit
      * @param int|null $offset
@@ -711,8 +609,6 @@ trait QueryBuilder {
     /**
      * Build the query
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return array
      *
@@ -732,8 +628,6 @@ trait QueryBuilder {
     /**
      * Build SELECT query.
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return array
      */
@@ -806,8 +700,6 @@ trait QueryBuilder {
     /**
      * Build INSERT query
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return array
      */
@@ -839,8 +731,6 @@ trait QueryBuilder {
     /**
      * Build UPDATE query
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return array
      */
@@ -871,8 +761,6 @@ trait QueryBuilder {
     /**
      * Build DELETE query
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return array
      */
@@ -897,8 +785,6 @@ trait QueryBuilder {
     /**
      * Escape names depending on driver
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $name
      *
@@ -928,8 +814,6 @@ trait QueryBuilder {
     /**
      * Generate a table alias
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param string $table
      *
@@ -955,8 +839,6 @@ trait QueryBuilder {
     /**
      * Build WHERE clause
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param array $conditions
      *
@@ -992,7 +874,6 @@ trait QueryBuilder {
      * Get the first column of the current select
      * If select is '*', get first real column of the table that its selecting from
      *
-     * @author TB 28.4.2025
      * @return string
      *
      * @throws LumioQueryException
@@ -1022,8 +903,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function COUNT() to the select
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param string|null $alias
@@ -1047,8 +926,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function SUM() to the select
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param string|null $alias
@@ -1072,8 +949,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function AVG() to the select
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param string|null $alias
@@ -1097,8 +972,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function MAX() to the select
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param string|null $alias
@@ -1122,8 +995,6 @@ trait QueryBuilder {
     /**
      * Add aggregate function MIN() to the select
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param string|null $alias
@@ -1147,8 +1018,6 @@ trait QueryBuilder {
     /**
      * Reset all properties after build
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @return void
      */

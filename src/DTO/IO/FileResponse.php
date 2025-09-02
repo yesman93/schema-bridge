@@ -11,8 +11,6 @@ class FileResponse {
     /**
      * File path
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @var string
      */
@@ -21,8 +19,6 @@ class FileResponse {
     /**
      * File name
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @var string
      */
@@ -31,8 +27,6 @@ class FileResponse {
     /**
      * Response for file download
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @param string $file_path
      * @param string|null $file_name
@@ -47,8 +41,6 @@ class FileResponse {
     /**
      * Get file path
      *
-     * @author TB
-     * @date 14.5.2025
      *
      * @return string
      */
@@ -59,8 +51,6 @@ class FileResponse {
     /**
      * Get file name
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @return string
      */
@@ -71,8 +61,6 @@ class FileResponse {
     /**
      * Get file mime type
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @return string
      */
@@ -83,8 +71,6 @@ class FileResponse {
     /**
      * Get file size
      *
-     * @author TB
-     * @date 30.5.2025
      *
      * @return int
      */

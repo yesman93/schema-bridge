@@ -9,7 +9,7 @@
 
 return [
 
-    'app_name' => 'Lumio',
+    'app_name' => 'Schema Bridge',
 
     'default_timezone' => 'Europe/Prague',                      // default timezone
 

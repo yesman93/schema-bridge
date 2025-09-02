@@ -9,8 +9,6 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - sm
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -19,8 +17,6 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - md
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -29,8 +25,6 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - lg
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -39,8 +33,6 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - xl
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -49,8 +41,6 @@ class Link extends Component {
     /**
      * Size of the modal, that the link opens - xxl
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -59,8 +49,6 @@ class Link extends Component {
     /**
      * HTML code of the link
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @var string
      */
@@ -69,8 +57,6 @@ class Link extends Component {
     /**
      * Build a link
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $href
      * @param string|null $label
@@ -96,8 +82,6 @@ class Link extends Component {
     /**
      * Get the link HTML
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return string
      */
@@ -108,8 +92,6 @@ class Link extends Component {
     /**
      * Render the link HTML
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @return void
      */
@@ -120,8 +102,6 @@ class Link extends Component {
     /**
      * Build a link that opens a modal
      *
-     * @author TB
-     * @date 3.5.2025
      *
      * @param string $link
      * @param string|null $label

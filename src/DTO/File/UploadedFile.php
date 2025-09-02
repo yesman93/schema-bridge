@@ -7,8 +7,6 @@ class UploadedFile {
     /**
      * Temporary file path
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @var string
      */
@@ -17,8 +15,6 @@ class UploadedFile {
     /**
      * Original file name
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class UploadedFile {
     /**
      * File size in bytes
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @var int
      */
@@ -37,8 +31,6 @@ class UploadedFile {
     /**
      * MIME type of the file
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @var string
      */
@@ -47,8 +39,6 @@ class UploadedFile {
     /**
      * Upload error code
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @var int
      */
@@ -57,8 +47,6 @@ class UploadedFile {
     /**
      * Uploaded file
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @param string $tmp_path
      * @param string $name
@@ -80,8 +68,6 @@ class UploadedFile {
     /**
      * Get temporary file path
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return string
      */
@@ -92,8 +78,6 @@ class UploadedFile {
     /**
      * Get original file name
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return string
      */
@@ -104,8 +88,6 @@ class UploadedFile {
     /**
      * Get file size in bytes
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return int
      */
@@ -116,8 +98,6 @@ class UploadedFile {
     /**
      * Get MIME type of the file
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return string
      */
@@ -128,8 +108,6 @@ class UploadedFile {
     /**
      * Get upload error code
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return int
      */
@@ -140,8 +118,6 @@ class UploadedFile {
     /**
      * Get file extension
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return string
      */
@@ -152,8 +128,6 @@ class UploadedFile {
     /**
      * Check if the uploaded file is valid - no errors and is an uploaded file
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return bool
      */
@@ -164,8 +138,6 @@ class UploadedFile {
     /**
      * Check if the uploaded file is an image
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return bool
      */
@@ -176,8 +148,6 @@ class UploadedFile {
     /**
      * Check if the uploaded file is a document
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @return bool
      */
@@ -188,8 +158,6 @@ class UploadedFile {
     /**
      * Save the uploaded file to given directory
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @param string $dir Directory where the file should be saved. If it does not exist, it will be created
      * @param string|null $file_name Optional custom file name. If not provided original name will be used
@@ -216,8 +184,6 @@ class UploadedFile {
     /**
      * Create an UploadedFile instance from raw $_FILES data
      *
-     * @author TB
-     * @date 27.5.2025
      *
      * @param array $raw Raw $_FILES data - entry for one file input filed, e.g. $_FILES['file_input_name']
      *

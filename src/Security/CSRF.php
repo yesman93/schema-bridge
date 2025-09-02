@@ -17,8 +17,6 @@ class CSRF {
     /**
      * Instance of the container
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var Container
      */
@@ -27,8 +25,6 @@ class CSRF {
     /**
      * If CSRF protection is enabled
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var bool
      */
@@ -37,8 +33,6 @@ class CSRF {
     /**
      * Current CSRF token
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var string
      */
@@ -47,8 +41,6 @@ class CSRF {
     /**
      * Name of the form field, where CSRF token is stored
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var string
      */
@@ -57,8 +49,6 @@ class CSRF {
     /**
      * Session key for CSRF tokens
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var string
      */
@@ -67,8 +57,6 @@ class CSRF {
     /**
      * Session key for CSRF token form field names
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var string
      */
@@ -77,8 +65,6 @@ class CSRF {
     /**
      * Maximum number of CSRF tokens stored in session
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var int
      */
@@ -87,8 +73,6 @@ class CSRF {
     /**
      * Expiration time of CSRF tokens in seconds
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var int
      */
@@ -97,8 +81,6 @@ class CSRF {
     /**
      * Prefix for name of form field, where CSRF token is stored in the form
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @var string
      */
@@ -107,8 +89,6 @@ class CSRF {
     /**
      * CSRF manager
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param Container $container
      *
@@ -146,8 +126,6 @@ class CSRF {
     /**
      * Check if CSRF protection is enabled
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return bool
      */
@@ -158,8 +136,6 @@ class CSRF {
     /**
      * Generate a new CSRF token and field name and store them in the session and properties
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      *
@@ -189,8 +165,6 @@ class CSRF {
     /**
      * Get the current CSRF token
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return string
      */
@@ -201,8 +175,6 @@ class CSRF {
     /**
      * Get current name of form field, where CSRF token will be stored
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return string
      */
@@ -213,8 +185,6 @@ class CSRF {
     /**
      * Validate given CSRF token
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @param string $token
      *
@@ -244,8 +214,6 @@ class CSRF {
     /**
      * Get CSRF token from request (_POST or _SERVER)
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return string|null
      *
@@ -272,8 +240,6 @@ class CSRF {
     /**
      * Clean expired CSRF tokens from the session (handles also the form input names)
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -304,8 +270,6 @@ class CSRF {
     /**
      * Enforce the maximum number of CSRF tokens in the session (handles also the form input names)
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -333,8 +297,6 @@ class CSRF {
     /**
      * Check if the current route is an exception for CSRF protection
      *
-     * @author TB
-     * @date 19.5.2025
      *
      * @return bool
      *

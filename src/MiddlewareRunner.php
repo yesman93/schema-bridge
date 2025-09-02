@@ -10,8 +10,6 @@ class MiddlewareRunner {
     /**
      * Run given middleware stack
      *
-     * @author TB
-     * @date 15.5.2025
      *
      * @param MiddlewareContract[] $middleware_stack
      * @param Container $container

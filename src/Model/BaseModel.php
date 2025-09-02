@@ -3,6 +3,7 @@
 namespace Lumio\Model;
 
 use Lumio\Auth\Logged;
+use Lumio\Container;
 use Lumio\Database\DatabaseAdapter;
 use Lumio\Database\TypeValidator;
 use Lumio\DTO\Database\MysqlColumnDefinition;
@@ -26,8 +27,6 @@ abstract class BaseModel {
     /**
      * Column encryption - one way
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -36,8 +35,6 @@ abstract class BaseModel {
     /**
      * Column encryption - two way
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -46,8 +43,6 @@ abstract class BaseModel {
     /**
      * Column encryption - none
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -56,8 +51,6 @@ abstract class BaseModel {
     /**
      * instance of the database adapter
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var DatabaseAdapter
      */
@@ -66,8 +59,6 @@ abstract class BaseModel {
     /**
      * input data (from request passed by controller)
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -76,8 +67,6 @@ abstract class BaseModel {
     /**
      * DB table name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -86,8 +75,6 @@ abstract class BaseModel {
     /**
      * DB primary key
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -96,8 +83,6 @@ abstract class BaseModel {
     /**
      * Columns of DB table
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var MysqlColumns
      */
@@ -106,8 +91,6 @@ abstract class BaseModel {
     /**
      * Encryption types for columns
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @var array
      */
@@ -116,18 +99,22 @@ abstract class BaseModel {
     /**
      * Current sorting
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @var Sorting|null
      */
     private ?Sorting $_sorting = null;
 
     /**
+     * Container instance
+     *
+     *
+     * @var Container|null
+     */
+    private ?Container $_container = null;
+
+    /**
      * Main model
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param DatabaseAdapter $db
      *
@@ -147,8 +134,6 @@ abstract class BaseModel {
     /**
      * Initialize search
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -159,8 +144,6 @@ abstract class BaseModel {
     /**
      * Load metadata from cache or database
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return void
      *
@@ -181,10 +164,30 @@ abstract class BaseModel {
     }
 
     /**
+     * Set container instance
+     *
+     *
+     * @param Container $container
+     *
+     * @return void
+     */
+    public function set_container(Container $container): void {
+        $this->_container = $container;
+    }
+
+    /**
+     * Get container instance
+     *
+     *
+     * @return Container|null
+     */
+    protected function container(): ?Container {
+        return $this->_container;
+    }
+
+    /**
      * Get table columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return MysqlColumns
      */
@@ -195,8 +198,6 @@ abstract class BaseModel {
     /**
      * set input data
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param array $data
      *
@@ -216,8 +217,6 @@ abstract class BaseModel {
     /**
      * Set encryption for given column
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param string $encryption
@@ -231,8 +230,6 @@ abstract class BaseModel {
     /**
      * Check if model has given column
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param $name
      *
@@ -245,8 +242,6 @@ abstract class BaseModel {
     /**
      * Validate input data (mainly for add and edit)
      *
-     * @author TB
-     * @date 27.4.2025
      *
      * @param array $data
      *
@@ -294,8 +289,6 @@ abstract class BaseModel {
     /**
      * Encrypt value for given column by encryption type
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string $column
      * @param mixed $value
@@ -331,8 +324,6 @@ abstract class BaseModel {
     /**
      * Normalize empty value for given column
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param mixed $value
      * @param MysqlColumnDefinition $column
@@ -369,9 +360,7 @@ abstract class BaseModel {
      *
      * @throws LumioDatabaseException
      * @throws LumioValidationException
-     *@author TB
-     * @date 28.4.2025
-     *
+     *@author TB     *
      */
     public function add() : int {
 
@@ -436,8 +425,6 @@ abstract class BaseModel {
      *
      * @throws LumioDatabaseException
      * @throws LumioValidationException
-     * @author TB
-     * @date 28.4.2025
      *
      */
     public function edit(?array $data = null) : int {
@@ -513,8 +500,6 @@ abstract class BaseModel {
      *
      * @throws LumioDatabaseException
      * @throws LumioValidationException
-     * @author TB
-     * @date 28.4.2025
      *
      */
     public function remove(int $id) : bool {
@@ -546,8 +531,6 @@ abstract class BaseModel {
     /**
      * Before add hook
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -558,8 +541,6 @@ abstract class BaseModel {
     /**
      * After add hook
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -570,8 +551,6 @@ abstract class BaseModel {
     /**
      * Before edit hook
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -582,8 +561,6 @@ abstract class BaseModel {
     /**
      * After edit hook
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -594,8 +571,6 @@ abstract class BaseModel {
     /**
      * Before remove hook
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -606,8 +581,6 @@ abstract class BaseModel {
     /**
      * After remove hook
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -624,8 +597,6 @@ abstract class BaseModel {
      *
      * @throws LumioDatabaseException
      * @throws LumioValidationException
-     * @author TB
-     * @date 28.4.2025
      *
      */
     public function get(int $id) : array {
@@ -651,8 +622,6 @@ abstract class BaseModel {
     /**
      * Set search - where condition with search query searched in all current search columns
      *
-     * @author TB
-     * @date 18.5.2025
      *
      * @return void
      */
@@ -678,8 +647,6 @@ abstract class BaseModel {
     /**
      * Get all records from corresponding DB table
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @param string|array ...$columns
      *
@@ -733,8 +700,6 @@ abstract class BaseModel {
     /**
      * Set sorting
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param Sorting|null $sorting
      *
@@ -747,8 +712,6 @@ abstract class BaseModel {
     /**
      * Get model table name
      *
-     * @author TB
-     * @date 22.5.2025
      *
      * @return string
      */

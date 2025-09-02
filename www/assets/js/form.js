@@ -1,8 +1,6 @@
 /**
  * JS for forms
  *
- * @author TB
- * @date 2.5.2025
  *
  */
 
@@ -28,8 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
 /**
  * Toggle password visibility
  *
- * @author TB
- * @date 2.5.2025
  *
  * @param {Element} toggle
  *
@@ -73,8 +69,6 @@ function toggle_password(toggle) {
 /**
  * Initialize select2 plugin
  *
- * @author TB
- * @date 3.5.2025
  *
  * @param {String|undefined} selector
  *
@@ -105,8 +99,6 @@ function init_select2(selector) {
 /**
  * Initialize choices plugin
  *
- * @author TB
- * @date 3.5.2025
  *
  * @param {String|undefined} selector
  *

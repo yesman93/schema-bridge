@@ -7,8 +7,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var MysqlColumnDefinition[]
      */
@@ -17,8 +15,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Adds a column to the collection
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param MysqlColumnDefinition $column
      *
@@ -31,8 +27,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Get all columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return MysqlColumnDefinition[]
      */
@@ -43,8 +37,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Get an iterator for the columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return \Traversable
      */
@@ -55,8 +47,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Generates the SQL for the columns
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @return string
      */
@@ -82,8 +72,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Check if a column exists in the collection
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $name
      *
@@ -96,8 +84,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Get a column by name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $name
      *
@@ -115,8 +101,6 @@ class MysqlColumns implements \IteratorAggregate {
     /**
      * Get the first column name
      *
-     * @author TB
-     * @date 28.4.2025
      *
      * @return string
      */

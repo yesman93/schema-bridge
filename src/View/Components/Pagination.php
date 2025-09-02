@@ -28,9 +28,7 @@ class Pagination {
      * @param bool      $counts_info    Whether to display counts info
      *
      * @return self
-     *@author TB
-     * @date 6.5.2025
-     *
+     *@author TB     *
      */
     public static function build(
         int $page,
@@ -153,8 +151,6 @@ class Pagination {
     /**
      * Generate link to given page
      *
-     * @author TB
-     * @date 6.5.2025
      *
      * @param int $page
      *

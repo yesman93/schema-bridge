@@ -3,8 +3,6 @@
 /**
  * Debug function to dump variables in a styled box
  *
- * @author TB
- * @date 26.4.2025
  *
  * @param mixed $var
  * @param bool $exit
@@ -55,8 +53,6 @@ function vdump(mixed $var, bool $exit = false): void {
 /**
  * Print localized text (for use inside HTML, etc.)
  *
- * @author TB
- * @date 26.4.2025
  *
  * @param string $text
  * @param mixed ...$args
@@ -70,8 +66,6 @@ function __t(string $text, mixed ...$args): void {
 /**
  * Return localized text (for use inside variables, HTML building, etc.)
  *
- * @author TB
- * @date 26.4.2025
  *
  * @param string $text
  * @param mixed ...$args
@@ -93,8 +87,6 @@ function __tx(string $text, mixed ...$args): string {
 /**
  * Check if a variable is a non-empty array
  *
- * @author TB
- * @date 27.4.2025
  *
  * @param mixed $array
  *
@@ -107,8 +99,6 @@ function is_nempty_array($array) : bool {
 /**
  * Get the depth of a multi-dimensional array
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $array
  *
@@ -139,8 +129,6 @@ function array_depth(array $array): int {
 /**
  * Get simplified backtrace
  *
- * @author TB
- * @date 28.4.2025
  *
  * @param bool $as_text
  * @param array|null $trace
@@ -195,8 +183,6 @@ function get_backtrace_simply(bool $as_text = false, ?array $trace = null) : str
 /**
  * Helper for formatting array argument nicely
  *
- * @author TB
- * @date 28.4.2025
  *
  * @param array $array
  *
@@ -237,8 +223,6 @@ function _format_array_arg(array $array): string {
 /**
  * Lumio custom error handler
  *
- * @author TB
- * @date 28.4.2025
  *
  * @param int $errno
  * @param string $errstr
@@ -301,8 +285,6 @@ set_error_handler('lumio_error_handler');
 /**
  * Lumio custom exception handler
  *
- * @author TB
- * @date 28.4.2025
  *
  * @param Throwable $exception
  *
@@ -350,8 +332,6 @@ set_exception_handler('lumio_exception_handler');
 /**
  * Lumio failure handler
  *
- * @author TB
- * @date 6.5.2025
  *
  * @param string $message
  * @param mixed $code
@@ -397,8 +377,6 @@ function lumio_fail(string $message = '', mixed $code = 0, ?Throwable $e = null)
 /**
  * Generate a random string of specified length with configurable character sets
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param int $length
  * @param bool $use_uppercase_only
@@ -469,8 +447,6 @@ function random_string(int $length, bool $use_uppercase_only = false, bool $use_
 /**
  * Convert an array to a human-readable sentence
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $array
  * @param bool $highlight
@@ -528,8 +504,6 @@ function array_to_sentence(array $array, bool $highlight = false) : string {
 /**
  * Flatten a multi-dimensional array by one level
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $array
  *
@@ -551,8 +525,6 @@ function array_flatten_once(array $array): array {
 /**
  * Determines if given array is associative
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $arr
  *
@@ -568,8 +540,6 @@ function array_is_assoc(array $arr): bool {
  * If $group_rows is true, rows with the same key will be grouped together in an array.
  * If false, only the last row with a given key will be kept
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $array
  * @param string $key
@@ -598,8 +568,6 @@ function array_key_by(array $array, string $key, bool $group_rows = false): arra
 /**
  * Generates a UUID v4 string (RFC 4122 compliant)
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string|null $data
  *
@@ -629,8 +597,6 @@ function uuid_v4(?string $data = null): string {
 /**
  * Extracts values from a specified column in a flat or grouped array of associative arrays (e.g. database rows)
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $array
  * @param string $column
@@ -673,8 +639,6 @@ function array_extract_column(array $array, string $column, bool $accept_empty =
 /**
  * Returns uppercase initials from a given string - multibyte-safe
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $string
  *
@@ -700,8 +664,6 @@ function get_initials(string $string): string {
 /**
  * Resolves IPv4 address from given URL
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $url
  *
@@ -723,8 +685,6 @@ function get_ip_by_url(string $url): string {
 /**
  * Get current date and time
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param bool $date_only
  *
@@ -737,8 +697,6 @@ function get_now(bool $date_only = false): string {
 /**
  * Finds the first row where a specific key equals a given value
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $rows Array of associative arrays (rows)
  * @param string $key Key to match
@@ -761,8 +719,6 @@ function row_by_key(array $rows, string $key, mixed $value): ?array {
 /**
  * Finds all rows where a specific key equals a given value
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param array $rows Array of associative arrays (rows)
  * @param string $key Key to match
@@ -786,8 +742,6 @@ function rows_by_key(array $rows, string $key, mixed $value): ?array {
 /**
  * Returns if the given string starts with the given prefix
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $string
  * @param string $prefix
@@ -803,8 +757,6 @@ function has_prefix(string $string, string $prefix): bool {
  *
  * Supports both 3-digit and 6-digit hex values, with or without the leading "#"
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $hex
  *
@@ -830,8 +782,6 @@ function hex2rgb(string $hex): ?string {
 /**
  * Trims trailing decimal zeroes from a number string
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string|float|int $number
  * @param string $decimal_separator
@@ -863,8 +813,6 @@ function minimize_decimals(string|float|int $number, string $decimal_separator =
 /**
  * Returns the count of decimal digits in given number (after trimming trailing zeroes)
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string|float|int $number
  * @param string $decimal_point
@@ -897,8 +845,6 @@ function decimals_count(string|float|int $number, string $decimal_point = ','): 
 /**
  * Replaces placeholders in the format "@{key}" in given string with values from the provided array
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $string
  * @param array $vars
@@ -927,8 +873,6 @@ function populate_string(string $string, array $vars): string {
 /**
  * Removes the UTF-8 BOM (Byte Order Mark) from the beginning of given file, if present
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $file Full path to the file
  *
@@ -955,8 +899,6 @@ function remove_bom(string $file): void {
 /**
  * Normalizes given string by removing diacritics and converting to ASCII
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $string
  *
@@ -979,8 +921,6 @@ function _normalize_string(string $string): string {
  * - Pipes removed
  * - Spaces normalized or replaced by hyphens
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $string
  * @param bool $preserve_spaces
@@ -1024,8 +964,6 @@ function remove_diacritics(string $string, bool $preserve_spaces = false): strin
  * - Replaces whitespace, pipes, and underscores with hyphens
  * - Collapses multiple hyphens
  *
- * @author TB
- * @date 12.5.2025
  *
  * @param string $string
  *
@@ -1052,8 +990,6 @@ function urlify(string $string): string {
 /**
  * Fetches content from a URL using cURL (alternative to file_get_contents() for external sources)
  *
- * @author TB
- * @date 13.5.2025
  *
  * @param string $url
  * @param array|null $params
@@ -1106,8 +1042,6 @@ function url_get_contents(string $url, ?array $params = null): string {
 /**
  * Sorts an array of associative arrays (rows) by given key and direction (quick sort based)
  *
- * @author TB
- * @date 13.5.2025
  *
  * @param array $array
  * @param string $key
@@ -1141,8 +1075,6 @@ function sort_rows(array $array, string $key, string $direction = 'asc'): ?array
 /**
  * Normalize the given URL path
  *
- * @author TB
- * @date 14.5.2025
  *
  * @param string $url
  *
@@ -1160,8 +1092,6 @@ function normalize_url(string $url): string {
 /**
  * Benchmark given URL by fetching it multiple times and measuring the time taken
  *
- * @author TB
- * @date 1.6.2025
  *
  * @param string $label
  * @param string $url

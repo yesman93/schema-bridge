@@ -7,8 +7,6 @@ class Config {
     /**
      * Cache of loaded configs
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var array
      */
@@ -17,8 +15,6 @@ class Config {
     /**
      * Directory where config files are stored
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @var string
      */
@@ -27,8 +23,6 @@ class Config {
     /**
      * Get a configuration array by name
      *
-     * @author TB
-     * @date 26.4.2025
      *
      * @param string $name Config file name without .php (e.g., 'database' or 'services/fio') with support for array keys
      *

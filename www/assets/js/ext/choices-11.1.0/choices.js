@@ -3318,7 +3318,6 @@
     var selectableChoiceIdentifier = '[data-choice-selectable]';
     /**
      * Choices
-     * @author Josh Johnson<josh@joshuajohnson.co.uk>
      */
     var Choices = /** @class */ (function () {
         function Choices(element, userConfig) {

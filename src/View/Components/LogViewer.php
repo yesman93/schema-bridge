@@ -18,8 +18,6 @@ class LogViewer extends Component {
     /**
      * Title of the log view
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @var string
      */
@@ -28,8 +26,6 @@ class LogViewer extends Component {
     /**
      * Log channels selection
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @var array
      */
@@ -38,8 +34,6 @@ class LogViewer extends Component {
     /**
      * Current channel
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @var string
      */
@@ -48,8 +42,6 @@ class LogViewer extends Component {
     /**
      * Log records
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @var array
      */
@@ -58,8 +50,6 @@ class LogViewer extends Component {
     /**
      * Total of the current dataset
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @var int
      */
@@ -68,8 +58,6 @@ class LogViewer extends Component {
     /**
      * Current full URI including page number and applied filters
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @var string
      */
@@ -78,8 +66,6 @@ class LogViewer extends Component {
     /**
      * Set title
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $title
      *
@@ -93,8 +79,6 @@ class LogViewer extends Component {
     /**
      * Set channels
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param array $channels
      *
@@ -108,8 +92,6 @@ class LogViewer extends Component {
     /**
      * Set current channel
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $channel
      *
@@ -123,8 +105,6 @@ class LogViewer extends Component {
     /**
      * Set log records
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param array $data
      *
@@ -138,8 +118,6 @@ class LogViewer extends Component {
     /**
      * Set the URI
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string|null $uri
      *
@@ -159,8 +137,6 @@ class LogViewer extends Component {
     /**
      * Build a new instance of log viewer
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param array|null $data
      *
@@ -182,8 +158,6 @@ class LogViewer extends Component {
     /**
      * Get URI with given channel in filters
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $channel
      *
@@ -213,8 +187,6 @@ class LogViewer extends Component {
     /**
      * Get URI with given file in filters
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $filename
      *
@@ -242,8 +214,6 @@ class LogViewer extends Component {
     /**
      * Get URI with given group by request ID in filters
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param bool $group_by_requestid
      *
@@ -271,8 +241,6 @@ class LogViewer extends Component {
     /**
      * Get URI with given request ID in filters
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $request_id
      *
@@ -300,8 +268,6 @@ class LogViewer extends Component {
     /**
      * Render the log view
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @return void
      */
@@ -689,8 +655,6 @@ class LogViewer extends Component {
     /**
      * Apply data control mechanisms - pagination, filters and sorting
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param array $records
      *
@@ -737,8 +701,6 @@ class LogViewer extends Component {
     /**
      * Get pagination HTML
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @return string
      */
@@ -766,8 +728,6 @@ class LogViewer extends Component {
     /**
      * Get icon HTML by given level
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $level
      *
@@ -790,8 +750,6 @@ class LogViewer extends Component {
     /**
      * Get icon class by given level
      *
-     * @author TB
-     * @date 12.5.2025
      *
      * @param string $level
      *

@@ -7,8 +7,6 @@ class Pagination {
     /**
      * Current page
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var int
      */
@@ -17,8 +15,6 @@ class Pagination {
     /**
      * Records per page
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var int
      */
@@ -27,8 +23,6 @@ class Pagination {
     /**
      * Total number of records
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @var int
      */
@@ -37,8 +31,6 @@ class Pagination {
     /**
      * DTO for pagination parameters
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @param int $page
      * @param int $per_page
@@ -55,8 +47,6 @@ class Pagination {
     /**
      * Get current page
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return int
      */
@@ -67,8 +57,6 @@ class Pagination {
     /**
      * Get records per page
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return int
      */
@@ -79,8 +67,6 @@ class Pagination {
     /**
      * Get total records
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return int
      */
@@ -91,8 +77,6 @@ class Pagination {
     /**
      * Get total number of pages
      *
-     * @author TB
-     * @date 1.5.2025
      *
      * @return int
      */
